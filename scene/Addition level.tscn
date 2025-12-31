@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=9 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_geqda"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
+[ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -337,3 +338,26 @@ layer_0/tile_data = PackedInt32Array(-65536, 196609, 1, -65535, 131073, 1, -6553
 
 [node name="Player1" parent="." instance=ExtResource("3_geqda")]
 position = Vector2(200, -63)
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Coin" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(304, -17)
+
+[node name="Coin2" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(324, -17)
+
+[node name="Coin3" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(345, -17)
+
+[node name="Coin4" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(468, -120)
+
+[node name="Coin5" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(488, -120)
+
+[node name="Coin6" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(525, 62)
+
+[node name="Coin7" parent="Node" instance=ExtResource("4_vroq1")]
+position = Vector2(545, 61)
