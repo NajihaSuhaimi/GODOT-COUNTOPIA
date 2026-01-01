@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://by4eojp3y6jn3"]
+
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="1_od8uq"]
+[ext_resource type="Texture2D" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="2_od8uq"]
+
+[node name="purplegem" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 39.0
+offset_top = -13.0
+offset_right = 79.0
+offset_bottom = 19.0
+theme_override_fonts/font = ExtResource("1_od8uq")
+theme_override_font_sizes/font_size = 32
+text = "0"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.0000007, 0)
+scale = Vector2(0.4477539, 0.4609375)
+texture = ExtResource("2_od8uq")
+region_rect = Rect2(76.53474, 39.30405, 17.075584, 15.110054)

@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=3 uid="uid://m8il0jpwxmpw"]
+
+[ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="1_5nt5s"]
+[ext_resource type="PackedScene" uid="uid://cf5jwsuqop03n" path="res://scene/score.tscn" id="2_4nxdm"]
+[ext_resource type="PackedScene" path="res://scene/bluegem.tscn" id="3_0qwpj"]
+[ext_resource type="PackedScene" path="res://scene/greengem.tscn" id="4_yxe7t"]
+[ext_resource type="PackedScene" path="res://scene/purplegem.tscn" id="5_0twk8"]
+[ext_resource type="PackedScene" path="res://scene/redgem.tscn" id="6_wrc8y"]
+[ext_resource type="PackedScene" path="res://scene/yellowgem.tscn" id="7_ys10w"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchor_left = 0.037
+anchor_top = 0.086
+anchor_right = 0.111
+anchor_bottom = 0.135
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/separation = 100
+
+[node name="heart" parent="Control/HBoxContainer" instance=ExtResource("1_5nt5s")]
+layout_mode = 2
+
+[node name="score" parent="Control/HBoxContainer" instance=ExtResource("2_4nxdm")]
+layout_mode = 2
+
+[node name="bluegem" parent="Control/HBoxContainer" instance=ExtResource("3_0qwpj")]
+layout_mode = 2
+
+[node name="greengem" parent="Control/HBoxContainer" instance=ExtResource("4_yxe7t")]
+layout_mode = 2
+
+[node name="purplegem" parent="Control/HBoxContainer" instance=ExtResource("5_0twk8")]
+layout_mode = 2
+
+[node name="purplrgem" parent="Control/HBoxContainer" instance=ExtResource("6_wrc8y")]
+layout_mode = 2
+
+[node name="yellowgem" parent="Control/HBoxContainer" instance=ExtResource("7_ys10w")]
+layout_mode = 2
