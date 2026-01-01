@@ -18,7 +18,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 GameState="*res://scripts/gamestate.gd"
-Hud="*res://scene/HUD.tscn"
 
 [display]
 

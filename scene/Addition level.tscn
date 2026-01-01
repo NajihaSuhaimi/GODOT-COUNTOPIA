@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_geqda"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
 [ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
-[ext_resource type="PackedScene" uid="uid://gtd30t3kf4aa" path="res://scene/HUD.tscn" id="6_hxe60"]
+
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -368,7 +368,6 @@ position = Vector2(525, 62)
 [node name="Coin7" parent="Node" instance=ExtResource("4_vroq1")]
 position = Vector2(545, 61)
 
-<<<<<<< Updated upstream
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="QuizPopUp" type="Control" parent="CanvasLayer"]
@@ -382,26 +381,5 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Control" type="Control" parent="CanvasLayer"]
-layout_mode = 3
-anchor_left = 0.037
-anchor_top = 0.086
-anchor_right = 0.111
-anchor_bottom = 0.135
-offset_right = 40.0
-offset_bottom = 40.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-theme_override_constants/separation = 50
 
-[node name="heart" parent="CanvasLayer/Control/VBoxContainer" instance=ExtResource("5_hxe60")]
-layout_mode = 2
-
-[node name="score" parent="CanvasLayer/Control/VBoxContainer" instance=ExtResource("6_g36kd")]
-layout_mode = 2
-=======
-[node name="CanvasLayer" parent="." instance=ExtResource("6_hxe60")]
->>>>>>> Stashed changes
