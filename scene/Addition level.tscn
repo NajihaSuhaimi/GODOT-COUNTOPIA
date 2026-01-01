@@ -370,7 +370,7 @@ position = Vector2(545, 61)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="QuizPopUp" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah1" type="Control" parent="CanvasLayer"]
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -386,7 +386,7 @@ grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizPopUp"]
+[node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizTambah1"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -396,27 +396,57 @@ texture = ExtResource("6_hxe60")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizPopUp"]
-layout_mode = 0
-offset_left = -103.0
-offset_top = 46.5
-offset_right = 23.0
-offset_bottom = 71.0
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizPopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizPopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizPopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
 
 [node name="Correct PopUp" type="Control" parent="CanvasLayer"]
 layout_mode = 3
@@ -442,8 +472,10 @@ offset_bottom = 40.0
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Wrong PopUp"]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 70.0
+offset_top = 114.0
+offset_right = 110.0
+offset_bottom = 154.0
 
 [node name="close btn" type="Button" parent="CanvasLayer/Wrong PopUp"]
 layout_mode = 0
