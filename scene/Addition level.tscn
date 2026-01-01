@@ -379,3 +379,23 @@ offset_bottom = 40.0
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizPopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizPopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizPopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizPopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
