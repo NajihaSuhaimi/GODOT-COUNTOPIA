@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=8 format=3 uid="uid://m8il0jpwxmpw"]
 
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="1_5nt5s"]
@@ -7,6 +8,17 @@
 [ext_resource type="PackedScene" path="res://scene/purplegem.tscn" id="5_0twk8"]
 [ext_resource type="PackedScene" path="res://scene/redgem.tscn" id="6_wrc8y"]
 [ext_resource type="PackedScene" path="res://scene/yellowgem.tscn" id="7_ys10w"]
+=======
+[gd_scene load_steps=8 format=3 uid="uid://gtd30t3kf4aa"]
+
+[ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="1_5nt5s"]
+[ext_resource type="PackedScene" uid="uid://cf5jwsuqop03n" path="res://scene/score.tscn" id="2_4nxdm"]
+[ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="3_0qwpj"]
+[ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="4_yxe7t"]
+[ext_resource type="PackedScene" uid="uid://dsle5ohovr06o" path="res://scene/purplegem.tscn" id="5_0twk8"]
+[ext_resource type="PackedScene" uid="uid://hhypv3lbhn6m" path="res://scene/redgem.tscn" id="6_wrc8y"]
+[ext_resource type="PackedScene" uid="uid://dv0873ohuddg3" path="res://scene/yellowgem.tscn" id="7_ys10w"]
+>>>>>>> Stashed changes
 
 [node name="CanvasLayer" type="CanvasLayer"]
 

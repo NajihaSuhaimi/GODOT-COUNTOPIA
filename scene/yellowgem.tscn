@@ -1,7 +1,14 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=3 format=3 uid="uid://boddyvi03gj54"]
 
 [ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="1_scvi7"]
 [ext_resource type="Texture2D" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="2_scvi7"]
+=======
+[gd_scene load_steps=3 format=3 uid="uid://dv0873ohuddg3"]
+
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="1_scvi7"]
+[ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="2_scvi7"]
+>>>>>>> Stashed changes
 
 [node name="yellowgem" type="Control"]
 layout_mode = 3
