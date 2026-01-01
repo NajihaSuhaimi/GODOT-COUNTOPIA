@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=11 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_g36kd"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_geqda"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
 [ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
+[ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="6_hxe60"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -391,6 +392,7 @@ offset_left = 13.0
 offset_top = 4.0
 offset_right = 635.0
 offset_bottom = 354.0
+texture = ExtResource("6_hxe60")
 expand_mode = 1
 stretch_mode = 5
 
@@ -427,7 +429,28 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Button" type="Button" parent="CanvasLayer/Correct PopUp"]
+[node name="tutpbtn" type="Button" parent="CanvasLayer/Correct PopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Wrong PopUp" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Wrong PopUp"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="close btn" type="Button" parent="CanvasLayer/Wrong PopUp"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/Wrong PopUp"]
 layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
