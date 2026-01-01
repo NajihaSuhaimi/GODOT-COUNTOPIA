@@ -1,11 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=10 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_g36kd"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_geqda"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
 [ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
-
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -380,6 +379,3 @@ offset_bottom = 40.0
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-
-
-
