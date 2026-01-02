@@ -20,3 +20,15 @@ extends Node
 ## Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta: float) -> void:
 	#pass
+
+
+func _on_tutpbtn_pressed() -> void:
+	pass # Replace with function body.
+
+
+func _on_retrybtn_pressed() -> void:
+	pass # Replace with function body.
+
+
+func _on_button_c_pressed() -> void:
+	pass # Replace with function body.

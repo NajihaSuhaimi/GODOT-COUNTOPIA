@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=34 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_g36kd"]
@@ -6,17 +6,28 @@
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
 [ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
 [ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="6_hxe60"]
+[ext_resource type="Script" uid="uid://b48n6vvcuqop6" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="6_n7a6r"]
 [ext_resource type="Texture2D" uid="uid://duf5byuoik06a" path="res://soalanQuiz/soalanTambah/tambah2.png" id="7_3b28o"]
 [ext_resource type="Texture2D" uid="uid://3ap2ac1ojudb" path="res://soalanQuiz/soalanTambah/tambah3.png" id="8_wqpw3"]
 [ext_resource type="Texture2D" uid="uid://fcjux61yo6o7" path="res://soalanQuiz/soalanTambah/tambah4.png" id="9_ubgxf"]
+[ext_resource type="Script" uid="uid://dcq87mj6h0a57" path="res://scene/entities/quiz_tambah_2.gd" id="10_can37"]
 [ext_resource type="Texture2D" uid="uid://51nfyvb0shiy" path="res://soalanQuiz/soalanTambah/tambah5.png" id="10_n7a6r"]
 [ext_resource type="Texture2D" uid="uid://dn8p6iinswyap" path="res://soalanQuiz/soalanTambah/tambah6.png" id="11_can37"]
 [ext_resource type="Texture2D" uid="uid://biix2hchaimjd" path="res://soalanQuiz/soalanTambah/tambah7.png" id="12_hmk6n"]
+[ext_resource type="Script" uid="uid://caikimmpldjtt" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="12_xfpw0"]
 [ext_resource type="Texture2D" uid="uid://s7cuulp4mct4" path="res://soalanQuiz/soalanTambah/tambah8.png" id="13_xfpw0"]
+[ext_resource type="Script" uid="uid://bbdb3gshtl8qi" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="14_aued2"]
 [ext_resource type="Texture2D" uid="uid://dae6gj11y15cj" path="res://soalanQuiz/soalanTambah/tambah9.png" id="14_l6tdh"]
 [ext_resource type="Texture2D" uid="uid://bqqoipeajdah8" path="res://soalanQuiz/soalanTambah/tambah10.png" id="15_qnper"]
+[ext_resource type="Script" uid="uid://llj7tsbfvik2" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="16_1se55"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="16_wqpw3"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="17_ubgxf"]
+[ext_resource type="Script" uid="uid://ca2qjhhq0rtdp" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="18_e1bfa"]
+[ext_resource type="Script" uid="uid://djt380sur87tk" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="20_b2rar"]
+[ext_resource type="Script" uid="uid://blwqh5io6evjd" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="22_l6csc"]
+[ext_resource type="Script" uid="uid://dnamk023ejnw7" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="24_62ecs"]
+[ext_resource type="Script" uid="uid://cug1r3yemse5l" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="26_allxr"]
+[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/testtrypintu.gd" id="28_1se55"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -328,6 +339,10 @@ texture_region_size = Vector2i(24, 24)
 tile_size = Vector2i(24, 24)
 sources/1 = SubResource("TileSetAtlasSource_hxe60")
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_aued2"]
+radius = 19.0
+height = 44.0
+
 [node name="Addition" type="Node2D"]
 
 [node name="GameManager" type="Node" parent="."]
@@ -379,10 +394,17 @@ position = Vector2(525, 62)
 [node name="Coin7" parent="Node" instance=ExtResource("4_vroq1")]
 position = Vector2(545, 61)
 
+[node name="Pintu" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("28_1se55")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pintu"]
+position = Vector2(927, -328)
+shape = SubResource("CapsuleShape2D_aued2")
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="QuizTambah1" type="Control" parent="CanvasLayer"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -397,6 +419,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("6_n7a6r")
 
 [node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizTambah1"]
 layout_mode = 0
@@ -460,6 +483,94 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah1"]
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah1/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah1/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah1"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah2" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -476,6 +587,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("10_can37")
 
 [node name="Soalan2" type="TextureRect" parent="CanvasLayer/QuizTambah2"]
 layout_mode = 0
@@ -539,6 +651,95 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah2"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah2/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah2/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah2"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah3" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -555,6 +756,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("12_xfpw0")
 
 [node name="Soalan3" type="TextureRect" parent="CanvasLayer/QuizTambah3"]
 layout_mode = 0
@@ -618,6 +820,95 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah3"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah3/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah3/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah3"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah4" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -634,6 +925,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("14_aued2")
 
 [node name="Soalan4" type="TextureRect" parent="CanvasLayer/QuizTambah4"]
 layout_mode = 0
@@ -697,6 +989,95 @@ offset_right = 53.557983
 offset_bottom = 19.375977
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah4"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah4/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah4/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah4"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah5" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -713,6 +1094,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("16_1se55")
 
 [node name="Soalan5" type="TextureRect" parent="CanvasLayer/QuizTambah5"]
 layout_mode = 0
@@ -776,6 +1158,95 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah5"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah5/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah5/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah5"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah6" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -792,6 +1263,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("18_e1bfa")
 
 [node name="Soalan6" type="TextureRect" parent="CanvasLayer/QuizTambah6"]
 layout_mode = 0
@@ -855,6 +1327,95 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah6"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah6/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah6/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah6"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah7" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -871,6 +1432,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("20_b2rar")
 
 [node name="Soalan7" type="TextureRect" parent="CanvasLayer/QuizTambah7"]
 layout_mode = 0
@@ -934,6 +1496,95 @@ offset_right = 53.557983
 offset_bottom = 19.401978
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah7"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah7/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah7/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah7"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah8" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -950,6 +1601,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("22_l6csc")
 
 [node name="Soalan8" type="TextureRect" parent="CanvasLayer/QuizTambah8"]
 layout_mode = 0
@@ -1013,6 +1665,95 @@ offset_right = 53.557983
 offset_bottom = 19.65799
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah8"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah8/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah8/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah8"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah9" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -1029,6 +1770,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("24_62ecs")
 
 [node name="Soalan9" type="TextureRect" parent="CanvasLayer/QuizTambah9"]
 layout_mode = 0
@@ -1092,6 +1834,95 @@ offset_right = 53.557983
 offset_bottom = 19.375977
 flat = true
 
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah9"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah9/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah9/CorrectPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah9"]
+visible = false
+anchors_preset = 0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
 [node name="QuizTambah10" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -1108,6 +1939,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("26_allxr")
 
 [node name="Soalan10" type="TextureRect" parent="CanvasLayer/QuizTambah10"]
 layout_mode = 0
@@ -1171,14 +2003,15 @@ offset_right = 53.557983
 offset_bottom = 19.631989
 flat = true
 
-[node name="Correct PopUp" type="Control" parent="CanvasLayer"]
+[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah10"]
 visible = false
-layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Correct PopUp"]
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.9870005
@@ -1195,7 +2028,7 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/Correct PopUp"]
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.9750004
@@ -1208,14 +2041,15 @@ offset_right = 54.0
 offset_bottom = 20.519989
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer"]
+[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah10"]
 visible = false
-layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = -1.0
+offset_top = -0.5
+offset_right = 39.0
+offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.9870005
@@ -1232,7 +2066,7 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1245,7 +2079,7 @@ offset_right = 54.0
 offset_bottom = 20.519989
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1257,3 +2091,77 @@ offset_top = -20.480011
 offset_right = 54.0
 offset_bottom = 20.519989
 flat = true
+
+[node name="testpintu" type="Node" parent="."]
+
+[connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonA" to="CanvasLayer/QuizTambah1" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonB" to="CanvasLayer/QuizTambah1" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonC" to="CanvasLayer/QuizTambah1" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonD" to="CanvasLayer/QuizTambah1" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah1/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah1" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonA" to="CanvasLayer/QuizTambah2" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonB" to="CanvasLayer/QuizTambah2" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonC" to="CanvasLayer/QuizTambah2" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonD" to="CanvasLayer/QuizTambah2" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah2/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah2" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonA" to="CanvasLayer/QuizTambah3" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonB" to="CanvasLayer/QuizTambah3" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonC" to="CanvasLayer/QuizTambah3" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonD" to="CanvasLayer/QuizTambah3" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah3" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah3/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah3" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonA" to="CanvasLayer/QuizTambah4" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonB" to="CanvasLayer/QuizTambah4" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonC" to="CanvasLayer/QuizTambah4" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonD" to="CanvasLayer/QuizTambah4" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah4/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah4" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonA" to="CanvasLayer/QuizTambah5" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonB" to="CanvasLayer/QuizTambah5" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonC" to="GameManager" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonD" to="CanvasLayer/QuizTambah5" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah5/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah5" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonA" to="CanvasLayer/QuizTambah6" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonB" to="CanvasLayer/QuizTambah6" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonC" to="CanvasLayer/QuizTambah6" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonD" to="CanvasLayer/QuizTambah6" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah6" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah6/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah6" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonA" to="CanvasLayer/QuizTambah7" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonB" to="CanvasLayer/QuizTambah7" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonC" to="CanvasLayer/QuizTambah7" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonD" to="CanvasLayer/QuizTambah7" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah7/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah7" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonA" to="CanvasLayer/QuizTambah8" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonB" to="CanvasLayer/QuizTambah8" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonC" to="CanvasLayer/QuizTambah8" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonD" to="CanvasLayer/QuizTambah8" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah8/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah8" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonA" to="CanvasLayer/QuizTambah9" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonB" to="CanvasLayer/QuizTambah9" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonC" to="CanvasLayer/QuizTambah9" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonD" to="CanvasLayer/QuizTambah9" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah9" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah9" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah9/WrongPopUp/retrybtn" to="GameManager" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonA" to="CanvasLayer/QuizTambah10" method="_on_button_a_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonB" to="CanvasLayer/QuizTambah10" method="_on_button_b_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonC" to="CanvasLayer/QuizTambah10" method="_on_button_c_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonD" to="CanvasLayer/QuizTambah10" method="_on_button_d_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="CanvasLayer/QuizTambah10/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah10" method="_on_retrybtn_pressed"]

@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed := 300.0
-@export var jump_force := -350.0
+@export var jump_force := -375.0
 @export var gravity_multiplier := 1.75
 @export var jump_hold_gravity := 0.6   # lebih kecil = lompat tinggi
 @export var coyote_time := 0.075
