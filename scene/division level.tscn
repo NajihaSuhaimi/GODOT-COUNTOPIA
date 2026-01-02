@@ -1,8 +1,20 @@
-[gd_scene load_steps=8 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=20 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_87j3k"]
+[ext_resource type="Texture2D" uid="uid://wif21kiiidl1" path="res://soalanQuiz/soalanTolak/tolak1.png" id="4_pvxe7"]
+[ext_resource type="Texture2D" uid="uid://debtqjkgyesmx" path="res://soalanQuiz/soalanTolak/tolak2.png" id="5_xcu7b"]
+[ext_resource type="Texture2D" uid="uid://bbi0w1l5g1xh2" path="res://soalanQuiz/soalanTolak/tolak3.png" id="6_3c3eh"]
+[ext_resource type="Texture2D" uid="uid://b7l51w6kc8jac" path="res://soalanQuiz/soalanTolak/tolak4.png" id="7_dyv7q"]
+[ext_resource type="Texture2D" uid="uid://dhpl6exqmpdd1" path="res://soalanQuiz/soalanTolak/tolak5.png" id="8_ty504"]
+[ext_resource type="Texture2D" uid="uid://6phyea15taou" path="res://soalanQuiz/soalanTolak/tolak6.png" id="9_bwr6e"]
+[ext_resource type="Texture2D" uid="uid://coyfo6ta5j8vu" path="res://soalanQuiz/soalanTolak/tolak7.png" id="10_7iyk7"]
+[ext_resource type="Texture2D" uid="uid://byip8g6ff4h71" path="res://soalanQuiz/soalanTolak/tolak8.png" id="11_pwsjk"]
+[ext_resource type="Texture2D" uid="uid://bibhfi1v0insy" path="res://soalanQuiz/soalanTolak/tolak9.png" id="12_la7yh"]
+[ext_resource type="Texture2D" uid="uid://2d5p52kbrk0b" path="res://soalanQuiz/soalanTolak/tolak10.png" id="13_a78qq"]
+[ext_resource type="Texture2D" uid="uid://dleo8m7a8vwky" path="res://soalanQuiz/popupbetul salaH/betul2.png" id="14_7iyk7"]
+[ext_resource type="Texture2D" uid="uid://bt7p5x03sg5he" path="res://soalanQuiz/popupbetul salaH/salah2.png" id="15_pwsjk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -243,3 +255,882 @@ layer_0/tile_data = PackedInt32Array(-131072, 327680, 1, -131071, 262144, 1, -13
 
 [node name="Player1" parent="." instance=ExtResource("3_87j3k")]
 position = Vector2(86, -55)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="QuizTolak1" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizTolak1"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("4_pvxe7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak2" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan2" type="TextureRect" parent="CanvasLayer/QuizTolak2"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("5_xcu7b")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak3" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan3" type="TextureRect" parent="CanvasLayer/QuizTolak3"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("6_3c3eh")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak4" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan4" type="TextureRect" parent="CanvasLayer/QuizTolak4"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("7_dyv7q")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak5" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan5" type="TextureRect" parent="CanvasLayer/QuizTolak5"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("8_ty504")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak6" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan6" type="TextureRect" parent="CanvasLayer/QuizTolak6"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("9_bwr6e")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak7" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan7" type="TextureRect" parent="CanvasLayer/QuizTolak7"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("10_7iyk7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak8" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan8" type="TextureRect" parent="CanvasLayer/QuizTolak8"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("11_pwsjk")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak9" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan9" type="TextureRect" parent="CanvasLayer/QuizTolak9"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("12_la7yh")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="QuizTolak10" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -179.5
+offset_right = 319.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Soalan10" type="TextureRect" parent="CanvasLayer/QuizTolak10"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 4.0
+offset_right = 635.0
+offset_bottom = 354.0
+texture = ExtResource("13_a78qq")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTolak10"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
+flat = true
+
+[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak10"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.657
+anchor_top = 0.67800003
+anchor_right = 0.657
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
+flat = true
+
+[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak10"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.82400006
+anchor_right = 0.358
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
+flat = true
+
+[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak10"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65900004
+anchor_top = 0.822
+anchor_right = 0.65900004
+anchor_bottom = 0.822
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
+flat = true
+
+[node name="Correct PopUp" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Correct PopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("14_7iyk7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/Correct PopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="WrongPopUp" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("15_pwsjk")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="tutpbtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
+
+[node name="retrybtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true

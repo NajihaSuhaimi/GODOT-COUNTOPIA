@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=22 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_g36kd"]
@@ -15,6 +15,8 @@
 [ext_resource type="Texture2D" uid="uid://s7cuulp4mct4" path="res://soalanQuiz/soalanTambah/tambah8.png" id="13_xfpw0"]
 [ext_resource type="Texture2D" uid="uid://dae6gj11y15cj" path="res://soalanQuiz/soalanTambah/tambah9.png" id="14_l6tdh"]
 [ext_resource type="Texture2D" uid="uid://bqqoipeajdah8" path="res://soalanQuiz/soalanTambah/tambah10.png" id="15_qnper"]
+[ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="16_wqpw3"]
+[ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="17_ubgxf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -1170,40 +1172,87 @@ offset_bottom = 19.631989
 flat = true
 
 [node name="Correct PopUp" type="Control" parent="CanvasLayer"]
+visible = false
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Correct PopUp"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("16_wqpw3")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="CanvasLayer/Correct PopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9750004
+anchor_top = 6.012
+anchor_right = 7.9750004
+anchor_bottom = 6.012
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
 
-[node name="Wrong PopUp" type="Control" parent="CanvasLayer"]
+[node name="WrongPopUp" type="Control" parent="CanvasLayer"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Wrong PopUp"]
-layout_mode = 0
-offset_left = 70.0
-offset_top = 114.0
-offset_right = 110.0
-offset_bottom = 154.0
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 7.9870005
+anchor_top = 4.5
+anchor_right = 7.9870005
+anchor_bottom = 4.5
+offset_left = -272.48
+offset_top = -136.0
+offset_right = 272.52
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_ubgxf")
+expand_mode = 1
+stretch_mode = 5
 
-[node name="close btn" type="Button" parent="CanvasLayer/Wrong PopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="tutpbtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.675
+anchor_top = 5.9620004
+anchor_right = 5.675
+anchor_bottom = 5.9620004
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/Wrong PopUp"]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="retrybtn" type="Button" parent="CanvasLayer/WrongPopUp"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.3
+anchor_top = 5.9870005
+anchor_right = 10.3
+anchor_bottom = 5.9870005
+offset_left = -54.0
+offset_top = -20.480011
+offset_right = 54.0
+offset_bottom = 20.519989
+flat = true
