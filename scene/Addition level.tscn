@@ -2092,8 +2092,6 @@ offset_right = 54.0
 offset_bottom = 20.519989
 flat = true
 
-[node name="testpintu" type="Node" parent="."]
-
 [connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
 [connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonA" to="CanvasLayer/QuizTambah1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonB" to="CanvasLayer/QuizTambah1" method="_on_button_b_pressed"]

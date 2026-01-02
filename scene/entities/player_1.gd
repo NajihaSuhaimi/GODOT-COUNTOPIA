@@ -53,3 +53,7 @@ func handle_animation(direction : float) -> void:
 	else:
 		animation_player.play("idle")
 	
+
+
+func _on_tutpbtn_pressed() -> void:
+	pass # Replace with function body.
