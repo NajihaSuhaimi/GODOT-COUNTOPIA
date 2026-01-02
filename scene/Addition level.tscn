@@ -1209,6 +1209,7 @@ offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer"]
+visible = false
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
