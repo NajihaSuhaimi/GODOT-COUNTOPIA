@@ -1,4 +1,6 @@
-[gd_scene load_steps=38 format=3 uid="uid://vcw8ffireiya"]
+
+[gd_scene load_steps=40 format=3 uid="uid://vcw8ffireiya"]
+
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
 [ext_resource type="Script" path="res://scripts/gamemanager.gd" id="1_g36kd"]
@@ -24,12 +26,20 @@
 [ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="16_1se55"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="16_wqpw3"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="17_ubgxf"]
-[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="18_e1bfa"]
-[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="20_b2rar"]
-[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="22_l6csc"]
-[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="24_62ecs"]
-[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="26_allxr"]
+
+[ext_resource type="Script" uid="uid://ca2qjhhq0rtdp" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="18_e1bfa"]
+[ext_resource type="Script" uid="uid://djt380sur87tk" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="20_b2rar"]
+[ext_resource type="Script" uid="uid://blwqh5io6evjd" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="22_l6csc"]
+[ext_resource type="Script" uid="uid://dnamk023ejnw7" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="24_62ecs"]
+[ext_resource type="Script" uid="uid://cug1r3yemse5l" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="26_allxr"]
 [ext_resource type="Script" path="res://scripts/testtrypintu.gd" id="28_1se55"]
+[ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="29_tka0g"]
+[ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="30_53l8l"]
+[ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="31_0i4li"]
+[ext_resource type="PackedScene" uid="uid://dsle5ohovr06o" path="res://scene/purplegem.tscn" id="32_hsnuj"]
+[ext_resource type="PackedScene" uid="uid://hhypv3lbhn6m" path="res://scene/redgem.tscn" id="33_fgs5b"]
+[ext_resource type="PackedScene" uid="uid://dv0873ohuddg3" path="res://scene/yellowgem.tscn" id="34_l3s3h"]
+
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -2128,6 +2138,40 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchor_left = 0.05
+anchor_top = 0.099
+anchor_right = 0.321
+anchor_bottom = 0.185
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer2/Control"]
+layout_mode = 0
+offset_bottom = 175.0
+theme_override_constants/separation = 35
+
+[node name="heart" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("29_tka0g")]
+layout_mode = 2
+
+[node name="bluegem" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("30_53l8l")]
+layout_mode = 2
+
+[node name="greengem" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("31_0i4li")]
+layout_mode = 2
+
+[node name="yellowgem" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("34_l3s3h")]
+layout_mode = 2
+
+[node name="purplegem" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("32_hsnuj")]
+layout_mode = 2
+
+[node name="redgem" parent="CanvasLayer2/Control/VBoxContainer" instance=ExtResource("33_fgs5b")]
+layout_mode = 2
 
 [connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
 [connection signal="body_entered" from="Pintu/NearPintu" to="Pintu" method="_on_near_pintu_body_entered"]
