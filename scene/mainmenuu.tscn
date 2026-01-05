@@ -135,6 +135,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
 text = "Quit"
 
 [node name="How To Play Panel" type="Panel" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 22.0
 offset_top = 78.0
