@@ -1,18 +1,12 @@
-[gd_scene load_steps=11 format=3 uid="uid://d2ot7ydswj8dc"]
+[gd_scene load_steps=8 format=3 uid="uid://bujltxum4rkgp"]
 
-[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_osntc"]
-[ext_resource type="Texture2D" path="res://FOREST RESCUE CSC 541 (2).png" id="2_oj7ld"]
-[ext_resource type="FontFile" path="res://Stival Marlon.otf" id="3_7luah"]
-[ext_resource type="AudioStream" path="res://Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3" id="4_xce4y"]
+[ext_resource type="Script" uid="uid://qrpk5ersgvhn" path="res://scripts/main_menu.gd" id="1_osntc"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8bhj"]
-texture = ExtResource("2_oj7ld")
 modulate_color = Color(0.381703, 0.381703, 0.381703, 1)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gqhtg"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahs82"]
-bg_color = Color(0.712129, 0.712129, 0.712129, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5422f"]
+bg_color = Color(1, 1, 1, 1)
 corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
@@ -31,8 +25,8 @@ shadow_color = Color(0, 0, 0, 0.203922)
 shadow_size = 1
 shadow_offset = Vector2(0, 3.41)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5422f"]
-bg_color = Color(1, 1, 1, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahs82"]
+bg_color = Color(0.712129, 0.712129, 0.712129, 1)
 corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
@@ -41,8 +35,9 @@ shadow_color = Color(0, 0, 0, 0.203922)
 shadow_size = 1
 shadow_offset = Vector2(0, 3.41)
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gqhtg"]
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r33bx"]
-texture = ExtResource("2_oj7ld")
 modulate_color = Color(0.404511, 0.404511, 0.404511, 1)
 
 [node name="MainMenu" type="Control"]
@@ -79,7 +74,6 @@ grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 6
 theme_override_constants/shadow_offset_y = 3
-theme_override_fonts/font = ExtResource("3_7luah")
 theme_override_font_sizes/font_size = 54
 text = "Countopia"
 horizontal_alignment = 1
@@ -103,47 +97,47 @@ theme_override_constants/separation = 6
 [node name="Start Game" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Start Game"
 
 [node name="How To Play" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "How To Play"
 
 [node name="Quit" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Quit"
 
 [node name="How To Play Panel" type="Panel" parent="."]
-layout_mode = 2
+layout_mode = 0
 offset_left = 22.0
 offset_top = 78.0
 offset_right = 611.0
@@ -161,7 +155,6 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 3
 theme_override_constants/shadow_offset_y = 2
 theme_override_constants/shadow_outline_size = 9
-theme_override_fonts/font = ExtResource("3_7luah")
 theme_override_font_sizes/font_size = 26
 text = "How To Play"
 horizontal_alignment = 1
@@ -173,15 +166,15 @@ offset_top = 230.0
 offset_right = 101.0
 offset_bottom = 262.0
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Back"
 
 [node name="Level Selection Panel" type="Panel" parent="."]
@@ -204,7 +197,6 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 3
 theme_override_constants/shadow_offset_y = 2
 theme_override_constants/shadow_outline_size = 9
-theme_override_fonts/font = ExtResource("3_7luah")
 theme_override_font_sizes/font_size = 51
 text = "Select Subject"
 horizontal_alignment = 1
@@ -228,57 +220,57 @@ theme_override_constants/separation = 6
 [node name="Addition" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Addition"
 
 [node name="Subtraction" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Subtraction"
 
 [node name="Multiplication" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Multiplication"
 
 [node name="Division" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Division"
 
 [node name="Back" type="Button" parent="Level Selection Panel"]
@@ -291,22 +283,20 @@ offset_right = 101.0
 offset_bottom = -9.0
 grow_vertical = 0
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Back"
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_xce4y")
 volume_db = -19.927
 autoplay = true
-bus = &"MainMenu"
 
 [connection signal="pressed" from="Main Buttons/Start Game" to="." method="_on_starGame_pressed"]
 [connection signal="pressed" from="Main Buttons/How To Play" to="." method="_on_howToPlay_pressed"]

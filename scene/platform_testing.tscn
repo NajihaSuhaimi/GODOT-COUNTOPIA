@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://bujltxum4rkgp"]
+[gd_scene load_steps=9 format=4 uid="uid://bepcpi3a5ecsb"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_clqye"]
 [ext_resource type="Texture2D" uid="uid://cc3hjfcjmte11" path="res://assets/kenney_pixel-platformer-farm-expansion/Tilemap/tilemap.png" id="2_0tcie"]
