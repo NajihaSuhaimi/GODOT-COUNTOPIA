@@ -2,28 +2,28 @@
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_t1tmm"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_1.gd" id="3_mwo46"]
+[ext_resource type="Script" uid="uid://cnmxhvvfcibi1" path="res://scene/entities/quiz tolak/quiz_tolak_1.gd" id="3_mwo46"]
 [ext_resource type="Texture2D" uid="uid://wif21kiiidl1" path="res://soalanQuiz/soalanTolak/tolak1.png" id="3_s8444"]
 [ext_resource type="Texture2D" uid="uid://debtqjkgyesmx" path="res://soalanQuiz/soalanTolak/tolak2.png" id="4_mwo46"]
 [ext_resource type="Texture2D" uid="uid://bbi0w1l5g1xh2" path="res://soalanQuiz/soalanTolak/tolak3.png" id="5_41v6j"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="5_mebfp"]
 [ext_resource type="Texture2D" uid="uid://b7l51w6kc8jac" path="res://soalanQuiz/soalanTolak/tolak4.png" id="6_mebfp"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="6_qjmij"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_2.gd" id="7_k675r"]
+[ext_resource type="Script" uid="uid://53oedjscpm63" path="res://scene/entities/quiz tolak/quiz_tolak_2.gd" id="7_k675r"]
 [ext_resource type="Texture2D" uid="uid://dhpl6exqmpdd1" path="res://soalanQuiz/soalanTolak/tolak5.png" id="7_qjmij"]
 [ext_resource type="Texture2D" uid="uid://6phyea15taou" path="res://soalanQuiz/soalanTolak/tolak6.png" id="8_t571o"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
+[ext_resource type="Script" uid="uid://bad6epw4s4lrx" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
 [ext_resource type="Texture2D" uid="uid://coyfo6ta5j8vu" path="res://soalanQuiz/soalanTolak/tolak7.png" id="9_k8dtt"]
 [ext_resource type="Texture2D" uid="uid://byip8g6ff4h71" path="res://soalanQuiz/soalanTolak/tolak8.png" id="10_v426l"]
 [ext_resource type="Texture2D" uid="uid://bibhfi1v0insy" path="res://soalanQuiz/soalanTolak/tolak9.png" id="11_a1wbr"]
-[ext_resource type="Script" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
+[ext_resource type="Script" uid="uid://dwr861eb2muie" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
 [ext_resource type="Texture2D" uid="uid://b8iy6dm3w4fot" path="res://soalanQuiz/soalanTolak/tolak10.png" id="12_aia24"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_8.gd" id="19_5ctxf"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_9.gd" id="21_x27df"]
-[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_10.gd" id="23_4k2wf"]
+[ext_resource type="Script" uid="uid://miy26giuk4ac" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
+[ext_resource type="Script" uid="uid://camokug72ov7m" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
+[ext_resource type="Script" uid="uid://waoyi6og385" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
+[ext_resource type="Script" uid="uid://c30o14d0mwlj6" path="res://scene/entities/quiz tolak/quiz_tolak_8.gd" id="19_5ctxf"]
+[ext_resource type="Script" uid="uid://ck2sj3nh8f1gm" path="res://scene/entities/quiz tolak/quiz_tolak_9.gd" id="21_x27df"]
+[ext_resource type="Script" uid="uid://bqite25or5skb" path="res://scene/entities/quiz tolak/quiz_tolak_10.gd" id="23_4k2wf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1tmm"]
 texture = ExtResource("1_wbhxw")
@@ -178,18 +178,18 @@ texture_region_size = Vector2i(18, 18)
 11:4/0 = 0
 12:4/0 = 0
 13:4/0 = 0
-13:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.47491, -7.37421, 9, -9, 9, 9, -9, 9)
+13:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.4749146, -7.3742075, 9, -9, 9, 9, -9, 9)
 14:4/0 = 0
-14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 7.37421, -6.47491, 9, 9, -9, 9)
+14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 7.3742085, -6.4749136, 9, 9, -9, 9)
 15:4/0 = 0
 15:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 16:4/0 = 0
 17:4/0 = 0
 17:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 18:4/0 = 0
-18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.97845, -9, 9, -9, 9, 0.899293, 6.47491, 4.49647, -0.179859, 4.67633, -2.1583, 1.97845, -3.23746, -2.51802, -0.539576, -5.2159)
+18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.978446, -9, 9, -9, 9, 0.89929295, 6.4749146, 4.4964695, -0.17985916, 4.6763268, -2.1583042, 1.978447, -3.2374573, -2.5180216, -0.5395756, -5.2159023)
 19:4/0 = 0
-19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -0.539576, -9, 9, -9, 9, 0.899293, 7.37421, 3.23746, -0.179859, 4.67633, -1.07915, -1.79859, -9, -1.97845)
+19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -0.5395756, -9, 9, -9, 9, 0.89929295, 7.3742085, 3.2374573, -0.17985916, 4.6763268, -1.0791531, -1.7985859, -9, -1.978446)
 20:4/0 = 0
 0:5/0 = 0
 0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -210,18 +210,18 @@ texture_region_size = Vector2i(18, 18)
 11:5/0 = 0
 12:5/0 = 0
 13:5/0 = 0
-13:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -5.93534, 6.1152)
+13:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -5.935338, 6.115198)
 14:5/0 = 0
-14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 7.01449, 6.83463, -9, 9)
+14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 7.01449, 6.834633, -9, 9)
 15:5/0 = 0
 15:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 16:5/0 = 0
 17:5/0 = 0
-17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, 9, -7.37421, 9, -2.51802, -9, -1.97845)
+17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, 9, -7.3742075, 9, -2.5180216, -9, -1.978446)
 18:5/0 = 0
-18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.25901, -4.49647, 2.69788, -9, 9, -9, 9, -1.61873, 4.13675, 2.33816, 0.179859, -2.1583)
+18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.2590103, -4.4964676, 2.6978798, -9, 9, -9, 9, -1.6187286, 4.136751, 2.3381634, 0.17985916, -2.1583042)
 19:5/0 = 0
-19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -1.61873, -9, -1.79858)
+19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -1.6187286, -9, -1.7985849)
 20:5/0 = 0
 0:6/0 = 0
 0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -248,12 +248,12 @@ texture_region_size = Vector2i(18, 18)
 15:6/0 = 0
 15:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 16:6/0 = 0
-16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, -3.0576, -7.19435, -3.0576, 1.07915, -9, -1.97845)
+16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, -3.057599, -7.1943483, -3.057599, 1.0791531, -9, -1.978446)
 17:6/0 = 0
 18:6/0 = 0
-18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.0576, -7.19435, 9, -7.37421, 9, -2.51802, 3.41732, 1.43887)
+18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.057598, -7.1943483, 9, -7.3742075, 9, -2.5180216, 3.4173164, 1.4388714)
 19:6/0 = 0
-19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -1.61873, -9, -1.25901, -3.59717, -0.719435, 0.179859, -4.85619, 2.15831, -9, -2.1583)
+19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -1.6187286, -9, -1.2590122, -3.5971737, -0.71943474, 0.17985916, -4.856186, 2.1583061, -9, -2.1583042)
 20:6/0 = 0
 0:7/0 = 0
 0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -266,9 +266,9 @@ texture_region_size = Vector2i(18, 18)
 4:7/0 = 0
 5:7/0 = 0
 6:7/0 = 0
-6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.899293, -9, 0.899294)
+6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.89929295, -9, 0.8992939)
 7:7/0 = 0
-7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.899293, -9, 0.899294)
+7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.89929295, -9, 0.8992939)
 8:7/0 = 0
 9:7/0 = 0
 10:7/0 = 0
@@ -402,49 +402,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -20.316
-offset_right = 53.596
-offset_bottom = 18.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak1"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak1"]
@@ -457,9 +457,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -474,14 +474,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak1"]
@@ -495,9 +495,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -513,26 +513,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak2" type="Control" parent="CanvasLayer"]
@@ -570,49 +570,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -20.316
-offset_right = 53.596
-offset_bottom = 18.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak2"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak2"]
@@ -625,9 +625,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -642,14 +642,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak2"]
@@ -663,9 +663,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -681,26 +681,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak3" type="Control" parent="CanvasLayer"]
@@ -738,49 +738,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -20.316
-offset_right = 53.596
-offset_bottom = 18.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak3"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak3"]
@@ -793,9 +793,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -810,14 +810,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak3"]
@@ -831,9 +831,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -849,26 +849,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak4" type="Control" parent="CanvasLayer"]
@@ -906,49 +906,49 @@ anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404
-offset_top = -17.646
-offset_right = 54.596
-offset_bottom = 17.354
+offset_left = -54.404007
+offset_top = -17.645996
+offset_right = 54.595993
+offset_bottom = 17.354004
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.658
-anchor_top = 0.692
-anchor_right = 0.658
-anchor_bottom = 0.692
-offset_left = -54.804
-offset_top = -18.928
-offset_right = 55.196
-offset_bottom = 19.072
+anchor_left = 0.65800005
+anchor_top = 0.69200003
+anchor_right = 0.65800005
+anchor_bottom = 0.69200003
+offset_left = -54.804047
+offset_top = -18.928009
+offset_right = 55.195953
+offset_bottom = 19.071991
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.357
+anchor_left = 0.35700002
 anchor_top = 0.836
-anchor_right = 0.357
+anchor_right = 0.35700002
 anchor_bottom = 0.836
-offset_left = -54.766
-offset_top = -19.624
-offset_right = 54.234
-offset_bottom = 19.376
+offset_left = -54.76602
+offset_top = -19.624023
+offset_right = 54.23398
+offset_bottom = 19.375977
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.836
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.836
-offset_left = -53.442
-offset_top = -19.624
-offset_right = 53.558
-offset_bottom = 19.376
+offset_left = -53.442017
+offset_top = -19.624023
+offset_right = 53.557983
+offset_bottom = 19.375977
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak4"]
@@ -961,9 +961,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -978,14 +978,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak4"]
@@ -999,9 +999,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1017,26 +1017,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak5" type="Control" parent="CanvasLayer"]
@@ -1074,49 +1074,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -20.316
-offset_right = 53.596
-offset_bottom = 18.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak5"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak5"]
@@ -1129,9 +1129,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1146,14 +1146,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak5"]
@@ -1167,9 +1167,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1185,26 +1185,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak6" type="Control" parent="CanvasLayer"]
@@ -1242,49 +1242,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -19.316
-offset_right = 53.596
-offset_bottom = 19.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -19.31601
+offset_right = 53.595993
+offset_bottom = 19.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak6"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak6"]
@@ -1297,9 +1297,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1314,14 +1314,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak6"]
@@ -1335,9 +1335,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1353,26 +1353,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak7" type="Control" parent="CanvasLayer"]
@@ -1410,49 +1410,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.678
+anchor_top = 0.67800003
 anchor_right = 0.657
-anchor_bottom = 0.678
-offset_left = -54.166
-offset_top = -17.902
-offset_right = 55.834
-offset_bottom = 20.098
+anchor_bottom = 0.67800003
+offset_left = -54.166016
+offset_top = -17.902008
+offset_right = 55.833984
+offset_bottom = 20.097992
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.824
+anchor_top = 0.82400006
 anchor_right = 0.358
-anchor_bottom = 0.824
-offset_left = -55.404
-offset_top = -20.316
-offset_right = 53.596
-offset_bottom = 18.684
+anchor_bottom = 0.82400006
+offset_left = -55.404007
+offset_top = -20.31601
+offset_right = 53.595993
+offset_bottom = 18.68399
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak7"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.822
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.822
-offset_left = -53.442
-offset_top = -19.598
-offset_right = 53.558
-offset_bottom = 19.402
+offset_left = -53.442017
+offset_top = -19.598022
+offset_right = 53.557983
+offset_bottom = 19.401978
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak7"]
@@ -1465,9 +1465,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1482,14 +1482,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak7"]
@@ -1503,9 +1503,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1521,26 +1521,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak8" type="Control" parent="CanvasLayer"]
@@ -1575,52 +1575,52 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.691
+anchor_top = 0.69100004
 anchor_right = 0.358
-anchor_bottom = 0.691
-offset_left = -54.404
-offset_top = -17.569
-offset_right = 54.596
-offset_bottom = 17.431
+anchor_bottom = 0.69100004
+offset_left = -54.404007
+offset_top = -17.569016
+offset_right = 54.595993
+offset_bottom = 17.430984
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.658
-anchor_top = 0.692
-anchor_right = 0.658
-anchor_bottom = 0.692
-offset_left = -54.804
-offset_top = -18.928
-offset_right = 55.196
-offset_bottom = 19.072
+anchor_left = 0.65800005
+anchor_top = 0.69200003
+anchor_right = 0.65800005
+anchor_bottom = 0.69200003
+offset_left = -54.804047
+offset_top = -18.928009
+offset_right = 55.195953
+offset_bottom = 19.071991
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.357
+anchor_left = 0.35700002
 anchor_top = 0.836
-anchor_right = 0.357
+anchor_right = 0.35700002
 anchor_bottom = 0.836
-offset_left = -54.766
-offset_top = -19.624
-offset_right = 54.234
-offset_bottom = 19.376
+offset_left = -54.76602
+offset_top = -19.624023
+offset_right = 54.23398
+offset_bottom = 19.375977
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
-anchor_top = 0.838
-anchor_right = 0.659
-anchor_bottom = 0.838
-offset_left = -53.442
-offset_top = -19.342
-offset_right = 53.558
-offset_bottom = 19.658
+anchor_left = 0.65900004
+anchor_top = 0.83800006
+anchor_right = 0.65900004
+anchor_bottom = 0.83800006
+offset_left = -53.442017
+offset_top = -19.34201
+offset_right = 53.557983
+offset_bottom = 19.65799
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak8"]
@@ -1633,9 +1633,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1650,14 +1650,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak8"]
@@ -1671,9 +1671,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1689,26 +1689,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak9" type="Control" parent="CanvasLayer"]
@@ -1746,49 +1746,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.688
-offset_left = -54.404
-offset_top = -14.62
-offset_right = 54.596
-offset_bottom = 17.508
+offset_left = -54.404007
+offset_top = -14.619995
+offset_right = 54.595993
+offset_bottom = 17.507996
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.658
-anchor_top = 0.692
-anchor_right = 0.658
-anchor_bottom = 0.692
-offset_left = -54.804
-offset_top = -18.928
-offset_right = 55.196
-offset_bottom = 19.072
+anchor_left = 0.65800005
+anchor_top = 0.69200003
+anchor_right = 0.65800005
+anchor_bottom = 0.69200003
+offset_left = -54.804047
+offset_top = -18.928009
+offset_right = 55.195953
+offset_bottom = 19.071991
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.357
+anchor_left = 0.35700002
 anchor_top = 0.836
-anchor_right = 0.357
+anchor_right = 0.35700002
 anchor_bottom = 0.836
-offset_left = -54.766
-offset_top = -19.624
-offset_right = 54.234
-offset_bottom = 19.376
+offset_left = -54.76602
+offset_top = -19.624023
+offset_right = 54.23398
+offset_bottom = 19.375977
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.836
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.836
-offset_left = -53.442
-offset_top = -19.624
-offset_right = 53.558
-offset_bottom = 19.376
+offset_left = -53.442017
+offset_top = -19.624023
+offset_right = 53.557983
+offset_bottom = 19.375977
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak9"]
@@ -1801,9 +1801,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1818,14 +1818,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak9"]
@@ -1839,9 +1839,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1857,26 +1857,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="QuizTolak10" type="Control" parent="CanvasLayer"]
@@ -1914,50 +1914,50 @@ anchor_left = 0.358
 anchor_top = 0.708
 anchor_right = 0.358
 anchor_bottom = 0.708
-offset_left = -54.404
-offset_top = -17.672
-offset_right = 54.596
-offset_bottom = 17.328
+offset_left = -54.404007
+offset_top = -17.671997
+offset_right = 54.595993
+offset_bottom = 17.328003
 flat = true
 script = ExtResource("17_a4udj")
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizTolak10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.658
-anchor_top = 0.706
-anchor_right = 0.658
-anchor_bottom = 0.706
-offset_left = -54.804
-offset_top = -18.954
-offset_right = 55.196
-offset_bottom = 19.046
+anchor_left = 0.65800005
+anchor_top = 0.70600003
+anchor_right = 0.65800005
+anchor_bottom = 0.70600003
+offset_left = -54.804047
+offset_top = -18.95401
+offset_right = 55.195953
+offset_bottom = 19.04599
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizTolak10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.357
+anchor_left = 0.35700002
 anchor_top = 0.85
-anchor_right = 0.357
+anchor_right = 0.35700002
 anchor_bottom = 0.85
-offset_left = -54.766
-offset_top = -19.65
-offset_right = 54.234
-offset_bottom = 19.35
+offset_left = -54.76602
+offset_top = -19.649994
+offset_right = 54.23398
+offset_bottom = 19.350006
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizTolak10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.659
+anchor_left = 0.65900004
 anchor_top = 0.855
-anchor_right = 0.659
+anchor_right = 0.65900004
 anchor_bottom = 0.855
-offset_left = -53.442
-offset_top = -19.445
-offset_right = 53.558
-offset_bottom = 19.555
+offset_left = -53.442017
+offset_top = -19.445007
+offset_right = 53.557983
+offset_bottom = 19.554993
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTolak10"]
@@ -1971,9 +1971,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1988,14 +1988,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTolak10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.975
+anchor_left = 7.9750004
 anchor_top = 6.012
-anchor_right = 7.975
+anchor_right = 7.9750004
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTolak10"]
@@ -2009,9 +2009,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTolak10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.987
+anchor_left = 7.9870005
 anchor_top = 4.5
-anchor_right = 7.987
+anchor_right = 7.9870005
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -2027,26 +2027,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.962
+anchor_top = 5.9620004
 anchor_right = 5.675
-anchor_bottom = 5.962
+anchor_bottom = 5.9620004
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizTolak10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.987
+anchor_top = 5.9870005
 anchor_right = 10.3
-anchor_bottom = 5.987
+anchor_bottom = 5.9870005
 offset_left = -54.0
-offset_top = -20.48
+offset_top = -20.480011
 offset_right = 54.0
-offset_bottom = 20.52
+offset_bottom = 20.519989
 flat = true
 
 [connection signal="pressed" from="CanvasLayer/QuizTolak1/ButtonA" to="CanvasLayer/QuizTolak1" method="_on_button_a_pressed"]
