@@ -1,0 +1,298 @@
+[gd_scene load_steps=7 format=3 uid="uid://b72nblajs7l6w"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k7bwu"]
+modulate_color = Color(0.381703, 0.381703, 0.381703, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_65tuv"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.203922)
+shadow_size = 1
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5hnjr"]
+bg_color = Color(0.31802, 0.31802, 0.31802, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.203922)
+shadow_size = 1
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_775nd"]
+bg_color = Color(0.712129, 0.712129, 0.712129, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.203922)
+shadow_size = 1
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e381h"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rpece"]
+modulate_color = Color(0.404511, 0.404511, 0.404511, 1)
+
+[node name="mainmenuu baru" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_k7bwu")
+
+[node name="Label" type="Label" parent="Background"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -119.0
+offset_top = -160.0
+offset_right = 120.0
+offset_bottom = -91.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 6
+theme_override_constants/shadow_offset_y = 3
+theme_override_font_sizes/font_size = 54
+text = "Countopia"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Main Buttons" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -82.5
+offset_top = -66.0
+offset_right = 82.5
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 6
+
+[node name="Start Game" type="Button" parent="Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Start Game"
+
+[node name="How To Play" type="Button" parent="Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "How To Play"
+
+[node name="Quit" type="Button" parent="Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Quit"
+
+[node name="How To Play Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 78.0
+offset_right = 611.0
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 36.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_font_sizes/font_size = 26
+text = "How To Play"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="Button" parent="How To Play Panel"]
+layout_mode = 0
+offset_top = 230.0
+offset_right = 101.0
+offset_bottom = 262.0
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Back"
+
+[node name="Level Selection Panel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_rpece")
+
+[node name="Label" type="Label" parent="Level Selection Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 18.0
+offset_bottom = 82.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_font_sizes/font_size = 51
+text = "Select Subject"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Main Buttons" type="VBoxContainer" parent="Level Selection Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -204.5
+offset_top = -70.5
+offset_right = 204.5
+offset_bottom = 70.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 6
+
+[node name="Addition" type="Button" parent="Level Selection Panel/Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Addition"
+
+[node name="Subtraction" type="Button" parent="Level Selection Panel/Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Subtraction"
+
+[node name="Multiplication" type="Button" parent="Level Selection Panel/Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Multiplication"
+
+[node name="Division" type="Button" parent="Level Selection Panel/Main Buttons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Division"
+
+[node name="Back" type="Button" parent="Level Selection Panel"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -41.0
+offset_right = 101.0
+offset_bottom = -9.0
+grow_vertical = 0
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_65tuv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5hnjr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_e381h")
+text = "Back"
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+volume_db = -19.927
+autoplay = true
