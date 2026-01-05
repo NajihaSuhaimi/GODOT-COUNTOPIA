@@ -23,4 +23,4 @@ text = "0"
 scale = Vector2(2.5, 2.5)
 texture = ExtResource("2_un2sw")
 region_enabled = true
-region_rect = Rect2(209.63005, 133.55148, 16.93364, 16.399704)
+region_rect = Rect2(209.63, 133.551, 16.9336, 16.3997)

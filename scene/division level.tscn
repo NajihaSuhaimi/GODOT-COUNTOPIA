@@ -4,27 +4,27 @@
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_87j3k"]
 [ext_resource type="Texture2D" uid="uid://deou6xonq17p5" path="res://soalanQuiz/soalanBahagi/bahagi1.png" id="4_7iyk7"]
-[ext_resource type="Script" uid="uid://bh5u6lumgwjte" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
 [ext_resource type="Texture2D" uid="uid://dmvvnjmgavkep" path="res://soalanQuiz/soalanBahagi/bahagi2.png" id="5_pwsjk"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="6_e6tc1"]
 [ext_resource type="Texture2D" uid="uid://dy2qyc1udalcq" path="res://soalanQuiz/soalanBahagi/bahagi3.png" id="6_la7yh"]
 [ext_resource type="Texture2D" uid="uid://c0jvbm38p0p85" path="res://soalanQuiz/soalanBahagi/bahagi4.png" id="7_a78qq"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="7_jlxl0"]
 [ext_resource type="Texture2D" uid="uid://djfafj4q0sgkx" path="res://soalanQuiz/soalanBahagi/bahagi5.png" id="8_c86bv"]
-[ext_resource type="Script" uid="uid://pwuqekyybveo" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
 [ext_resource type="Texture2D" uid="uid://dmb47t6wl2op0" path="res://soalanQuiz/soalanBahagi/bahagi6.png" id="9_cjii5"]
-[ext_resource type="Script" uid="uid://vdnooeyf4rrm" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
 [ext_resource type="Texture2D" uid="uid://besf5yts6lmsy" path="res://soalanQuiz/soalanBahagi/bahagi7.png" id="10_t6ob6"]
 [ext_resource type="Texture2D" uid="uid://dng2opd7ug2oh" path="res://soalanQuiz/soalanBahagi/bahagi8.png" id="11_eae3p"]
-[ext_resource type="Script" uid="uid://ciwgp0c8tb7d1" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
 [ext_resource type="Texture2D" uid="uid://bq0c55gjfnhp0" path="res://soalanQuiz/soalanBahagi/bahagi9.png" id="12_jo6br"]
 [ext_resource type="Texture2D" uid="uid://le4hhrkj6mht" path="res://soalanQuiz/soalanBahagi/bahagi10.png" id="13_nx25q"]
-[ext_resource type="Script" uid="uid://cbqxv1ktfpsn0" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
-[ext_resource type="Script" uid="uid://tg50eey6o8ft" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
-[ext_resource type="Script" uid="uid://bin1ltsogrjsh" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
-[ext_resource type="Script" uid="uid://cnoyvb5erlp47" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
-[ext_resource type="Script" uid="uid://bpfe5rqkco6xq" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
-[ext_resource type="Script" uid="uid://tog0m65aris8" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
+[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -47,9 +47,9 @@ texture_region_size = Vector2i(18, 18)
 7:0/0 = 0
 8:0/0 = 0
 9:0/0 = 0
-9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.8770223, -8.13781, 6.8197136, -8.080501, 7.3742085, 9, -7.014492, 9)
+9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.87702, -8.13781, 6.81971, -8.0805, 7.37421, 9, -7.01449, 9)
 10:0/0 = 0
-10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.8770223, -8.13781, 6.8197136, -8.080501, 7.3742085, 9, -7.014492, 9)
+10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.87702, -8.13781, 6.81971, -8.0805, 7.37421, 9, -7.01449, 9)
 11:0/0 = 0
 12:0/0 = 0
 13:0/0 = 0
@@ -116,11 +116,11 @@ texture_region_size = Vector2i(18, 18)
 9:3/0 = 0
 10:3/0 = 0
 11:3/0 = 0
-11:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.834632, -9, 7.3742085, -9, 7.5540657, -0.17985725, 5.5756207, 1.2590122, 5.75548, 9, -5.3957624, 9, -5.5756207, 1.4388714, -6.6547728, 0)
+11:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.83463, -9, 7.37421, -9, 7.55407, -0.179857, 5.57562, 1.25901, 5.75548, 9, -5.39576, 9, -5.57562, 1.43887, -6.65477, 0)
 12:3/0 = 0
-12:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.8770223, -8.13781, 6.8197136, -8.080501, 7.3742085, 9, -7.014492, 9)
+12:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.87702, -8.13781, 6.81971, -8.0805, 7.37421, 9, -7.01449, 9)
 13:3/0 = 0
-13:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.8770223, -8.13781, 6.8197136, -8.080501, 7.3742085, 9, -7.014492, 9)
+13:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.87702, -8.13781, 6.81971, -8.0805, 7.37421, 9, -7.01449, 9)
 14:3/0 = 0
 14:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 15:3/0 = 0
@@ -139,15 +139,15 @@ texture_region_size = Vector2i(18, 18)
 9:4/0 = 0
 10:4/0 = 0
 11:4/0 = 0
-11:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.5756207, -9, 6.115197, -9, 5.5756207, 1.2590122, 5.75548, 9, -5.3957624, 9, -5.5756207, 1.4388714)
+11:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.57562, -9, 6.1152, -9, 5.57562, 1.25901, 5.75548, 9, -5.39576, 9, -5.57562, 1.43887)
 12:4/0 = 0
-12:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.115196, -1.7985859, -1.6187286, -5.5756197, 1.978447, -6.115196, 9, -6.115196, 9, 5.935338, 5.5756207, 5.75548, 5.5756207, 9, -5.75548, 9)
+12:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.1152, -1.79859, -1.61873, -5.57562, 1.97845, -6.1152, 9, -6.1152, 9, 5.93534, 5.57562, 5.75548, 5.57562, 9, -5.75548, 9)
 13:4/0 = 0
-13:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, 4.6763268, -9, -5.75548, 1.978447, -6.115196, 5.5756207, -1.4388695, 6.2950554, 9, -5.75548, 9, -6.6547728, 5.5756207)
+13:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, 4.67633, -9, -5.75548, 1.97845, -6.1152, 5.57562, -1.43887, 6.29506, 9, -5.75548, 9, -6.65477, 5.57562)
 14:4/0 = 0
-14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.115196, -9, 6.2950554, -9, 6.4749146, -4.6763268, 6.834633, -0.35971642, -7.01449, 0.17985916, -6.6547728, -5.2159023)
+14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.1152, -9, 6.29506, -9, 6.47491, -4.67633, 6.83463, -0.359716, -7.01449, 0.179859, -6.65477, -5.2159)
 15:4/0 = 0
-15:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.115196, -9, 6.2950554, -9, 6.4749146, -4.6763268, 6.834633, -0.35971642, -7.01449, 0.17985916, -6.6547728, -5.2159023)
+15:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.1152, -9, 6.29506, -9, 6.47491, -4.67633, 6.83463, -0.359716, -7.01449, 0.179859, -6.65477, -5.2159)
 0:5/0 = 0
 1:5/0 = 0
 2:5/0 = 0
@@ -167,11 +167,11 @@ texture_region_size = Vector2i(18, 18)
 10:5/0 = 0
 10:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 11:5/0 = 0
-11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.5756207, -9, 6.115197, -9, 7.5540657, 0.71943474, 5.75548, 9, -5.3957624, 9, -7.3742085, 0.71943474)
+11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.57562, -9, 6.1152, -9, 7.55407, 0.719435, 5.75548, 9, -5.39576, 9, -7.37421, 0.719435)
 12:5/0 = 0
-12:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.935338, 1.0791531, -5.5756207, -9, 5.75548, -9, 5.036045, -5.755479, 9, -5.5756197, 9, 5.75548, -2.3381634, 5.75548)
+12:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.93534, 1.07915, -5.57562, -9, 5.75548, -9, 5.03605, -5.75548, 9, -5.57562, 9, 5.75548, -2.33816, 5.75548)
 13:5/0 = 0
-13:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.115197, -5.036044, -5.935337, -5.5756207, -9, 5.5756207, -9, 5.3957615, 3.5971756, 2.5180225, 4.6763268, -0.71943474, 5.5756207, -9, 5.3957634)
+13:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.1152, -5.03604, -5.93534, -5.57562, -9, 5.57562, -9, 5.39576, 3.59718, 2.51802, 4.67633, -0.719435, 5.57562, -9, 5.39576)
 14:5/0 = 0
 15:5/0 = 0
 0:6/0 = 0
@@ -193,15 +193,15 @@ texture_region_size = Vector2i(18, 18)
 10:6/0 = 0
 10:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 11:6/0 = 0
-11:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.5756207, -9, 6.115197, -9, 5.935337, -0.8992939, 7.5540657, 0.71943474, 7.5540657, 9, -7.014492, 9, -7.3742085, 0.71943474, -5.2159033, 0.17985916)
+11:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.57562, -9, 6.1152, -9, 5.93534, -0.899294, 7.55407, 0.719435, 7.55407, 9, -7.01449, 9, -7.37421, 0.719435, -5.2159, 0.179859)
 12:6/0 = 0
-12:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.83463, 0.17985916, -7.01449, 0, -6.115196, 9, -6.115196, 9, 5.3957634, 0.35971642, 5.3957634, -1.0791531, 7.5540676, -9, 6.834633)
+12:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.83463, 0.179859, -7.01449, 0, -6.1152, 9, -6.1152, 9, 5.39576, 0.359716, 5.39576, -1.07915, 7.55407, -9, 6.83463)
 13:6/0 = 0
-13:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.115197, 9, -6.115196, 9, 5.3957634, 0.35971642, 5.3957634, -9, 5.3957634)
+13:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.1152, 9, -6.1152, 9, 5.39576, 0.359716, 5.39576, -9, 5.39576)
 14:6/0 = 0
-14:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.115197, 0, -7.5540657, 9, -6.115196, 9, 5.3957634, 0.35971642, 7.1943493, -9, 5.3957634)
+14:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.1152, 0, -7.55407, 9, -6.1152, 9, 5.39576, 0.359716, 7.19435, -9, 5.39576)
 15:6/0 = 0
-15:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.115197, -0.35971832, -6.4749136, 0, -7.1943483, 9, -6.6547728, 9, 7.014492, 0.35971642, 7.1943493, -0.71943474, 5.5756207, -9, 5.3957634)
+15:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -6.1152, -0.359718, -6.47491, 0, -7.19435, 9, -6.65477, 9, 7.01449, 0.359716, 7.19435, -0.719435, 5.57562, -9, 5.39576)
 
 [sub_resource type="TileSet" id="TileSet_0ucor"]
 tile_size = Vector2i(18, 18)
@@ -303,49 +303,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi1"]
@@ -358,9 +358,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -375,14 +375,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi1"]
@@ -396,9 +396,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -414,26 +414,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi2" type="Control" parent="CanvasLayer"]
@@ -471,49 +471,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi2"]
@@ -526,9 +526,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -543,14 +543,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi2"]
@@ -564,9 +564,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -582,26 +582,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi3" type="Control" parent="CanvasLayer"]
@@ -639,49 +639,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi3"]
@@ -694,9 +694,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -711,14 +711,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi3"]
@@ -732,9 +732,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -750,26 +750,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi4" type="Control" parent="CanvasLayer"]
@@ -807,49 +807,49 @@ anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69200003
-anchor_right = 0.65800005
-anchor_bottom = 0.69200003
-offset_left = -54.804047
-offset_top = -18.928009
-offset_right = 55.195953
-offset_bottom = 19.071991
+anchor_left = 0.658
+anchor_top = 0.692
+anchor_right = 0.658
+anchor_bottom = 0.692
+offset_left = -54.804
+offset_top = -18.928
+offset_right = 55.196
+offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.836
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.836
-offset_left = -53.442017
-offset_top = -19.624023
-offset_right = 53.557983
-offset_bottom = 19.375977
+offset_left = -53.442
+offset_top = -19.624
+offset_right = 53.558
+offset_bottom = 19.376
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi4"]
@@ -862,9 +862,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -879,14 +879,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi4"]
@@ -900,9 +900,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -918,26 +918,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi5" type="Control" parent="CanvasLayer"]
@@ -975,49 +975,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi5"]
@@ -1030,9 +1030,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1047,14 +1047,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi5"]
@@ -1068,9 +1068,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1086,26 +1086,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi6" type="Control" parent="CanvasLayer"]
@@ -1143,49 +1143,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -19.31601
-offset_right = 53.595993
-offset_bottom = 19.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -19.316
+offset_right = 53.596
+offset_bottom = 19.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi6"]
@@ -1198,9 +1198,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1215,14 +1215,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi6"]
@@ -1236,9 +1236,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1254,26 +1254,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi7" type="Control" parent="CanvasLayer"]
@@ -1311,49 +1311,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi7"]
@@ -1366,9 +1366,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1383,14 +1383,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi7"]
@@ -1404,9 +1404,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1422,26 +1422,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi8" type="Control" parent="CanvasLayer"]
@@ -1476,52 +1476,52 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.69100004
+anchor_top = 0.691
 anchor_right = 0.358
-anchor_bottom = 0.69100004
-offset_left = -54.404007
-offset_top = -17.569016
-offset_right = 54.595993
-offset_bottom = 17.430984
+anchor_bottom = 0.691
+offset_left = -54.404
+offset_top = -17.569
+offset_right = 54.596
+offset_bottom = 17.431
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69200003
-anchor_right = 0.65800005
-anchor_bottom = 0.69200003
-offset_left = -54.804047
-offset_top = -18.928009
-offset_right = 55.195953
-offset_bottom = 19.071991
+anchor_left = 0.658
+anchor_top = 0.692
+anchor_right = 0.658
+anchor_bottom = 0.692
+offset_left = -54.804
+offset_top = -18.928
+offset_right = 55.196
+offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.83800006
-anchor_right = 0.65900004
-anchor_bottom = 0.83800006
-offset_left = -53.442017
-offset_top = -19.34201
-offset_right = 53.557983
-offset_bottom = 19.65799
+anchor_left = 0.659
+anchor_top = 0.838
+anchor_right = 0.659
+anchor_bottom = 0.838
+offset_left = -53.442
+offset_top = -19.342
+offset_right = 53.558
+offset_bottom = 19.658
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi8"]
@@ -1534,9 +1534,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1551,14 +1551,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi8"]
@@ -1572,9 +1572,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1590,26 +1590,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi9" type="Control" parent="CanvasLayer"]
@@ -1647,49 +1647,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.688
-offset_left = -54.404007
-offset_top = -14.619995
-offset_right = 54.595993
-offset_bottom = 17.507996
+offset_left = -54.404
+offset_top = -14.62
+offset_right = 54.596
+offset_bottom = 17.508
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69200003
-anchor_right = 0.65800005
-anchor_bottom = 0.69200003
-offset_left = -54.804047
-offset_top = -18.928009
-offset_right = 55.195953
-offset_bottom = 19.071991
+anchor_left = 0.658
+anchor_top = 0.692
+anchor_right = 0.658
+anchor_bottom = 0.692
+offset_left = -54.804
+offset_top = -18.928
+offset_right = 55.196
+offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.836
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.836
-offset_left = -53.442017
-offset_top = -19.624023
-offset_right = 53.557983
-offset_bottom = 19.375977
+offset_left = -53.442
+offset_top = -19.624
+offset_right = 53.558
+offset_bottom = 19.376
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi9"]
@@ -1702,9 +1702,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1719,14 +1719,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi9"]
@@ -1740,9 +1740,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1758,26 +1758,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi10" type="Control" parent="CanvasLayer"]
@@ -1815,49 +1815,49 @@ anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69500005
-anchor_right = 0.65800005
-anchor_bottom = 0.69500005
-offset_left = -54.804047
-offset_top = -19.00502
-offset_right = 55.195953
-offset_bottom = 18.99498
+anchor_left = 0.658
+anchor_top = 0.695
+anchor_right = 0.658
+anchor_bottom = 0.695
+offset_left = -54.804
+offset_top = -19.005
+offset_right = 55.196
+offset_bottom = 18.995
 flat = true
 
 [node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
-anchor_top = 0.83800006
-anchor_right = 0.35700002
-anchor_bottom = 0.83800006
-offset_left = -54.76602
-offset_top = -19.34201
-offset_right = 54.23398
-offset_bottom = 19.65799
+anchor_left = 0.357
+anchor_top = 0.838
+anchor_right = 0.357
+anchor_bottom = 0.838
+offset_left = -54.766
+offset_top = -19.342
+offset_right = 54.234
+offset_bottom = 19.658
 flat = true
 
 [node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.841
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.841
-offset_left = -53.442017
-offset_top = -19.419006
-offset_right = 53.557983
-offset_bottom = 19.580994
+offset_left = -53.442
+offset_top = -19.419
+offset_right = 53.558
+offset_bottom = 19.581
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi10"]
@@ -1870,9 +1870,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1887,14 +1887,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi10"]
@@ -1908,9 +1908,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1926,26 +1926,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [connection signal="pressed" from="CanvasLayer/QuizBahagi1/ButtonA" to="CanvasLayer/QuizBahagi1" method="_on_button_a_pressed"]

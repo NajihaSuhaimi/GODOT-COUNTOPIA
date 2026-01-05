@@ -1,33 +1,39 @@
-[gd_scene load_steps=34 format=3 uid="uid://vcw8ffireiya"]
+[gd_scene load_steps=40 format=3 uid="uid://vcw8ffireiya"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_cbfjd"]
-[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_g36kd"]
+[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="1_g36kd"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_geqda"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_geqda"]
 [ext_resource type="PackedScene" uid="uid://cbcp6s71so3jk" path="res://scene/coin.tscn" id="4_vroq1"]
 [ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="6_hxe60"]
-[ext_resource type="Script" uid="uid://b48n6vvcuqop6" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="6_n7a6r"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="6_n7a6r"]
 [ext_resource type="Texture2D" uid="uid://duf5byuoik06a" path="res://soalanQuiz/soalanTambah/tambah2.png" id="7_3b28o"]
 [ext_resource type="Texture2D" uid="uid://3ap2ac1ojudb" path="res://soalanQuiz/soalanTambah/tambah3.png" id="8_wqpw3"]
 [ext_resource type="Texture2D" uid="uid://fcjux61yo6o7" path="res://soalanQuiz/soalanTambah/tambah4.png" id="9_ubgxf"]
-[ext_resource type="Script" uid="uid://dcq87mj6h0a57" path="res://scene/entities/quiz_tambah_2.gd" id="10_can37"]
+[ext_resource type="Script" path="res://scene/entities/quiz_tambah_2.gd" id="10_can37"]
 [ext_resource type="Texture2D" uid="uid://51nfyvb0shiy" path="res://soalanQuiz/soalanTambah/tambah5.png" id="10_n7a6r"]
 [ext_resource type="Texture2D" uid="uid://dn8p6iinswyap" path="res://soalanQuiz/soalanTambah/tambah6.png" id="11_can37"]
 [ext_resource type="Texture2D" uid="uid://biix2hchaimjd" path="res://soalanQuiz/soalanTambah/tambah7.png" id="12_hmk6n"]
-[ext_resource type="Script" uid="uid://caikimmpldjtt" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="12_xfpw0"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="12_xfpw0"]
 [ext_resource type="Texture2D" uid="uid://s7cuulp4mct4" path="res://soalanQuiz/soalanTambah/tambah8.png" id="13_xfpw0"]
-[ext_resource type="Script" uid="uid://bbdb3gshtl8qi" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="14_aued2"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="14_aued2"]
 [ext_resource type="Texture2D" uid="uid://dae6gj11y15cj" path="res://soalanQuiz/soalanTambah/tambah9.png" id="14_l6tdh"]
 [ext_resource type="Texture2D" uid="uid://bqqoipeajdah8" path="res://soalanQuiz/soalanTambah/tambah10.png" id="15_qnper"]
-[ext_resource type="Script" uid="uid://llj7tsbfvik2" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="16_1se55"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="16_1se55"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="16_wqpw3"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="17_ubgxf"]
-[ext_resource type="Script" uid="uid://ca2qjhhq0rtdp" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="18_e1bfa"]
-[ext_resource type="Script" uid="uid://djt380sur87tk" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="20_b2rar"]
-[ext_resource type="Script" uid="uid://blwqh5io6evjd" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="22_l6csc"]
-[ext_resource type="Script" uid="uid://dnamk023ejnw7" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="24_62ecs"]
-[ext_resource type="Script" uid="uid://cug1r3yemse5l" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="26_allxr"]
-[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/testtrypintu.gd" id="28_1se55"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="18_e1bfa"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="20_b2rar"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="22_l6csc"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="24_62ecs"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="26_allxr"]
+[ext_resource type="Script" path="res://scripts/testtrypintu.gd" id="28_1se55"]
+[ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="29_tka0g"]
+[ext_resource type="PackedScene" path="res://scene/bluegem.tscn" id="30_53l8l"]
+[ext_resource type="PackedScene" path="res://scene/greengem.tscn" id="31_0i4li"]
+[ext_resource type="PackedScene" path="res://scene/purplegem.tscn" id="32_hsnuj"]
+[ext_resource type="PackedScene" path="res://scene/redgem.tscn" id="33_fgs5b"]
+[ext_resource type="PackedScene" path="res://scene/yellowgem.tscn" id="34_l3s3h"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("1_cbfjd")
@@ -148,7 +154,7 @@ texture_region_size = Vector2i(18, 18)
 6:3/0 = 0
 7:3/0 = 0
 8:3/0 = 0
-8:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.4964685, -0.8992939, 0.35971642, 2.3381634, 4.136751, -1.0791512, 9, 4.13675, 9, 9, -9, 9, -9, 4.3166103)
+8:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.49647, -0.899294, 0.359716, 2.33816, 4.13675, -1.07915, 9, 4.13675, 9, 9, -9, 9, -9, 4.31661)
 9:3/0 = 0
 10:3/0 = 0
 11:3/0 = 0
@@ -187,9 +193,9 @@ texture_region_size = Vector2i(18, 18)
 16:4/0 = 0
 17:4/0 = 0
 18:4/0 = 0
-18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(9, -7.5540657, 9, -1.2590103, 4.136751, 4.6763268, -0.71943474, 2.5180225, -1.978447, -1.978445, 0.71943474, -6.2950544, 3.5971737, -9)
+18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(9, -7.55407, 9, -1.25901, 4.13675, 4.67633, -0.719435, 2.51802, -1.97845, -1.97845, 0.719435, -6.29505, 3.59717, -9)
 19:4/0 = 0
-19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, 9, -7.5540657, 9, -1.2590103, 4.136751, 4.6763268, -1.978447, -1.978445, -9, -1.6187286)
+19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, 9, -7.55407, 9, -1.25901, 4.13675, 4.67633, -1.97845, -1.97845, -9, -1.61873)
 20:4/0 = 0
 0:5/0 = 0
 1:5/0 = 0
@@ -213,11 +219,11 @@ texture_region_size = Vector2i(18, 18)
 15:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 16:5/0 = 0
 17:5/0 = 0
-17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, 9, -7.5540657, 9, -1.978445, -9, -1.6187286)
+17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, 9, -7.55407, 9, -1.97845, -9, -1.61873)
 18:5/0 = 0
-18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(0.35971642, -3.5971737, 2.5180225, -9, 9, -7.5540657, 9, -1.7985859, 3.7770329, 2.3381634, 0.8992939, 0)
+18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(0.359716, -3.59717, 2.51802, -9, 9, -7.55407, 9, -1.79859, 3.77703, 2.33816, 0.899294, 0)
 19:5/0 = 0
-19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.5540657, 9, -7.5540657, 9, -1.7985859, -9, -1.978446)
+19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.55407, 9, -7.55407, 9, -1.79859, -9, -1.97845)
 20:5/0 = 0
 0:6/0 = 0
 0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -244,12 +250,12 @@ texture_region_size = Vector2i(18, 18)
 15:6/0 = 0
 15:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 16:6/0 = 0
-16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, -3.4173164, -7.01449, -3.2374573, -0.71943474, -9, -1.6187286)
+16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, -3.41732, -7.01449, -3.23746, -0.719435, -9, -1.61873)
 17:6/0 = 0
 18:6/0 = 0
-18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.5180225, -9, 9, -7.5540657, 9, -1.7985859, 3.7770329, 2.3381634)
+18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.51802, -9, 9, -7.55407, 9, -1.79859, 3.77703, 2.33816)
 19:6/0 = 0
-19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -1.7985878, -7.5540657, -0.5395756, -1.978445, -3.2374573, 0.8992939, -9, -2.6978807)
+19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -1.79859, -7.55407, -0.539576, -1.97845, -3.23746, 0.899294, -9, -2.69788)
 20:6/0 = 0
 0:7/0 = 0
 0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -262,9 +268,9 @@ texture_region_size = Vector2i(18, 18)
 4:7/0 = 0
 5:7/0 = 0
 6:7/0 = 0
-6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 1.0791531, -9, 1.2590117)
+6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 1.07915, -9, 1.25901)
 7:7/0 = 0
-7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 1.0791531, -9, 1.2590117)
+7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 1.07915, -9, 1.25901)
 8:7/0 = 0
 9:7/0 = 0
 10:7/0 = 0
@@ -402,9 +408,9 @@ script = ExtResource("28_1se55")
 position = Vector2(927, -328)
 shape = SubResource("CapsuleShape2D_aued2")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="Questions" type="CanvasLayer" parent="."]
 
-[node name="QuizTambah1" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah1" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -421,7 +427,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("6_n7a6r")
 
-[node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizTambah1"]
+[node name="Soalan1" type="TextureRect" parent="Questions/QuizTambah1"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -431,71 +437,71 @@ texture = ExtResource("6_hxe60")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah1"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah1"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah1"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah1"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah1"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah1"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah1"]
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah1/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -507,20 +513,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah1/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah1"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah1"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -528,12 +534,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -545,33 +551,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah1/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah2" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah2" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -589,7 +595,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("10_can37")
 
-[node name="Soalan2" type="TextureRect" parent="CanvasLayer/QuizTambah2"]
+[node name="Soalan2" type="TextureRect" parent="Questions/QuizTambah2"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -599,59 +605,59 @@ texture = ExtResource("7_3b28o")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah2"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah2"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah2"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah2"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah2"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah2"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah2"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -659,12 +665,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah2/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -676,20 +682,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah2/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah2"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah2"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -697,12 +703,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -714,33 +720,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah2/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah3" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah3" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -758,7 +764,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("12_xfpw0")
 
-[node name="Soalan3" type="TextureRect" parent="CanvasLayer/QuizTambah3"]
+[node name="Soalan3" type="TextureRect" parent="Questions/QuizTambah3"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -768,59 +774,59 @@ texture = ExtResource("8_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah3"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah3"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah3"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah3"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah3"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah3"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah3"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -828,12 +834,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah3/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -845,20 +851,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah3/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah3"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah3"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -866,12 +872,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -883,33 +889,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah3/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah4" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah4" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -927,7 +933,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("14_aued2")
 
-[node name="Soalan4" type="TextureRect" parent="CanvasLayer/QuizTambah4"]
+[node name="Soalan4" type="TextureRect" parent="Questions/QuizTambah4"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -937,59 +943,59 @@ texture = ExtResource("9_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah4"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah4"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah4"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69200003
-anchor_right = 0.65800005
-anchor_bottom = 0.69200003
-offset_left = -54.804047
-offset_top = -18.928009
-offset_right = 55.195953
-offset_bottom = 19.071991
+anchor_left = 0.658
+anchor_top = 0.692
+anchor_right = 0.658
+anchor_bottom = 0.692
+offset_left = -54.804
+offset_top = -18.928
+offset_right = 55.196
+offset_bottom = 19.072
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah4"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah4"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.836
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.836
-offset_left = -53.442017
-offset_top = -19.624023
-offset_right = 53.557983
-offset_bottom = 19.375977
+offset_left = -53.442
+offset_top = -19.624
+offset_right = 53.558
+offset_bottom = 19.376
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah4"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah4"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -997,12 +1003,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah4/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1014,20 +1020,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah4/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah4"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah4"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1035,12 +1041,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1052,33 +1058,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah4/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah5" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah5" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1096,7 +1102,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("16_1se55")
 
-[node name="Soalan5" type="TextureRect" parent="CanvasLayer/QuizTambah5"]
+[node name="Soalan5" type="TextureRect" parent="Questions/QuizTambah5"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1106,59 +1112,59 @@ texture = ExtResource("10_n7a6r")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah5"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah5"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah5"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah5"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah5"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah5"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah5"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1166,12 +1172,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah5/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1183,20 +1189,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah5/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah5"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah5"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1204,12 +1210,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1221,33 +1227,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah5/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah6" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah6" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1265,7 +1271,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("18_e1bfa")
 
-[node name="Soalan6" type="TextureRect" parent="CanvasLayer/QuizTambah6"]
+[node name="Soalan6" type="TextureRect" parent="Questions/QuizTambah6"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1275,59 +1281,59 @@ texture = ExtResource("11_can37")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah6"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah6"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah6"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah6"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah6"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah6"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah6"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1335,12 +1341,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah6/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1352,20 +1358,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah6/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah6"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah6"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1373,12 +1379,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1390,33 +1396,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah6/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah7" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah7" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1434,7 +1440,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("20_b2rar")
 
-[node name="Soalan7" type="TextureRect" parent="CanvasLayer/QuizTambah7"]
+[node name="Soalan7" type="TextureRect" parent="Questions/QuizTambah7"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1444,59 +1450,59 @@ texture = ExtResource("12_hmk6n")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah7"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah7"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah7"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah7"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah7"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah7"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah7"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1504,12 +1510,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah7/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1521,20 +1527,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah7/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah7"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah7"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1542,12 +1548,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1559,33 +1565,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah7/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah8" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah8" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1603,7 +1609,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("22_l6csc")
 
-[node name="Soalan8" type="TextureRect" parent="CanvasLayer/QuizTambah8"]
+[node name="Soalan8" type="TextureRect" parent="Questions/QuizTambah8"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1613,59 +1619,59 @@ texture = ExtResource("13_xfpw0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah8"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah8"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.688
 anchor_right = 0.358
 anchor_bottom = 0.688
-offset_left = -54.404007
-offset_top = -17.492004
-offset_right = 54.595993
-offset_bottom = 17.507996
+offset_left = -54.404
+offset_top = -17.492
+offset_right = 54.596
+offset_bottom = 17.508
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah8"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
+anchor_left = 0.658
 anchor_top = 0.689
-anchor_right = 0.65800005
+anchor_right = 0.658
 anchor_bottom = 0.689
-offset_left = -54.804047
-offset_top = -18.850998
-offset_right = 55.195953
-offset_bottom = 19.149002
+offset_left = -54.804
+offset_top = -18.851
+offset_right = 55.196
+offset_bottom = 19.149
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah8"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah8"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.83800006
-anchor_right = 0.65900004
-anchor_bottom = 0.83800006
-offset_left = -53.442017
-offset_top = -19.34201
-offset_right = 53.557983
-offset_bottom = 19.65799
+anchor_left = 0.659
+anchor_top = 0.838
+anchor_right = 0.659
+anchor_bottom = 0.838
+offset_left = -53.442
+offset_top = -19.342
+offset_right = 53.558
+offset_bottom = 19.658
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah8"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah8"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1673,12 +1679,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah8/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1690,20 +1696,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah8/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah8"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah8"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1711,12 +1717,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1728,33 +1734,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah8/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah9" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah9" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1772,7 +1778,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("24_62ecs")
 
-[node name="Soalan9" type="TextureRect" parent="CanvasLayer/QuizTambah9"]
+[node name="Soalan9" type="TextureRect" parent="Questions/QuizTambah9"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1782,59 +1788,59 @@ texture = ExtResource("14_l6tdh")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah9"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah9"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah9"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
+anchor_left = 0.658
 anchor_top = 0.698
-anchor_right = 0.65800005
+anchor_right = 0.658
 anchor_bottom = 0.698
-offset_left = -54.804047
+offset_left = -54.804
 offset_top = -19.082
-offset_right = 55.195953
+offset_right = 55.196
 offset_bottom = 18.918
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah9"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
-anchor_top = 0.83300006
-anchor_right = 0.35700002
-anchor_bottom = 0.83300006
-offset_left = -54.76602
-offset_top = -19.547028
-offset_right = 54.23398
-offset_bottom = 19.452972
+anchor_left = 0.357
+anchor_top = 0.833
+anchor_right = 0.357
+anchor_bottom = 0.833
+offset_left = -54.766
+offset_top = -19.547
+offset_right = 54.234
+offset_bottom = 19.453
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah9"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.836
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.836
-offset_left = -53.442017
-offset_top = -19.624023
-offset_right = 53.557983
-offset_bottom = 19.375977
+offset_left = -53.442
+offset_top = -19.624
+offset_right = 53.558
+offset_bottom = 19.376
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah9"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah9"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1842,12 +1848,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah9/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1859,20 +1865,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah9/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah9"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah9"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1880,12 +1886,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1897,33 +1903,33 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah9/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="QuizTambah10" type="Control" parent="CanvasLayer"]
+[node name="QuizTambah10" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1941,7 +1947,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("26_allxr")
 
-[node name="Soalan10" type="TextureRect" parent="CanvasLayer/QuizTambah10"]
+[node name="Soalan10" type="TextureRect" parent="Questions/QuizTambah10"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1951,59 +1957,59 @@ texture = ExtResource("15_qnper")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizTambah10"]
+[node name="ButtonA" type="Button" parent="Questions/QuizTambah10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
 anchor_top = 0.708
 anchor_right = 0.358
 anchor_bottom = 0.716
-offset_left = -54.404007
-offset_top = -17.671997
-offset_right = 54.595993
-offset_bottom = 14.455994
+offset_left = -54.404
+offset_top = -17.672
+offset_right = 54.596
+offset_bottom = 14.456
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizTambah10"]
+[node name="ButtonB" type="Button" parent="Questions/QuizTambah10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.70600003
+anchor_top = 0.706
 anchor_right = 0.657
-anchor_bottom = 0.70600003
-offset_left = -55.166016
-offset_top = -18.95401
-offset_right = 54.833984
-offset_bottom = 19.04599
+anchor_bottom = 0.706
+offset_left = -55.166
+offset_top = -18.954
+offset_right = 54.834
+offset_bottom = 19.046
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizTambah10"]
+[node name="ButtonC" type="Button" parent="Questions/QuizTambah10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
-anchor_top = 0.85200006
-anchor_right = 0.35700002
-anchor_bottom = 0.85200006
-offset_left = -54.76602
-offset_top = -19.368011
-offset_right = 54.23398
-offset_bottom = 19.631989
+anchor_left = 0.357
+anchor_top = 0.852
+anchor_right = 0.357
+anchor_bottom = 0.852
+offset_left = -54.766
+offset_top = -19.368
+offset_right = 54.234
+offset_bottom = 19.632
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizTambah10"]
+[node name="ButtonD" type="Button" parent="Questions/QuizTambah10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.85200006
-anchor_right = 0.65900004
-anchor_bottom = 0.85200006
-offset_left = -53.442017
-offset_top = -19.368011
-offset_right = 53.557983
-offset_bottom = 19.631989
+anchor_left = 0.659
+anchor_top = 0.852
+anchor_right = 0.659
+anchor_bottom = 0.852
+offset_left = -53.442
+offset_top = -19.368
+offset_right = 53.558
+offset_bottom = 19.632
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizTambah10"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah10"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -2011,12 +2017,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah10/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -2028,20 +2034,20 @@ texture = ExtResource("16_wqpw3")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah10/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizTambah10"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizTambah10"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -2049,12 +2055,12 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -2066,100 +2072,134 @@ texture = ExtResource("17_ubgxf")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizTambah10/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizTambah10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
+[node name="Diamonds" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="Diamonds"]
+layout_mode = 3
+anchor_left = 0.05
+anchor_top = 0.099
+anchor_right = 0.321
+anchor_bottom = 0.185
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Diamonds/Control"]
+layout_mode = 0
+offset_bottom = 175.0
+theme_override_constants/separation = 35
+
+[node name="heart" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("29_tka0g")]
+layout_mode = 2
+
+[node name="bluegem" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("30_53l8l")]
+layout_mode = 2
+
+[node name="greengem" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("31_0i4li")]
+layout_mode = 2
+
+[node name="yellowgem" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("34_l3s3h")]
+layout_mode = 2
+
+[node name="purplegem" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("32_hsnuj")]
+layout_mode = 2
+
+[node name="redgem" parent="Diamonds/Control/VBoxContainer" instance=ExtResource("33_fgs5b")]
+layout_mode = 2
+
 [connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonA" to="CanvasLayer/QuizTambah1" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonB" to="CanvasLayer/QuizTambah1" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonC" to="CanvasLayer/QuizTambah1" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/ButtonD" to="CanvasLayer/QuizTambah1" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah1" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah1" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah1/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah1" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonA" to="CanvasLayer/QuizTambah2" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonB" to="CanvasLayer/QuizTambah2" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonC" to="CanvasLayer/QuizTambah2" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/ButtonD" to="CanvasLayer/QuizTambah2" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah2" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah2" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah2/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah2" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonA" to="CanvasLayer/QuizTambah3" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonB" to="CanvasLayer/QuizTambah3" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonC" to="CanvasLayer/QuizTambah3" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/ButtonD" to="CanvasLayer/QuizTambah3" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah3" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah3/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah3" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonA" to="CanvasLayer/QuizTambah4" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonB" to="CanvasLayer/QuizTambah4" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonC" to="CanvasLayer/QuizTambah4" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/ButtonD" to="CanvasLayer/QuizTambah4" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah4" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah4" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah4/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah4" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonA" to="CanvasLayer/QuizTambah5" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonB" to="CanvasLayer/QuizTambah5" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonC" to="GameManager" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/ButtonD" to="CanvasLayer/QuizTambah5" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah5" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah5" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah5/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah5" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonA" to="CanvasLayer/QuizTambah6" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonB" to="CanvasLayer/QuizTambah6" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonC" to="CanvasLayer/QuizTambah6" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/ButtonD" to="CanvasLayer/QuizTambah6" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah6" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah6/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah6" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonA" to="CanvasLayer/QuizTambah7" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonB" to="CanvasLayer/QuizTambah7" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonC" to="CanvasLayer/QuizTambah7" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/ButtonD" to="CanvasLayer/QuizTambah7" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah7" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah7" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah7/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah7" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonA" to="CanvasLayer/QuizTambah8" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonB" to="CanvasLayer/QuizTambah8" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonC" to="CanvasLayer/QuizTambah8" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/ButtonD" to="CanvasLayer/QuizTambah8" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah8" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah8" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah8/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah8" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonA" to="CanvasLayer/QuizTambah9" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonB" to="CanvasLayer/QuizTambah9" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonC" to="CanvasLayer/QuizTambah9" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/ButtonD" to="CanvasLayer/QuizTambah9" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah9" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah9" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah9/WrongPopUp/retrybtn" to="GameManager" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonA" to="CanvasLayer/QuizTambah10" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonB" to="CanvasLayer/QuizTambah10" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonC" to="CanvasLayer/QuizTambah10" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/ButtonD" to="CanvasLayer/QuizTambah10" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizTambah10" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/WrongPopUp/tutpbtn" to="CanvasLayer/QuizTambah10" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizTambah10/WrongPopUp/retrybtn" to="CanvasLayer/QuizTambah10" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/ButtonA" to="Questions/QuizTambah1" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/ButtonB" to="Questions/QuizTambah1" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/ButtonC" to="Questions/QuizTambah1" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/ButtonD" to="Questions/QuizTambah1" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/CorrectPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/retrybtn" to="Questions/QuizTambah1" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonA" to="Questions/QuizTambah2" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonB" to="Questions/QuizTambah2" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonC" to="Questions/QuizTambah2" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonD" to="Questions/QuizTambah2" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/CorrectPopUp/tutpbtn" to="Questions/QuizTambah2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/WrongPopUp/tutpbtn" to="Questions/QuizTambah2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/WrongPopUp/retrybtn" to="Questions/QuizTambah2" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/ButtonA" to="Questions/QuizTambah3" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/ButtonB" to="Questions/QuizTambah3" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/ButtonC" to="Questions/QuizTambah3" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/ButtonD" to="Questions/QuizTambah3" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/WrongPopUp/tutpbtn" to="Questions/QuizTambah3" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/WrongPopUp/retrybtn" to="Questions/QuizTambah3" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/ButtonA" to="Questions/QuizTambah4" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/ButtonB" to="Questions/QuizTambah4" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/ButtonC" to="Questions/QuizTambah4" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/ButtonD" to="Questions/QuizTambah4" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/CorrectPopUp/tutpbtn" to="Questions/QuizTambah4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/WrongPopUp/tutpbtn" to="Questions/QuizTambah4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah4/WrongPopUp/retrybtn" to="Questions/QuizTambah4" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonA" to="Questions/QuizTambah5" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonB" to="Questions/QuizTambah5" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonC" to="GameManager" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonD" to="Questions/QuizTambah5" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/CorrectPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/WrongPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/WrongPopUp/retrybtn" to="Questions/QuizTambah5" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/ButtonA" to="Questions/QuizTambah6" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/ButtonB" to="Questions/QuizTambah6" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/ButtonC" to="Questions/QuizTambah6" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/ButtonD" to="Questions/QuizTambah6" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/WrongPopUp/tutpbtn" to="Questions/QuizTambah6" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/WrongPopUp/retrybtn" to="Questions/QuizTambah6" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/ButtonA" to="Questions/QuizTambah7" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/ButtonB" to="Questions/QuizTambah7" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/ButtonC" to="Questions/QuizTambah7" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/ButtonD" to="Questions/QuizTambah7" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/CorrectPopUp/tutpbtn" to="Questions/QuizTambah7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/WrongPopUp/tutpbtn" to="Questions/QuizTambah7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah7/WrongPopUp/retrybtn" to="Questions/QuizTambah7" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/ButtonA" to="Questions/QuizTambah8" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/ButtonB" to="Questions/QuizTambah8" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/ButtonC" to="Questions/QuizTambah8" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/ButtonD" to="Questions/QuizTambah8" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/CorrectPopUp/tutpbtn" to="Questions/QuizTambah8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/WrongPopUp/tutpbtn" to="Questions/QuizTambah8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah8/WrongPopUp/retrybtn" to="Questions/QuizTambah8" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/ButtonA" to="Questions/QuizTambah9" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/ButtonB" to="Questions/QuizTambah9" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/ButtonC" to="Questions/QuizTambah9" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/ButtonD" to="Questions/QuizTambah9" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/CorrectPopUp/tutpbtn" to="Questions/QuizTambah9" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/WrongPopUp/tutpbtn" to="Questions/QuizTambah9" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/WrongPopUp/retrybtn" to="GameManager" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/ButtonA" to="Questions/QuizTambah10" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/ButtonB" to="Questions/QuizTambah10" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/ButtonC" to="Questions/QuizTambah10" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/ButtonD" to="Questions/QuizTambah10" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/CorrectPopUp/tutpbtn" to="Questions/QuizTambah10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/WrongPopUp/tutpbtn" to="Questions/QuizTambah10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah10/WrongPopUp/retrybtn" to="Questions/QuizTambah10" method="_on_retrybtn_pressed"]
