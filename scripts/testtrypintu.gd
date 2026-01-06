@@ -1,6 +1,6 @@
 extends Area2D
 
-@onready var quiz = $"../CanvasLayer/QuizTambah1"
+@onready var quiz = $"../Questions/QuizTambah1"
 
 func _on_body_entered(body):
 	print("MASUK AREA:", body)
