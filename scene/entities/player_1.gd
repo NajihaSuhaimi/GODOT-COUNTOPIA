@@ -12,7 +12,7 @@ var took_damage = false
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
 @onready var game_manager: Node = $"../GameManager"
-
+ 
 func respawn():
 	took_damage = true
 	
@@ -34,6 +34,12 @@ func respawn():
 
 
 func _physics_process(delta):
+	
+	if get_tree().paused:
+		velocity = Vector2.ZERO
+		move_and_slide()
+		return 
+		
 	var gravity = get_gravity().y
 
 	# Gravity handling

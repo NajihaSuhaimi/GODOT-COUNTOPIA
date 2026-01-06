@@ -15,6 +15,11 @@ func _ready() -> void:
 	
 	heart.text = str(GameState.player_health)
 
+#called untuk update question yang dah complete
+func add_question_complete():
+	GameState.question_complete += 1
+	quest_complete.text = str(GameState.question_complete)
+	print("✅ QUESTION COMPLETE:", GameState.question_complete)
 
 func update_player_health(amount: int):
 	GameState.player_health += amount
@@ -50,16 +55,6 @@ func add_score_purple():
 	GameState.purple += 1
 	purplegem.text = str(GameState.purple)
 	
-	quest_complete.text = str(GameState.question_complete)
-
-	# CONNECT SEMUA QUIZ SEKALI SAHAJA
-	for quiz in get_tree().get_nodes_in_group("quiz"):
-		quiz.quiz_completed.connect(_on_quiz_completed)
-
-func _on_quiz_completed():
-	GameState.question_complete += 1
-	quest_complete.text = str(GameState.question_complete)
-	print("✅ QUEST COMPLETE:", GameState.question_complete)
 		
 func game_over():
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")
@@ -84,15 +79,3 @@ func _on_retrybtn_pressed() -> void:
 func _on_button_c_pressed() -> void:
 	pass # Replace with function body.
 	
-	
-	
-
-	
-
-
-func _on_quiz_tambah_1_quiz_answered_correct() -> void:
-	pass # Replace with function body.
-
-
-func _on_quiz_tambah_1_quiz_completed() -> void:
-	pass # Replace with function body.
