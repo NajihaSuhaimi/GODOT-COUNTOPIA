@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://bujltxum4rkgp"]
+[gd_scene load_steps=9 format=3 uid="uid://bujltxum4rkgp"]
 
 [ext_resource type="Script" uid="uid://qrpk5ersgvhn" path="res://scripts/main_menu.gd" id="1_osntc"]
+[ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="2_hxu56"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8bhj"]
 modulate_color = Color(0.381703, 0.381703, 0.381703, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5422f"]
-bg_color = Color(1, 1, 1, 1)
+bg_color = Color(0.23529412, 0.16470589, 0.11764706, 1)
 corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
@@ -65,17 +66,19 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -119.0
-offset_top = -160.0
-offset_right = 120.0
-offset_bottom = -91.0
+offset_left = -167.5
+offset_top = -145.0
+offset_right = 168.5
+offset_bottom = -76.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.98039216, 0.64705884, 0.101960786, 1)
+theme_override_colors/font_shadow_color = Color(1, 0.48235294, 0, 0.42352942)
 theme_override_constants/shadow_offset_x = 6
 theme_override_constants/shadow_offset_y = 3
-theme_override_font_sizes/font_size = 54
-text = "Countopia"
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 64
+text = "COUNTOPIA"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -97,11 +100,12 @@ theme_override_constants/separation = 6
 [node name="Start Game" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.93333334, 0.90588236, 0.8666667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
@@ -111,11 +115,12 @@ text = "Start Game"
 [node name="How To Play" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.93333334, 0.90588236, 0.8666667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
@@ -125,11 +130,12 @@ text = "How To Play"
 [node name="Quit" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.93333334, 0.90588236, 0.8666667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
@@ -137,6 +143,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Quit"
 
 [node name="How To Play Panel" type="Panel" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 22.0
 offset_top = 78.0
@@ -178,6 +185,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
 text = "Back"
 
 [node name="Level Selection Panel" type="Panel" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

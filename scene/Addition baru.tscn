@@ -663,6 +663,7 @@ offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah2"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -701,6 +702,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah2"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
