@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="3_f40pi"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="4_fq4rq"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="4_snvvm"]
-[ext_resource type="Script" path="res://scripts/testtrypintu.gd" id="6_6clik"]
+[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/testtrypintu.gd" id="6_6clik"]
 [ext_resource type="Script" uid="uid://b48n6vvcuqop6" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="7_poxer"]
 [ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="8_5cwt3"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="9_e818r"]
