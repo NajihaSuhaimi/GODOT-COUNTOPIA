@@ -8,6 +8,7 @@ var took_damage = false
 @onready var yellowgem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/yellowgem/Label"
 @onready var redgem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/redgem/Label"
 @onready var purplegem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/purplegem/Label"
+@onready var quest_complete: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer2/quest_complete/Label"
 
 ## Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -49,6 +50,17 @@ func add_score_purple():
 	GameState.purple += 1
 	purplegem.text = str(GameState.purple)
 	
+	quest_complete.text = str(GameState.question_complete)
+
+	# CONNECT SEMUA QUIZ SEKALI SAHAJA
+	for quiz in get_tree().get_nodes_in_group("quiz"):
+		quiz.quiz_completed.connect(_on_quiz_completed)
+
+func _on_quiz_completed():
+	GameState.question_complete += 1
+	quest_complete.text = str(GameState.question_complete)
+	print("✅ QUEST COMPLETE:", GameState.question_complete)
+		
 func game_over():
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")
 #
@@ -76,3 +88,11 @@ func _on_button_c_pressed() -> void:
 	
 
 	
+
+
+func _on_quiz_tambah_1_quiz_answered_correct() -> void:
+	pass # Replace with function body.
+
+
+func _on_quiz_tambah_1_quiz_completed() -> void:
+	pass # Replace with function body.

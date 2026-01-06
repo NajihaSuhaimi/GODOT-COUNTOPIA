@@ -1,6 +1,10 @@
 extends Control
 
 # ----------------- 
+# SIGNAL untuk detect sama ada dah complete or not
+# -----------------
+
+# ----------------- 
 # JAWAPAN 
 # 0 = A, 1 = B, 2 = C, 3 = D
 # -----------------
@@ -58,10 +62,21 @@ func answer_selected(index: int) -> void:
 # ----------------- 
 # BETUL/SALAH
 # -----------------
-func show_correct() -> void:
+var completed := false
+
+func show_correct():
+	if completed:
+		return
+	completed = true
+
 	correct_popup.visible = true
 	disable_buttons()
-	
+
+	var gm = get_tree().get_first_node_in_group("game_manager")
+	if gm:
+		gm.on_quiz_completed()
+	else:
+		print("❌ GameManager not found")
 
 func show_wrong() -> void:
 	wrong_popup.visible = true
