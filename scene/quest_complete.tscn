@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg61ju2ws0wtl"]
+
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="1_gp33r"]
+[ext_resource type="Texture2D" uid="uid://c1jwjy4sug0xd" path="res://assets/kenney_gategem/Sprites/Tiles/Double/star.png" id="2_gp33r"]
+
+[node name="quest_complete" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 44.0
+offset_bottom = 44.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = -17.0
+offset_right = 64.0
+offset_bottom = 50.0
+theme_override_fonts/font = ExtResource("1_gp33r")
+theme_override_font_sizes/font_size = 32
+text = "0"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 56.0
+offset_top = -17.0
+offset_right = 106.0
+offset_bottom = 50.0
+theme_override_fonts/font = ExtResource("1_gp33r")
+theme_override_font_sizes/font_size = 32
+text = "/10"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3.375001, -4.187501)
+scale = Vector2(0.38085938, 0.4248047)
+texture = ExtResource("2_gp33r")

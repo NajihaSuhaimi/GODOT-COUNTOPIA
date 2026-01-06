@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://eu5kdi47601n"]
+
+[ext_resource type="Script" uid="uid://dksrnvf52xgpb" path="res://scripts/greendiamond.gd" id="1_xtryn"]
+[ext_resource type="Texture2D" uid="uid://ve227ro6hwp3" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_green.png" id="2_vmiul"]
+[ext_resource type="AudioStream" uid="uid://bwedpkrw7uw5y" path="res://sound/coinpickup.mp3" id="3_hds32"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_166ju"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vmiul")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j373w"]
+radius = 9.055386
+
+[node name="greendiamond" type="Area2D"]
+script = ExtResource("1_xtryn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4.7683716e-07, 1.0000002)
+scale = Vector2(0.28320315, 0.28320315)
+sprite_frames = SubResource("SpriteFrames_166ju")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_j373w")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_hds32")
+bus = &"SFX"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

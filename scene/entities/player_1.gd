@@ -7,9 +7,30 @@ extends CharacterBody2D
 @export var coyote_time := 0.075
 
 var coyote_timer := 0.0
+var took_damage = false
 
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
+
+func respawn():
+	took_damage = true
+	
+	# Matikan pergerakan & collision
+	velocity = Vector2.ZERO
+	$CollisionShape2D.disabled = true
+	visible = false
+	
+	await get_tree().create_timer(0.5).timeout
+	
+	# Pindah ke spawn point
+	global_position = Vector2(199, -64)
+	
+	visible = true
+	$CollisionShape2D.disabled = false
+	
+	await get_tree().create_timer(0.3).timeout
+	took_damage = false
+
 
 func _physics_process(delta):
 	var gravity = get_gravity().y
@@ -25,6 +46,14 @@ func _physics_process(delta):
 		coyote_timer += delta
 	else:
 		coyote_timer = 0
+		
+	for i in get_slide_collision_count():
+		var collision = get_slide_collision(i)
+		
+		if collision.get_collider().name == "TileMapspikes": #if player touches anything drawn in tilemapspikes
+			if took_damage == false:
+				took_damage = true
+				respawn() #respawn the player
 
 	# Jump (sekali sahaja)
 	if Input.is_action_just_pressed("jump") and (is_on_floor() or coyote_timer < coyote_time):
@@ -44,6 +73,7 @@ func _physics_process(delta):
 	handle_animation(direction)
 	
 	move_and_slide()
+	
 
 func handle_animation(direction : float) -> void:
 	if abs(direction) > 0.1 and is_on_floor():
