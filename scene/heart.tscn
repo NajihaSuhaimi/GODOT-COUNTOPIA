@@ -1,25 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://cmvjauq6hg131"]
+[gd_scene load_steps=4 format=3 uid="uid://cmvjauq6hg131"]
 
 [ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="1_mskdw"]
 [ext_resource type="Texture2D" uid="uid://cpj31gunp6xfa" path="res://assets/kenney_gategem/Sprites/Tiles/Double/heart.png" id="2_20qfy"]
-[ext_resource type="Texture2D" uid="uid://ve227ro6hwp3" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_green.png" id="3_teiad"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_a48xo"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_20qfy")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_0475l"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("3_teiad")
 }],
 "loop": true,
 "name": &"default",
@@ -38,6 +26,7 @@ offset_left = 24.0
 offset_top = -15.0
 offset_right = 64.0
 offset_bottom = 17.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("1_mskdw")
 theme_override_font_sizes/font_size = 32
 text = "0"
@@ -47,9 +36,3 @@ position = Vector2(-4, -3)
 scale = Vector2(0.45, 0.45)
 sprite_frames = SubResource("SpriteFrames_a48xo")
 autoplay = "default"
-
-[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
-visible = false
-position = Vector2(4.7683716e-07, 1.0000002)
-scale = Vector2(0.28320315, 0.28320315)
-sprite_frames = SubResource("SpriteFrames_0475l")
