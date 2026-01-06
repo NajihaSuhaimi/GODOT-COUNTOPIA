@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://b2yjpvr3yj6a6"]
 
-[ext_resource type="Script" path="res://scripts/pause_menu.gd" id="1_73s63"]
-[ext_resource type="Shader" path="res://PauseMenu.gdshader" id="2_meggm"]
+[ext_resource type="Script" uid="uid://bc1n3r3qn3srg" path="res://scripts/pause_menu.gd" id="1_73s63"]
+[ext_resource type="Shader" uid="uid://bta8arsybd8pt" path="res://PauseMenu.gdshader" id="2_meggm"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_s7okt"]
 shader = ExtResource("2_meggm")
@@ -64,8 +64,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wlmwg"]
 _data = {
-"RESET": SubResource("Animation_sqm7i"),
-"blur": SubResource("Animation_ruh4b")
+&"RESET": SubResource("Animation_sqm7i"),
+&"blur": SubResource("Animation_ruh4b")
 }
 
 [node name="PauseMenu" type="Control"]
@@ -129,7 +129,7 @@ text = "Quit"
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../ColorRect")
 libraries = {
-"": SubResource("AnimationLibrary_wlmwg")
+&"": SubResource("AnimationLibrary_wlmwg")
 }
 
 [connection signal="pressed" from="PanelContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]

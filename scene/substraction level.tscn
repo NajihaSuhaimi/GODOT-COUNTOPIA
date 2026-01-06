@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://f2og2rajpid3"]
+[gd_scene load_steps=33 format=3 uid="uid://f2og2rajpid3"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_t1tmm"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://cnmxhvvfcibi1" path="res://scene/entities/quiz tolak/quiz_tolak_1.gd" id="3_mwo46"]
 [ext_resource type="Texture2D" uid="uid://wif21kiiidl1" path="res://soalanQuiz/soalanTolak/tolak1.png" id="3_s8444"]
 [ext_resource type="Texture2D" uid="uid://debtqjkgyesmx" path="res://soalanQuiz/soalanTolak/tolak2.png" id="4_mwo46"]
+[ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="4_p8scs"]
 [ext_resource type="Texture2D" uid="uid://bbi0w1l5g1xh2" path="res://soalanQuiz/soalanTolak/tolak3.png" id="5_41v6j"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="5_mebfp"]
 [ext_resource type="Texture2D" uid="uid://b7l51w6kc8jac" path="res://soalanQuiz/soalanTolak/tolak4.png" id="6_mebfp"]
@@ -384,6 +385,9 @@ tile_set = SubResource("TileSet_115wi")
 rendering_quadrant_size = 18
 format = 2
 layer_0/tile_data = PackedInt32Array(-65449, 0, 805306368, -65448, 0, 805306368, -65447, 0, 805306368, 327766, 0, 805306368, 327765, 0, 805306368, 393308, 0, 805306368, 393309, 0, 805306368, 393310, 0, 805306368, 393319, 0, 805306368, 393320, 0, 805306368, 393321, 0, 805306368, 458864, 0, 805306368, 458865, 0, 805306368, 458866, 0, 805306368, -65426, 0, 805306368)
+
+[node name="Player1" parent="." instance=ExtResource("4_p8scs")]
+position = Vector2(199, -64)
 
 [node name="Questions" type="CanvasLayer" parent="."]
 
@@ -1959,7 +1963,6 @@ offset_top = -17.672
 offset_right = 54.596
 offset_bottom = 17.328
 flat = true
-script = ExtResource("17_a4udj")
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak10"]
 layout_mode = 1

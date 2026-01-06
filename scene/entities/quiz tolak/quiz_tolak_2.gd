@@ -15,6 +15,8 @@ extends Control
 @onready var wrong_popup: Control = $WrongPopUp
 
 func _ready() -> void:
+	print("Correct:", correct_popup)
+	print("Wrong:", wrong_popup)
 	#SHOW QUIZ
 	visible = false
 	#CORRECT/WRONG INVISIBLE
