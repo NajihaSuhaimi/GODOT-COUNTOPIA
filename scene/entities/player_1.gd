@@ -11,6 +11,7 @@ var took_damage = false
 
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
+@onready var game_manager: Node = $"../GameManager"
 
 func respawn():
 	took_damage = true
@@ -52,7 +53,7 @@ func _physics_process(delta):
 		
 		if collision.get_collider().name == "TileMapspikes": #if player touches anything drawn in tilemapspikes
 			if took_damage == false:
-				took_damage = true
+				game_manager.update_player_health(-1)
 				respawn() #respawn the player
 
 	# Jump (sekali sahaja)

@@ -2,24 +2,52 @@ extends Node
 #
 var took_damage = false
 
+@onready var heart: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/heart/Label"
+@onready var bluegem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/bluegem/Label"
+@onready var greengem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/greengem/Label"
+@onready var yellowgem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/yellowgem/Label"
+@onready var redgem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/redgem/Label"
+@onready var purplegem: Control = $"../Diamonds/Control/HBoxContainer/VBoxContainer/purplegem/Label"
 
-
-
-#@onready var score: Control = $"../CanvasLayer/Control/VBoxContainer/score/Label"
-#
 ## Called when the node enters the scene tree for the first time.
-#func _ready() -> void:
-	#
-	#print(GameState.player_health)
-#
-#
-#func update_player_health(amount: int):
-	#GameState.player_health += amount
-	#heart.text = str(Game)
-#
-#func add_score():
-	#GameState.score += 1
-	#score.text = str(GameState.score)
+func _ready() -> void:
+	
+	heart.text = str(GameState.player_health)
+
+
+func update_player_health(amount: int):
+	GameState.player_health += amount
+	heart.text = str(GameState.player_health)
+	
+
+func _process(delta: float) -> void:
+	
+	if GameState.player_health == 0:
+		print("Game over")
+
+func add_score_blue():
+	GameState.blue += 1
+	bluegem.text = str(GameState.blue)
+
+	
+func add_score_green():
+	GameState.green += 1
+	greengem.text = str(GameState.green)
+
+	
+func add_score_red():
+	GameState.red += 1
+	redgem.text = str(GameState.red)
+
+	
+func add_score_yellow():
+	GameState.yellow += 1
+	yellowgem.text = str(GameState.yellow)
+
+	
+func add_score_purple():
+	GameState.purple += 1
+	purplegem.text = str(GameState.purple)
 	
 func game_over():
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")

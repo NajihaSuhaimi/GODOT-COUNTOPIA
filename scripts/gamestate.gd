@@ -1,12 +1,20 @@
 extends Node
-#
-#var score: int = 0
+
+var blue: int = 0
+var green: int = 0
+var red: int = 0
+var yellow: int = 0
+var purple: int = 0
 #var level: int = 1
-#var player_health: int = 10
-#
-#
-#func reset():
-	#score = 0
+var player_health: int = 10
+
+
+func reset():
+	blue = 0
+	green = 0
+	red = 0
+	yellow  = 0
+	purple  = 0
 	#level = 1
-	#player_health = 10
-	#
+	player_health = 10
+	
