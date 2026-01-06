@@ -16,19 +16,21 @@ extends Control
 
 func _ready() -> void:
 	#SHOW QUIZ
-	visible = true
+	visible = false
 	#CORRECT/WRONG INVISIBLE
 	correct_popup.visible = false
 	wrong_popup.visible = false
 	enable_buttons()
 # ----------------- 
-# DIPANGGIL DARI DOOR CUBA TRYY JE NI
+# DIPANGGIL DARI DOOR
 # -----------------
 func open_quiz() -> void:
 	visible = true                      # Quiz muncul bila dipanggil
 	correct_popup.visible = false
 	wrong_popup.visible = false
 	enable_buttons()
+	get_tree().paused = true
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 # ----------------- 
 # SIGNAL BUTTON
@@ -58,10 +60,24 @@ func answer_selected(index: int) -> void:
 # ----------------- 
 # BETUL/SALAH
 # -----------------
-func show_correct() -> void:
+var completed := false
+
+func show_correct():
+	if completed:
+		return
+	completed = true
 	correct_popup.visible = true
 	disable_buttons()
 	
+	# 🔥 DIRECT CALL GAME MANAGER
+	var gm = get_tree().get_first_node_in_group("game_manager")
+	if gm:
+		gm.add_question_complete()
+	else:
+		print("❌ GameManager not found")
+		
+func is_completed() -> bool:
+	return completed
 
 func show_wrong() -> void:
 	wrong_popup.visible = true
@@ -81,7 +97,8 @@ func _on_tutpbtn_pressed() -> void:
 	correct_popup.visible = false
 	wrong_popup.visible = false
 	visible = false
-
+	get_tree().paused = false
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 # ----------------- 
 # UTILITIES 
 # -----------------

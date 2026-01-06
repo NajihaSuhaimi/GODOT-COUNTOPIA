@@ -834,6 +834,7 @@ offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah3"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -872,6 +873,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah3"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1003,6 +1005,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah4"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1041,6 +1044,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah4"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1172,6 +1176,7 @@ offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah5"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1210,6 +1215,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah5"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1341,6 +1347,7 @@ offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah6"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1379,6 +1386,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah6"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1510,6 +1518,7 @@ offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah7"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1548,6 +1557,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah7"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1679,6 +1689,7 @@ offset_bottom = 19.658
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah8"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1717,6 +1728,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah8"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1848,6 +1860,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah9"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1886,6 +1899,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah9"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -2017,6 +2031,7 @@ offset_bottom = 19.632
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah10"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -2055,6 +2070,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah10"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0

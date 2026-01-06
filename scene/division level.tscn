@@ -4,27 +4,27 @@
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_87j3k"]
 [ext_resource type="Texture2D" uid="uid://deou6xonq17p5" path="res://soalanQuiz/soalanBahagi/bahagi1.png" id="4_7iyk7"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
+[ext_resource type="Script" uid="uid://bh5u6lumgwjte" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
 [ext_resource type="Texture2D" uid="uid://dmvvnjmgavkep" path="res://soalanQuiz/soalanBahagi/bahagi2.png" id="5_pwsjk"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="6_e6tc1"]
 [ext_resource type="Texture2D" uid="uid://dy2qyc1udalcq" path="res://soalanQuiz/soalanBahagi/bahagi3.png" id="6_la7yh"]
 [ext_resource type="Texture2D" uid="uid://c0jvbm38p0p85" path="res://soalanQuiz/soalanBahagi/bahagi4.png" id="7_a78qq"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="7_jlxl0"]
 [ext_resource type="Texture2D" uid="uid://djfafj4q0sgkx" path="res://soalanQuiz/soalanBahagi/bahagi5.png" id="8_c86bv"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
+[ext_resource type="Script" uid="uid://pwuqekyybveo" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
 [ext_resource type="Texture2D" uid="uid://dmb47t6wl2op0" path="res://soalanQuiz/soalanBahagi/bahagi6.png" id="9_cjii5"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
+[ext_resource type="Script" uid="uid://vdnooeyf4rrm" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
 [ext_resource type="Texture2D" uid="uid://besf5yts6lmsy" path="res://soalanQuiz/soalanBahagi/bahagi7.png" id="10_t6ob6"]
 [ext_resource type="Texture2D" uid="uid://dng2opd7ug2oh" path="res://soalanQuiz/soalanBahagi/bahagi8.png" id="11_eae3p"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
+[ext_resource type="Script" uid="uid://ciwgp0c8tb7d1" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
 [ext_resource type="Texture2D" uid="uid://bq0c55gjfnhp0" path="res://soalanQuiz/soalanBahagi/bahagi9.png" id="12_jo6br"]
 [ext_resource type="Texture2D" uid="uid://le4hhrkj6mht" path="res://soalanQuiz/soalanBahagi/bahagi10.png" id="13_nx25q"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
+[ext_resource type="Script" uid="uid://cbqxv1ktfpsn0" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
+[ext_resource type="Script" uid="uid://tg50eey6o8ft" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
+[ext_resource type="Script" uid="uid://bin1ltsogrjsh" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
+[ext_resource type="Script" uid="uid://cnoyvb5erlp47" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
+[ext_resource type="Script" uid="uid://bpfe5rqkco6xq" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
+[ext_resource type="Script" uid="uid://tog0m65aris8" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -266,9 +266,9 @@ layer_0/tile_data = PackedInt32Array(-131072, 327680, 1, -131071, 262144, 1, -13
 [node name="Player1" parent="." instance=ExtResource("3_87j3k")]
 position = Vector2(86, -55)
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="Questions" type="CanvasLayer" parent="."]
 
-[node name="QuizBahagi1" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi1" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -286,7 +286,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("4_fny4f")
 
-[node name="Soalan1" type="TextureRect" parent="CanvasLayer/QuizBahagi1"]
+[node name="Soalan1" type="TextureRect" parent="Questions/QuizBahagi1"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -296,7 +296,7 @@ texture = ExtResource("4_7iyk7")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi1"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -309,7 +309,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi1"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -322,7 +322,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi1"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -335,7 +335,7 @@ offset_right = 53.596
 offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi1"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -348,14 +348,14 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi1"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi1"]
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi1/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -372,7 +372,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi1/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -385,7 +385,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi1"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi1"]
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -393,7 +393,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi1/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -410,7 +410,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi1/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -423,7 +423,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi1/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -436,7 +436,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi2" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi2" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -454,7 +454,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("8_e1026")
 
-[node name="Soalan2" type="TextureRect" parent="CanvasLayer/QuizBahagi2"]
+[node name="Soalan2" type="TextureRect" parent="Questions/QuizBahagi2"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -464,7 +464,7 @@ texture = ExtResource("5_pwsjk")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi2"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -477,7 +477,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi2"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -490,7 +490,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi2"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -503,7 +503,7 @@ offset_right = 53.596
 offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi2"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -516,14 +516,15 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi2"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi2"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi2/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -540,7 +541,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi2/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -553,7 +554,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi2"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi2"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -561,7 +563,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi2/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -578,7 +580,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi2/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -591,7 +593,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi2/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -604,7 +606,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi3" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi3" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -622,7 +624,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("10_n45l7")
 
-[node name="Soalan3" type="TextureRect" parent="CanvasLayer/QuizBahagi3"]
+[node name="Soalan3" type="TextureRect" parent="Questions/QuizBahagi3"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -632,7 +634,7 @@ texture = ExtResource("6_la7yh")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi3"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -645,7 +647,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi3"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -658,7 +660,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi3"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -671,7 +673,7 @@ offset_right = 53.596
 offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi3"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -684,14 +686,15 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi3"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi3"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi3/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -708,7 +711,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi3/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -721,7 +724,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi3"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi3"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -729,7 +733,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi3/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -746,7 +750,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi3/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -759,7 +763,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi3/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -772,7 +776,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi4" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi4" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -790,7 +794,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("12_hjreh")
 
-[node name="Soalan4" type="TextureRect" parent="CanvasLayer/QuizBahagi4"]
+[node name="Soalan4" type="TextureRect" parent="Questions/QuizBahagi4"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -800,7 +804,7 @@ texture = ExtResource("7_a78qq")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi4"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -813,7 +817,7 @@ offset_right = 54.596
 offset_bottom = 17.354
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi4"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -826,7 +830,7 @@ offset_right = 55.196
 offset_bottom = 19.072
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi4"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -839,7 +843,7 @@ offset_right = 54.234
 offset_bottom = 19.376
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi4"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi4"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -852,14 +856,15 @@ offset_right = 53.558
 offset_bottom = 19.376
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi4"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi4"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi4/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -876,7 +881,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi4/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -889,7 +894,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi4"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi4"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -897,7 +903,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi4/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -914,7 +920,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi4/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -927,7 +933,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi4/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -940,7 +946,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi5" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi5" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -958,7 +964,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("14_62j00")
 
-[node name="Soalan5" type="TextureRect" parent="CanvasLayer/QuizBahagi5"]
+[node name="Soalan5" type="TextureRect" parent="Questions/QuizBahagi5"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -968,7 +974,7 @@ texture = ExtResource("8_c86bv")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi5"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -981,7 +987,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi5"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -994,7 +1000,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi5"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1007,7 +1013,7 @@ offset_right = 53.596
 offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi5"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1020,14 +1026,15 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi5"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi5"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi5/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1044,7 +1051,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi5/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1057,7 +1064,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi5"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi5"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1065,7 +1073,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi5/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1082,7 +1090,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi5/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1095,7 +1103,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi5/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1108,7 +1116,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi6" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi6" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1126,7 +1134,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("16_ck3yk")
 
-[node name="Soalan6" type="TextureRect" parent="CanvasLayer/QuizBahagi6"]
+[node name="Soalan6" type="TextureRect" parent="Questions/QuizBahagi6"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1136,7 +1144,7 @@ texture = ExtResource("9_cjii5")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi6"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1149,7 +1157,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi6"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1162,7 +1170,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi6"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1175,7 +1183,7 @@ offset_right = 53.596
 offset_bottom = 19.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi6"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1188,14 +1196,15 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi6"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi6"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi6/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1212,7 +1221,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi6/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1225,7 +1234,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi6"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi6"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1233,7 +1243,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi6/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1250,7 +1260,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi6/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1263,7 +1273,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi6/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1276,7 +1286,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi7" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi7" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1294,7 +1304,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("18_a0k7j")
 
-[node name="Soalan7" type="TextureRect" parent="CanvasLayer/QuizBahagi7"]
+[node name="Soalan7" type="TextureRect" parent="Questions/QuizBahagi7"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1304,7 +1314,7 @@ texture = ExtResource("10_t6ob6")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi7"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1317,7 +1327,7 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi7"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1330,7 +1340,7 @@ offset_right = 55.834
 offset_bottom = 20.098
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi7"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1343,7 +1353,7 @@ offset_right = 53.596
 offset_bottom = 18.684
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi7"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1356,14 +1366,15 @@ offset_right = 53.558
 offset_bottom = 19.402
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi7"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi7"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi7/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1380,7 +1391,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi7/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1393,7 +1404,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi7"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi7"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1401,7 +1413,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi7/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1418,7 +1430,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi7/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1431,7 +1443,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi7/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1444,7 +1456,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi8" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi8" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1462,7 +1474,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("20_273u2")
 
-[node name="Soalan8" type="TextureRect" parent="CanvasLayer/QuizBahagi8"]
+[node name="Soalan8" type="TextureRect" parent="Questions/QuizBahagi8"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1472,7 +1484,7 @@ texture = ExtResource("11_eae3p")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi8"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1485,7 +1497,7 @@ offset_right = 54.596
 offset_bottom = 17.431
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi8"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1498,7 +1510,7 @@ offset_right = 55.196
 offset_bottom = 19.072
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi8"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1511,7 +1523,7 @@ offset_right = 54.234
 offset_bottom = 19.376
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi8"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi8"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1524,14 +1536,15 @@ offset_right = 53.558
 offset_bottom = 19.658
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi8"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi8"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi8/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1548,7 +1561,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi8/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1561,7 +1574,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi8"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi8"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1569,7 +1583,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi8/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1586,7 +1600,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi8/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1599,7 +1613,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi8/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1612,7 +1626,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi9" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi9" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1630,7 +1644,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("22_k5xee")
 
-[node name="Soalan9" type="TextureRect" parent="CanvasLayer/QuizBahagi9"]
+[node name="Soalan9" type="TextureRect" parent="Questions/QuizBahagi9"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1640,7 +1654,7 @@ texture = ExtResource("12_jo6br")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi9"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1653,7 +1667,7 @@ offset_right = 54.596
 offset_bottom = 17.508
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi9"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1666,7 +1680,7 @@ offset_right = 55.196
 offset_bottom = 19.072
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi9"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1679,7 +1693,7 @@ offset_right = 54.234
 offset_bottom = 19.376
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi9"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi9"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1692,14 +1706,15 @@ offset_right = 53.558
 offset_bottom = 19.376
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi9"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi9"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi9/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1716,7 +1731,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi9/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1729,7 +1744,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi9"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi9"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1737,7 +1753,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi9/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1754,7 +1770,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi9/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1767,7 +1783,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi9/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1780,7 +1796,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="QuizBahagi10" type="Control" parent="CanvasLayer"]
+[node name="QuizBahagi10" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
 anchors_preset = 8
@@ -1798,7 +1814,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("24_ahv5n")
 
-[node name="Soalan10" type="TextureRect" parent="CanvasLayer/QuizBahagi10"]
+[node name="Soalan10" type="TextureRect" parent="Questions/QuizBahagi10"]
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1808,7 +1824,7 @@ texture = ExtResource("13_nx25q")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ButtonA" type="Button" parent="CanvasLayer/QuizBahagi10"]
+[node name="ButtonA" type="Button" parent="Questions/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1821,7 +1837,7 @@ offset_right = 54.596
 offset_bottom = 17.354
 flat = true
 
-[node name="ButtonB" type="Button" parent="CanvasLayer/QuizBahagi10"]
+[node name="ButtonB" type="Button" parent="Questions/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1834,7 +1850,7 @@ offset_right = 55.196
 offset_bottom = 18.995
 flat = true
 
-[node name="ButtonC" type="Button" parent="CanvasLayer/QuizBahagi10"]
+[node name="ButtonC" type="Button" parent="Questions/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1847,7 +1863,7 @@ offset_right = 54.234
 offset_bottom = 19.658
 flat = true
 
-[node name="ButtonD" type="Button" parent="CanvasLayer/QuizBahagi10"]
+[node name="ButtonD" type="Button" parent="Questions/QuizBahagi10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1860,14 +1876,15 @@ offset_right = 53.558
 offset_bottom = 19.581
 flat = true
 
-[node name="CorrectPopUp" type="Control" parent="CanvasLayer/QuizBahagi10"]
+[node name="CorrectPopUp" type="Control" parent="Questions/QuizBahagi10"]
+process_mode = 3
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi10/CorrectPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1884,7 +1901,7 @@ texture = ExtResource("6_e6tc1")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi10/CorrectPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1897,7 +1914,8 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="WrongPopUp" type="Control" parent="CanvasLayer/QuizBahagi10"]
+[node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi10"]
+process_mode = 3
 visible = false
 anchors_preset = 0
 offset_left = -1.0
@@ -1905,7 +1923,7 @@ offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/QuizBahagi10/WrongPopUp"]
+[node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1922,7 +1940,7 @@ texture = ExtResource("7_jlxl0")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="tutpbtn" type="Button" parent="CanvasLayer/QuizBahagi10/WrongPopUp"]
+[node name="tutpbtn" type="Button" parent="Questions/QuizBahagi10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1935,7 +1953,7 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="retrybtn" type="Button" parent="CanvasLayer/QuizBahagi10/WrongPopUp"]
+[node name="retrybtn" type="Button" parent="Questions/QuizBahagi10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1948,73 +1966,73 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/ButtonA" to="CanvasLayer/QuizBahagi1" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/ButtonB" to="CanvasLayer/QuizBahagi1" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/ButtonC" to="CanvasLayer/QuizBahagi1" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/ButtonD" to="CanvasLayer/QuizBahagi1" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi1" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi1" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi1/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi1" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/ButtonA" to="CanvasLayer/QuizBahagi2" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/ButtonB" to="CanvasLayer/QuizBahagi2" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/ButtonC" to="CanvasLayer/QuizBahagi2" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/ButtonD" to="CanvasLayer/QuizBahagi2" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi2" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi2" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi2/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi2" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/ButtonA" to="CanvasLayer/QuizBahagi3" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/ButtonB" to="CanvasLayer/QuizBahagi3" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/ButtonC" to="CanvasLayer/QuizBahagi3" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/ButtonD" to="CanvasLayer/QuizBahagi3" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi3" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi3" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi3/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi3" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/ButtonA" to="CanvasLayer/QuizBahagi4" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/ButtonB" to="CanvasLayer/QuizBahagi4" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/ButtonC" to="CanvasLayer/QuizBahagi4" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/ButtonD" to="CanvasLayer/QuizBahagi4" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi4" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi4" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi4/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi4" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/ButtonA" to="CanvasLayer/QuizBahagi5" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/ButtonB" to="CanvasLayer/QuizBahagi5" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/ButtonC" to="CanvasLayer/QuizBahagi5" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/ButtonD" to="CanvasLayer/QuizBahagi5" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi5" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi5" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi5/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi5" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/ButtonA" to="CanvasLayer/QuizBahagi6" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/ButtonB" to="CanvasLayer/QuizBahagi6" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/ButtonC" to="CanvasLayer/QuizBahagi6" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/ButtonD" to="CanvasLayer/QuizBahagi6" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi6" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi6" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi6/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi6" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/ButtonA" to="CanvasLayer/QuizBahagi7" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/ButtonB" to="CanvasLayer/QuizBahagi7" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/ButtonC" to="CanvasLayer/QuizBahagi7" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/ButtonD" to="CanvasLayer/QuizBahagi7" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi7" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi7" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi7/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi7" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/ButtonA" to="CanvasLayer/QuizBahagi8" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/ButtonB" to="CanvasLayer/QuizBahagi8" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/ButtonC" to="CanvasLayer/QuizBahagi8" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/ButtonD" to="CanvasLayer/QuizBahagi8" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi8" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi8" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi8/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi8" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/ButtonA" to="CanvasLayer/QuizBahagi9" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/ButtonB" to="CanvasLayer/QuizBahagi9" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/ButtonC" to="CanvasLayer/QuizBahagi9" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/ButtonD" to="CanvasLayer/QuizBahagi9" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/CorrectPopUp/tutpbtn" to="Player1" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi9" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi9/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi9" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/ButtonA" to="CanvasLayer/QuizBahagi10" method="_on_button_a_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/ButtonB" to="CanvasLayer/QuizBahagi10" method="_on_button_b_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/ButtonC" to="CanvasLayer/QuizBahagi10" method="_on_button_c_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/ButtonD" to="CanvasLayer/QuizBahagi10" method="_on_button_d_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/CorrectPopUp/tutpbtn" to="CanvasLayer/QuizBahagi10" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/WrongPopUp/tutpbtn" to="CanvasLayer/QuizBahagi10" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="CanvasLayer/QuizBahagi10/WrongPopUp/retrybtn" to="CanvasLayer/QuizBahagi10" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/ButtonA" to="Questions/QuizBahagi1" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/ButtonB" to="Questions/QuizBahagi1" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/ButtonC" to="Questions/QuizBahagi1" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/ButtonD" to="Questions/QuizBahagi1" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/WrongPopUp/tutpbtn" to="Questions/QuizBahagi1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi1/WrongPopUp/retrybtn" to="Questions/QuizBahagi1" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/ButtonA" to="Questions/QuizBahagi2" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/ButtonB" to="Questions/QuizBahagi2" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/ButtonC" to="Questions/QuizBahagi2" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/ButtonD" to="Questions/QuizBahagi2" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/WrongPopUp/tutpbtn" to="Questions/QuizBahagi2" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi2/WrongPopUp/retrybtn" to="Questions/QuizBahagi2" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/ButtonA" to="Questions/QuizBahagi3" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/ButtonB" to="Questions/QuizBahagi3" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/ButtonC" to="Questions/QuizBahagi3" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/ButtonD" to="Questions/QuizBahagi3" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi3" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/WrongPopUp/tutpbtn" to="Questions/QuizBahagi3" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi3/WrongPopUp/retrybtn" to="Questions/QuizBahagi3" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/ButtonA" to="Questions/QuizBahagi4" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/ButtonB" to="Questions/QuizBahagi4" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/ButtonC" to="Questions/QuizBahagi4" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/ButtonD" to="Questions/QuizBahagi4" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/WrongPopUp/tutpbtn" to="Questions/QuizBahagi4" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi4/WrongPopUp/retrybtn" to="Questions/QuizBahagi4" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/ButtonA" to="Questions/QuizBahagi5" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/ButtonB" to="Questions/QuizBahagi5" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/ButtonC" to="Questions/QuizBahagi5" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/ButtonD" to="Questions/QuizBahagi5" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/WrongPopUp/tutpbtn" to="Questions/QuizBahagi5" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi5/WrongPopUp/retrybtn" to="Questions/QuizBahagi5" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/ButtonA" to="Questions/QuizBahagi6" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/ButtonB" to="Questions/QuizBahagi6" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/ButtonC" to="Questions/QuizBahagi6" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/ButtonD" to="Questions/QuizBahagi6" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi6" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/WrongPopUp/tutpbtn" to="Questions/QuizBahagi6" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi6/WrongPopUp/retrybtn" to="Questions/QuizBahagi6" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/ButtonA" to="Questions/QuizBahagi7" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/ButtonB" to="Questions/QuizBahagi7" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/ButtonC" to="Questions/QuizBahagi7" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/ButtonD" to="Questions/QuizBahagi7" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/WrongPopUp/tutpbtn" to="Questions/QuizBahagi7" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi7/WrongPopUp/retrybtn" to="Questions/QuizBahagi7" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/ButtonA" to="Questions/QuizBahagi8" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/ButtonB" to="Questions/QuizBahagi8" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/ButtonC" to="Questions/QuizBahagi8" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/ButtonD" to="Questions/QuizBahagi8" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/WrongPopUp/tutpbtn" to="Questions/QuizBahagi8" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi8/WrongPopUp/retrybtn" to="Questions/QuizBahagi8" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/ButtonA" to="Questions/QuizBahagi9" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/ButtonB" to="Questions/QuizBahagi9" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/ButtonC" to="Questions/QuizBahagi9" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/ButtonD" to="Questions/QuizBahagi9" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/CorrectPopUp/tutpbtn" to="Player1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/WrongPopUp/tutpbtn" to="Questions/QuizBahagi9" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/WrongPopUp/retrybtn" to="Questions/QuizBahagi9" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/ButtonA" to="Questions/QuizBahagi10" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/ButtonB" to="Questions/QuizBahagi10" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/ButtonC" to="Questions/QuizBahagi10" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/ButtonD" to="Questions/QuizBahagi10" method="_on_button_d_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/WrongPopUp/tutpbtn" to="Questions/QuizBahagi10" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi10/WrongPopUp/retrybtn" to="Questions/QuizBahagi10" method="_on_retrybtn_pressed"]
