@@ -1,5 +1,4 @@
 extends Node
-
 var blue: int = 0
 var green: int = 0
 var red: int = 0
@@ -8,7 +7,6 @@ var purple: int = 0
 #var level: int = 1
 var player_health: int = 10
 var question_complete: int = 0
-
 func reset():
 	blue = 0
 	green = 0

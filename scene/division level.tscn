@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=43 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
@@ -25,6 +25,19 @@
 [ext_resource type="Script" uid="uid://cnoyvb5erlp47" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
 [ext_resource type="Script" uid="uid://bpfe5rqkco6xq" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
 [ext_resource type="Script" uid="uid://tog0m65aris8" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
+[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="26_a8m2v"]
+[ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="27_2iatv"]
+[ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="28_i3q3d"]
+[ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="29_f0udu"]
+[ext_resource type="PackedScene" uid="uid://dv0873ohuddg3" path="res://scene/yellowgem.tscn" id="30_lrp80"]
+[ext_resource type="PackedScene" uid="uid://dsle5ohovr06o" path="res://scene/purplegem.tscn" id="31_rjxbn"]
+[ext_resource type="PackedScene" uid="uid://hhypv3lbhn6m" path="res://scene/redgem.tscn" id="32_j5cdn"]
+[ext_resource type="PackedScene" uid="uid://cg61ju2ws0wtl" path="res://scene/quest_complete.tscn" id="33_nhw7o"]
+[ext_resource type="PackedScene" uid="uid://pn6cbdeger08" path="res://scene/bluediamond.tscn" id="34_wkj85"]
+[ext_resource type="PackedScene" uid="uid://chsj6ip72h7uf" path="res://scene/reddiamond.tscn" id="35_jpt26"]
+[ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="36_w5lji"]
+[ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="37_jb2pl"]
+[ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="38_28mxr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -1965,6 +1978,104 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="GameManager" type="Node" parent="." groups=["game_manager"]]
+script = ExtResource("26_a8m2v")
+
+[node name="Diamonds" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="Diamonds"]
+layout_mode = 3
+anchor_left = 0.05
+anchor_top = 0.099
+anchor_right = 0.321
+anchor_bottom = 0.185
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Diamonds/Control"]
+layout_mode = 0
+offset_left = -10.0
+offset_top = -19.0
+offset_right = 90.0
+offset_bottom = 156.0
+scale = Vector2(0.5, 0.5)
+theme_override_constants/separation = 100
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Diamonds/Control/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 35
+
+[node name="heart" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("27_2iatv")]
+layout_mode = 2
+
+[node name="bluegem" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("28_i3q3d")]
+layout_mode = 2
+
+[node name="greengem" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("29_f0udu")]
+layout_mode = 2
+
+[node name="yellowgem" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("30_lrp80")]
+layout_mode = 2
+
+[node name="purplegem" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("31_rjxbn")]
+layout_mode = 2
+
+[node name="redgem" parent="Diamonds/Control/HBoxContainer/VBoxContainer" instance=ExtResource("32_j5cdn")]
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Diamonds/Control/HBoxContainer"]
+layout_mode = 2
+
+[node name="quest_complete" parent="Diamonds/Control/HBoxContainer/VBoxContainer2" instance=ExtResource("33_nhw7o")]
+layout_mode = 2
+
+[node name="Node" type="Node" parent="."]
+
+[node name="bluediamond" parent="Node" instance=ExtResource("34_wkj85")]
+position = Vector2(562, 57)
+
+[node name="bluediamond2" parent="Node" instance=ExtResource("34_wkj85")]
+position = Vector2(594, 56)
+
+[node name="bluediamond3" parent="Node" instance=ExtResource("34_wkj85")]
+position = Vector2(626, 56)
+
+[node name="reddiamond" parent="Node" instance=ExtResource("35_jpt26")]
+position = Vector2(340, 22)
+
+[node name="reddiamond2" parent="Node" instance=ExtResource("35_jpt26")]
+position = Vector2(412, 95)
+
+[node name="purplediamond" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(796, -102)
+
+[node name="purplediamond2" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(768, -103)
+
+[node name="purplediamond3" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(870, 20)
+
+[node name="purplediamond4" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(842, 19)
+
+[node name="purplediamond5" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(858, -155)
+
+[node name="purplediamond6" parent="Node" instance=ExtResource("36_w5lji")]
+position = Vector2(830, -156)
+
+[node name="yellowdiamond" parent="Node" instance=ExtResource("37_jb2pl")]
+position = Vector2(701, -85)
+
+[node name="yellowdiamond2" parent="Node" instance=ExtResource("37_jb2pl")]
+position = Vector2(728, -85)
+
+[node name="greendiamond" parent="Node" instance=ExtResource("38_28mxr")]
+position = Vector2(702, 57)
+
+[node name="greendiamond2" parent="Node" instance=ExtResource("38_28mxr")]
+position = Vector2(674, 56)
 
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonA" to="Questions/QuizBahagi1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonB" to="Questions/QuizBahagi1" method="_on_button_b_pressed"]

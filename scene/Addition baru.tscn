@@ -2169,49 +2169,51 @@ layout_mode = 2
 [node name="quest_complete" parent="Diamonds/Control/HBoxContainer/VBoxContainer2" instance=ExtResource("35_y1sfx")]
 layout_mode = 2
 
-[node name="bluediamond" parent="." instance=ExtResource("37_j28a2")]
+[node name="Node" type="Node" parent="."]
+
+[node name="bluediamond" parent="Node" instance=ExtResource("37_j28a2")]
 position = Vector2(561, -50)
 
-[node name="bluediamond2" parent="." instance=ExtResource("37_j28a2")]
+[node name="bluediamond2" parent="Node" instance=ExtResource("37_j28a2")]
 position = Vector2(593, -51)
 
-[node name="bluediamond3" parent="." instance=ExtResource("37_j28a2")]
+[node name="bluediamond3" parent="Node" instance=ExtResource("37_j28a2")]
 position = Vector2(625, -51)
 
-[node name="reddiamond" parent="." instance=ExtResource("38_2cqgu")]
+[node name="reddiamond" parent="Node" instance=ExtResource("38_2cqgu")]
 position = Vector2(348, -123)
 
-[node name="reddiamond2" parent="." instance=ExtResource("38_2cqgu")]
+[node name="reddiamond2" parent="Node" instance=ExtResource("38_2cqgu")]
 position = Vector2(376, -123)
 
-[node name="purplediamond" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(796, -102)
 
-[node name="purplediamond2" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond2" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(768, -103)
 
-[node name="purplediamond3" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond3" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(870, 20)
 
-[node name="purplediamond4" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond4" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(842, 19)
 
-[node name="purplediamond5" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond5" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(858, -155)
 
-[node name="purplediamond6" parent="." instance=ExtResource("39_ojiix")]
+[node name="purplediamond6" parent="Node" instance=ExtResource("39_ojiix")]
 position = Vector2(830, -156)
 
-[node name="yellowdiamond" parent="." instance=ExtResource("40_6us26")]
+[node name="yellowdiamond" parent="Node" instance=ExtResource("40_6us26")]
 position = Vector2(701, -85)
 
-[node name="yellowdiamond2" parent="." instance=ExtResource("40_6us26")]
+[node name="yellowdiamond2" parent="Node" instance=ExtResource("40_6us26")]
 position = Vector2(728, -85)
 
-[node name="greendiamond" parent="." instance=ExtResource("41_kdffb")]
+[node name="greendiamond" parent="Node" instance=ExtResource("41_kdffb")]
 position = Vector2(702, 57)
 
-[node name="greendiamond2" parent="." instance=ExtResource("41_kdffb")]
+[node name="greendiamond2" parent="Node" instance=ExtResource("41_kdffb")]
 position = Vector2(674, 56)
 
 [connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
