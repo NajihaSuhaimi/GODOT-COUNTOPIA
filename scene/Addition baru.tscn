@@ -1,32 +1,32 @@
 [gd_scene load_steps=48 format=3 uid="uid://ch36rb6bk5see"]
 
-[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
+[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="3_f40pi"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="4_fq4rq"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="4_snvvm"]
-[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/testtrypintu.gd" id="6_6clik"]
-[ext_resource type="Script" uid="uid://b48n6vvcuqop6" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="7_poxer"]
+[ext_resource type="Script" path="res://scripts/testtrypintu.gd" id="6_6clik"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="7_poxer"]
 [ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="8_5cwt3"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="9_e818r"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="10_aamoh"]
-[ext_resource type="Script" uid="uid://dcq87mj6h0a57" path="res://scene/entities/quiz_tambah_2.gd" id="11_n826s"]
+[ext_resource type="Script" path="res://scene/entities/quiz_tambah_2.gd" id="11_n826s"]
 [ext_resource type="Texture2D" uid="uid://duf5byuoik06a" path="res://soalanQuiz/soalanTambah/tambah2.png" id="12_ngrxf"]
-[ext_resource type="Script" uid="uid://caikimmpldjtt" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="13_4rts3"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="13_4rts3"]
 [ext_resource type="Texture2D" uid="uid://3ap2ac1ojudb" path="res://soalanQuiz/soalanTambah/tambah3.png" id="14_2tali"]
-[ext_resource type="Script" uid="uid://bbdb3gshtl8qi" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="15_ib7y0"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="15_ib7y0"]
 [ext_resource type="Texture2D" uid="uid://fcjux61yo6o7" path="res://soalanQuiz/soalanTambah/tambah4.png" id="16_fq774"]
-[ext_resource type="Script" uid="uid://llj7tsbfvik2" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="17_sg5da"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="17_sg5da"]
 [ext_resource type="Texture2D" uid="uid://51nfyvb0shiy" path="res://soalanQuiz/soalanTambah/tambah5.png" id="18_gib3t"]
-[ext_resource type="Script" uid="uid://ca2qjhhq0rtdp" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="19_5vt1t"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="19_5vt1t"]
 [ext_resource type="Texture2D" uid="uid://dn8p6iinswyap" path="res://soalanQuiz/soalanTambah/tambah6.png" id="20_gmkw2"]
-[ext_resource type="Script" uid="uid://djt380sur87tk" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="21_0k33n"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="21_0k33n"]
 [ext_resource type="Texture2D" uid="uid://biix2hchaimjd" path="res://soalanQuiz/soalanTambah/tambah7.png" id="22_qx87t"]
-[ext_resource type="Script" uid="uid://blwqh5io6evjd" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="23_ci5v4"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="23_ci5v4"]
 [ext_resource type="Texture2D" uid="uid://s7cuulp4mct4" path="res://soalanQuiz/soalanTambah/tambah8.png" id="24_s8g6p"]
-[ext_resource type="Script" uid="uid://dnamk023ejnw7" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="25_qywqy"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_9.gd" id="25_qywqy"]
 [ext_resource type="Texture2D" uid="uid://dae6gj11y15cj" path="res://soalanQuiz/soalanTambah/tambah9.png" id="26_tx5o3"]
-[ext_resource type="Script" uid="uid://cug1r3yemse5l" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="27_3t2y8"]
+[ext_resource type="Script" path="res://scene/entities/quizz tambah/quiz_tambah_10.gd" id="27_3t2y8"]
 [ext_resource type="Texture2D" uid="uid://bqqoipeajdah8" path="res://soalanQuiz/soalanTambah/tambah10.png" id="28_3fxkk"]
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="29_g1spq"]
 [ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="30_ea20f"]
@@ -355,7 +355,7 @@ sources/1 = SubResource("TileSetAtlasSource_hxe60")
 texture = ExtResource("4_snvvm")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -0.17985725, 9, 0, 9, 9, -9, 9)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -0.179857, 9, 0, 9, 9, -9, 9)
 
 [sub_resource type="TileSet" id="TileSet_2cqgu"]
 tile_size = Vector2i(18, 18)

@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_q3qlt"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_g0vyl"]
-[ext_resource type="Script" uid="uid://dsgvyqukfpjtj" path="res://scene/entities/quiz darab/quiz_darab_1.gd" id="3_clefv"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_1.gd" id="3_clefv"]
 [ext_resource type="Texture2D" uid="uid://cnl0k3lke521d" path="res://soalanQuiz/soalanDarab/darab1.png" id="3_fff5f"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_m1dh8"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="3_nlem5"]
@@ -10,23 +10,23 @@
 [ext_resource type="Texture2D" uid="uid://c6hwt6n44netf" path="res://soalanQuiz/soalanDarab/darab3.png" id="5_2i5pq"]
 [ext_resource type="Texture2D" uid="uid://bxnxrdwv1vtyo" path="res://soalanQuiz/soalanDarab/darab4.png" id="6_keroe"]
 [ext_resource type="Texture2D" uid="uid://d4k4hhr5mfpri" path="res://soalanQuiz/soalanDarab/darab5.png" id="7_lkhtn"]
-[ext_resource type="Script" uid="uid://ca64m0ivto5os" path="res://scene/entities/quiz darab/quiz_darab_2.gd" id="7_m1dh8"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_2.gd" id="7_m1dh8"]
 [ext_resource type="Texture2D" uid="uid://co1i1x0xajydd" path="res://soalanQuiz/soalanDarab/darab6.png" id="8_w4p26"]
 [ext_resource type="Texture2D" uid="uid://b3id1f236ynkh" path="res://soalanQuiz/soalanDarab/darab7.png" id="9_1iajx"]
-[ext_resource type="Script" uid="uid://ddfclgvq3r33n" path="res://scene/entities/quiz darab/quiz_darab_3.gd" id="9_uldbg"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_3.gd" id="9_uldbg"]
 [ext_resource type="Texture2D" uid="uid://btxb0lvfg5v0h" path="res://soalanQuiz/soalanDarab/darab8.png" id="10_jqpts"]
-[ext_resource type="Script" uid="uid://c3etg6l06u852" path="res://scene/entities/quiz darab/quiz_darab_4.gd" id="11_mnnop"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_4.gd" id="11_mnnop"]
 [ext_resource type="Texture2D" uid="uid://c5bjygda7yuq8" path="res://soalanQuiz/soalanDarab/darab9.png" id="11_os2ue"]
 [ext_resource type="Texture2D" uid="uid://dpiwe8i7c58w6" path="res://soalanQuiz/soalanDarab/darab10.png" id="12_d42jn"]
-[ext_resource type="Script" uid="uid://38wku0og42pm" path="res://scene/entities/quiz darab/quiz_darab_5.gd" id="13_68knr"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_5.gd" id="13_68knr"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="13_clefv"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="14_m1dh8"]
-[ext_resource type="Script" uid="uid://dl0ww2k7cxiap" path="res://scene/entities/quiz darab/quiz_darab_6.gd" id="15_vun3c"]
-[ext_resource type="Script" uid="uid://bq62atkx45yvi" path="res://scene/entities/quiz darab/quiz_darab_7.gd" id="17_rk4t6"]
-[ext_resource type="Script" uid="uid://oj621tqmf67k" path="res://scene/entities/quiz darab/quiz_darab_8.gd" id="19_k4bxv"]
-[ext_resource type="Script" uid="uid://cc4g07jj840vb" path="res://scene/entities/quiz darab/quiz_darab_9.gd" id="21_iul0e"]
-[ext_resource type="Script" uid="uid://duofwtssxydra" path="res://scene/entities/quiz_darab_10.gd" id="23_kfqhc"]
-[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="26_0jekt"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_6.gd" id="15_vun3c"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_7.gd" id="17_rk4t6"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_8.gd" id="19_k4bxv"]
+[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_9.gd" id="21_iul0e"]
+[ext_resource type="Script" path="res://scene/entities/quiz_darab_10.gd" id="23_kfqhc"]
+[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="26_0jekt"]
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="27_nlem5"]
 [ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="28_s663w"]
 [ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="29_v8714"]
@@ -172,9 +172,9 @@ texture_region_size = Vector2i(18, 18)
 16:4/0 = 0
 17:4/0 = 0
 18:4/0 = 0
-18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.3381634, -9, 9, -9, 9, 0.5395775, 6.6547737, 4.136751, 1.978445, 4.3166103, -2.6978807, 2.3381634, -1.2590122, -4.4964676)
+18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.33816, -9, 9, -9, 9, 0.539577, 6.65477, 4.13675, 1.97845, 4.31661, -2.69788, 2.33816, -1.25901, -4.49647)
 19:4/0 = 0
-19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.5395775, 6.6547737, 4.136751, 1.6187286, 3.956892, -1.2590122, 1.7985878, -1.6187286, -2.1583042, -9, -2.1583042)
+19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.539577, 6.65477, 4.13675, 1.61873, 3.95689, -1.25901, 1.79859, -1.61873, -2.1583, -9, -2.1583)
 20:4/0 = 0
 0:5/0 = 0
 0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -199,11 +199,11 @@ texture_region_size = Vector2i(18, 18)
 15:5/0 = 0
 16:5/0 = 0
 17:5/0 = 0
-17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, 9, -7.5540657, 9, -1.6187286, -9, -1.7985849)
+17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, 9, -7.55407, 9, -1.61873, -9, -1.79858)
 18:5/0 = 0
-18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.4388695, -4.3166084, 2.5180225, -9, 9, -9, 9, -1.7985859, 4.3166084, 1.4388714, 1.0791531, -0.17985725)
+18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(1.43887, -4.31661, 2.51802, -9, 9, -9, 9, -1.79859, 4.31661, 1.43887, 1.07915, -0.179857)
 19:5/0 = 0
-19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -1.7985859, -9, -2.1583042)
+19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -1.79859, -9, -2.1583)
 20:5/0 = 0
 0:6/0 = 0
 0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -226,12 +226,12 @@ texture_region_size = Vector2i(18, 18)
 14:6/0 = 0
 15:6/0 = 0
 16:6/0 = 0
-16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.3742065, -3.057599, -7.1943483, -4.136751, 1.2590122, -9, -1.7985849)
+16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -7.37421, -3.0576, -7.19435, -4.13675, 1.25901, -9, -1.79858)
 17:6/0 = 0
 18:6/0 = 0
-18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.2374573, -7.1943483, 9, -7.5540657, 9, -1.6187286, 3.2374573, 0.71943474)
+18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.23746, -7.19435, 9, -7.55407, 9, -1.61873, 3.23746, 0.719435)
 19:6/0 = 0
-19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -2.3381639, -9, -1.0791531, -4.6763268, -0.35971832, -0.5395756, -4.3166094, 1.7985878, -9, -1.6187286)
+19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, -2.33816, -9, -1.07915, -4.67633, -0.359718, -0.539576, -4.31661, 1.79859, -9, -1.61873)
 20:6/0 = 0
 0:7/0 = 0
 0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
@@ -244,22 +244,22 @@ texture_region_size = Vector2i(18, 18)
 4:7/0 = 0
 5:7/0 = 0
 6:7/0 = 0
-6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.5395775, -9, 0.8992939)
+6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.539577, -9, 0.899294)
 7:7/0 = 0
-7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.5395775, -9, 0.8992939)
+7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 0.539577, -9, 0.899294)
 8:7/0 = 0
 9:7/0 = 0
 10:7/0 = 0
 11:7/0 = 0
 12:7/0 = 0
 13:7/0 = 0
-13:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 4.3166113, 5.036045, 4.856186, -0.8992939, 3.2374573, -9, -1.4388695)
+13:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 4.31661, 5.03605, 4.85619, -0.899294, 3.23746, -9, -1.43887)
 14:7/0 = 0
-14:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 4.3166113, 0.17985916, 6.834633, -9, 3.9568925)
+14:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 4.31661, 0.179859, 6.83463, -9, 3.95689)
 15:7/0 = 0
-15:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -0.71943474, 4.136751, 1.2590122, -2.87774, 5.3957634, -9, 3.4173164)
+15:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -0.719435, 4.13675, 1.25901, -2.87774, 5.39576, -9, 3.41732)
 16:7/0 = 0
-16:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -0.71943474, 1.2590103, 1.0791531, -9, -1.2590103)
+16:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, -0.719435, 1.25901, 1.07915, -9, -1.25901)
 17:7/0 = 0
 18:7/0 = 0
 19:7/0 = 0
@@ -329,7 +329,7 @@ sources/0 = SubResource("TileSetAtlasSource_0772y")
 texture = ExtResource("3_nlem5")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.6763268, -1.6187286, 0.17985916, 2.8777409, 4.856186, -1.0791512, 9, 4.13675, 9, 9, -9, 9, -9, 4.496469)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.67633, -1.61873, 0.179859, 2.87774, 4.85619, -1.07915, 9, 4.13675, 9, 9, -9, 9, -9, 4.49647)
 
 [sub_resource type="TileSet" id="TileSet_v8714"]
 tile_size = Vector2i(18, 18)
@@ -418,49 +418,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab1"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab1"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab1"]
@@ -475,9 +475,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -492,14 +492,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab1/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab1"]
@@ -514,9 +514,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -532,26 +532,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab1/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab2" type="Control" parent="Questions"]
@@ -589,49 +589,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab2"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab2"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab2"]
@@ -645,9 +645,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -662,14 +662,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab2/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab2"]
@@ -684,9 +684,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -702,26 +702,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab2/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab3" type="Control" parent="Questions"]
@@ -759,49 +759,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab3"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab3"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab3"]
@@ -815,9 +815,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -832,14 +832,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab3/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab3"]
@@ -854,9 +854,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -872,26 +872,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab3/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab4" type="Control" parent="Questions"]
@@ -929,49 +929,49 @@ anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
-anchor_top = 0.69200003
-anchor_right = 0.65800005
-anchor_bottom = 0.69200003
-offset_left = -54.804047
-offset_top = -18.928009
-offset_right = 55.195953
-offset_bottom = 19.071991
+anchor_left = 0.658
+anchor_top = 0.692
+anchor_right = 0.658
+anchor_bottom = 0.692
+offset_left = -54.804
+offset_top = -18.928
+offset_right = 55.196
+offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.836
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.836
-offset_left = -53.442017
-offset_top = -19.624023
-offset_right = 53.557983
-offset_bottom = 19.375977
+offset_left = -53.442
+offset_top = -19.624
+offset_right = 53.558
+offset_bottom = 19.376
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab4"]
@@ -985,9 +985,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1002,14 +1002,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab4/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab4"]
@@ -1024,9 +1024,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1042,26 +1042,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab4/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab5" type="Control" parent="Questions"]
@@ -1099,49 +1099,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab5"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab5"]
@@ -1155,9 +1155,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1172,14 +1172,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab5/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab5"]
@@ -1194,9 +1194,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1212,26 +1212,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab5/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab6" type="Control" parent="Questions"]
@@ -1269,49 +1269,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab6"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab6"]
@@ -1325,9 +1325,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1342,14 +1342,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab6/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab6"]
@@ -1364,9 +1364,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1382,26 +1382,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab6/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab7" type="Control" parent="Questions"]
@@ -1439,49 +1439,49 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404007
-offset_top = -17.619995
-offset_right = 54.595993
-offset_bottom = 17.380005
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.67800003
+anchor_top = 0.678
 anchor_right = 0.657
-anchor_bottom = 0.67800003
-offset_left = -54.166016
-offset_top = -17.902008
-offset_right = 55.833984
-offset_bottom = 20.097992
+anchor_bottom = 0.678
+offset_left = -54.166
+offset_top = -17.902
+offset_right = 55.834
+offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
-anchor_top = 0.82400006
+anchor_top = 0.824
 anchor_right = 0.358
-anchor_bottom = 0.82400006
-offset_left = -55.404007
-offset_top = -20.31601
-offset_right = 53.595993
-offset_bottom = 18.68399
+anchor_bottom = 0.824
+offset_left = -55.404
+offset_top = -20.316
+offset_right = 53.596
+offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab7"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
+anchor_left = 0.659
 anchor_top = 0.822
-anchor_right = 0.65900004
+anchor_right = 0.659
 anchor_bottom = 0.822
-offset_left = -53.442017
-offset_top = -19.598022
-offset_right = 53.557983
-offset_bottom = 19.401978
+offset_left = -53.442
+offset_top = -19.598
+offset_right = 53.558
+offset_bottom = 19.402
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab7"]
@@ -1495,9 +1495,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1512,14 +1512,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab7/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab7"]
@@ -1534,9 +1534,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1552,26 +1552,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab7/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab8" type="Control" parent="Questions"]
@@ -1609,49 +1609,49 @@ anchor_left = 0.358
 anchor_top = 0.688
 anchor_right = 0.358
 anchor_bottom = 0.688
-offset_left = -54.404007
-offset_top = -17.492004
-offset_right = 54.595993
-offset_bottom = 17.507996
+offset_left = -54.404
+offset_top = -17.492
+offset_right = 54.596
+offset_bottom = 17.508
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
+anchor_left = 0.658
 anchor_top = 0.689
-anchor_right = 0.65800005
+anchor_right = 0.658
 anchor_bottom = 0.689
-offset_left = -54.804047
-offset_top = -18.850998
-offset_right = 55.195953
-offset_bottom = 19.149002
+offset_left = -54.804
+offset_top = -18.851
+offset_right = 55.196
+offset_bottom = 19.149
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.836
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.836
-offset_left = -54.76602
-offset_top = -19.624023
-offset_right = 54.23398
-offset_bottom = 19.375977
+offset_left = -54.766
+offset_top = -19.624
+offset_right = 54.234
+offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab8"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.83800006
-anchor_right = 0.65900004
-anchor_bottom = 0.83800006
-offset_left = -53.442017
-offset_top = -19.34201
-offset_right = 53.557983
-offset_bottom = 19.65799
+anchor_left = 0.659
+anchor_top = 0.838
+anchor_right = 0.659
+anchor_bottom = 0.838
+offset_left = -53.442
+offset_top = -19.342
+offset_right = 53.558
+offset_bottom = 19.658
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab8"]
@@ -1665,9 +1665,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1682,14 +1682,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab8/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab8"]
@@ -1704,9 +1704,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1722,26 +1722,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab8/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab9" type="Control" parent="Questions"]
@@ -1779,49 +1779,49 @@ anchor_left = 0.358
 anchor_top = 0.694
 anchor_right = 0.358
 anchor_bottom = 0.694
-offset_left = -54.404007
-offset_top = -17.645996
-offset_right = 54.595993
-offset_bottom = 17.354004
+offset_left = -54.404
+offset_top = -17.646
+offset_right = 54.596
+offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65800005
+anchor_left = 0.658
 anchor_top = 0.698
-anchor_right = 0.65800005
+anchor_right = 0.658
 anchor_bottom = 0.698
-offset_left = -54.804047
+offset_left = -54.804
 offset_top = -19.082
-offset_right = 55.195953
+offset_right = 55.196
 offset_bottom = 18.918
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
+anchor_left = 0.357
 anchor_top = 0.841
-anchor_right = 0.35700002
+anchor_right = 0.357
 anchor_bottom = 0.841
-offset_left = -54.76602
-offset_top = -19.419006
-offset_right = 54.23398
-offset_bottom = 19.580994
+offset_left = -54.766
+offset_top = -19.419
+offset_right = 54.234
+offset_bottom = 19.581
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab9"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.83800006
-anchor_right = 0.65900004
-anchor_bottom = 0.83800006
-offset_left = -53.442017
-offset_top = -19.34201
-offset_right = 53.557983
-offset_bottom = 19.65799
+anchor_left = 0.659
+anchor_top = 0.838
+anchor_right = 0.659
+anchor_bottom = 0.838
+offset_left = -53.442
+offset_top = -19.342
+offset_right = 53.558
+offset_bottom = 19.658
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab9"]
@@ -1835,9 +1835,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1852,14 +1852,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab9/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab9"]
@@ -1874,9 +1874,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -1892,26 +1892,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab9/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="QuizDarab10" type="Control" parent="Questions"]
@@ -1949,49 +1949,49 @@ anchor_left = 0.358
 anchor_top = 0.708
 anchor_right = 0.358
 anchor_bottom = 0.716
-offset_left = -54.404007
-offset_top = -17.671997
-offset_right = 54.595993
-offset_bottom = 14.455994
+offset_left = -54.404
+offset_top = -17.672
+offset_right = 54.596
+offset_bottom = 14.456
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizDarab10"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
-anchor_top = 0.70600003
+anchor_top = 0.706
 anchor_right = 0.657
-anchor_bottom = 0.70600003
-offset_left = -55.166016
-offset_top = -18.95401
-offset_right = 54.833984
-offset_bottom = 19.04599
+anchor_bottom = 0.706
+offset_left = -55.166
+offset_top = -18.954
+offset_right = 54.834
+offset_bottom = 19.046
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizDarab10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.35700002
-anchor_top = 0.85200006
-anchor_right = 0.35700002
-anchor_bottom = 0.85200006
-offset_left = -54.76602
-offset_top = -19.368011
-offset_right = 54.23398
-offset_bottom = 19.631989
+anchor_left = 0.357
+anchor_top = 0.852
+anchor_right = 0.357
+anchor_bottom = 0.852
+offset_left = -54.766
+offset_top = -19.368
+offset_right = 54.234
+offset_bottom = 19.632
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizDarab10"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.65900004
-anchor_top = 0.85200006
-anchor_right = 0.65900004
-anchor_bottom = 0.85200006
-offset_left = -53.442017
-offset_top = -19.368011
-offset_right = 53.557983
-offset_bottom = 19.631989
+anchor_left = 0.659
+anchor_top = 0.852
+anchor_right = 0.659
+anchor_bottom = 0.852
+offset_left = -53.442
+offset_top = -19.368
+offset_right = 53.558
+offset_bottom = 19.632
 flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizDarab10"]
@@ -2005,9 +2005,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -2022,14 +2022,14 @@ stretch_mode = 5
 [node name="tutpbtn" type="Button" parent="Questions/QuizDarab10/CorrectPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9750004
+anchor_left = 7.975
 anchor_top = 6.012
-anchor_right = 7.9750004
+anchor_right = 7.975
 anchor_bottom = 6.012
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizDarab10"]
@@ -2044,9 +2044,9 @@ offset_bottom = 39.5
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizDarab10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 7.9870005
+anchor_left = 7.987
 anchor_top = 4.5
-anchor_right = 7.9870005
+anchor_right = 7.987
 anchor_bottom = 4.5
 offset_left = -272.48
 offset_top = -136.0
@@ -2062,26 +2062,26 @@ stretch_mode = 5
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
-anchor_top = 5.9620004
+anchor_top = 5.962
 anchor_right = 5.675
-anchor_bottom = 5.9620004
+anchor_bottom = 5.962
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizDarab10/WrongPopUp"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
-anchor_top = 5.9870005
+anchor_top = 5.987
 anchor_right = 10.3
-anchor_bottom = 5.9870005
+anchor_bottom = 5.987
 offset_left = -54.0
-offset_top = -20.480011
+offset_top = -20.48
 offset_right = 54.0
-offset_bottom = 20.519989
+offset_bottom = 20.52
 flat = true
 
 [node name="GameManager" type="Node" parent="." groups=["game_manager"]]

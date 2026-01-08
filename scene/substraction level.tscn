@@ -1,10 +1,10 @@
 [gd_scene load_steps=46 format=3 uid="uid://f2og2rajpid3"]
 
-[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
+[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_t1tmm"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="3_6gk8j"]
-[ext_resource type="Script" uid="uid://cnmxhvvfcibi1" path="res://scene/entities/quiz tolak/quiz_tolak_1.gd" id="3_mwo46"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_1.gd" id="3_mwo46"]
 [ext_resource type="Texture2D" uid="uid://wif21kiiidl1" path="res://soalanQuiz/soalanTolak/tolak1.png" id="3_s8444"]
 [ext_resource type="Texture2D" uid="uid://debtqjkgyesmx" path="res://soalanQuiz/soalanTolak/tolak2.png" id="4_mwo46"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="4_p8scs"]
@@ -12,21 +12,21 @@
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="5_mebfp"]
 [ext_resource type="Texture2D" uid="uid://b7l51w6kc8jac" path="res://soalanQuiz/soalanTolak/tolak4.png" id="6_mebfp"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="6_qjmij"]
-[ext_resource type="Script" uid="uid://53oedjscpm63" path="res://scene/entities/quiz tolak/quiz_tolak_2.gd" id="7_k675r"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_2.gd" id="7_k675r"]
 [ext_resource type="Texture2D" uid="uid://dhpl6exqmpdd1" path="res://soalanQuiz/soalanTolak/tolak5.png" id="7_qjmij"]
 [ext_resource type="Texture2D" uid="uid://6phyea15taou" path="res://soalanQuiz/soalanTolak/tolak6.png" id="8_t571o"]
-[ext_resource type="Script" uid="uid://bad6epw4s4lrx" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
 [ext_resource type="Texture2D" uid="uid://coyfo6ta5j8vu" path="res://soalanQuiz/soalanTolak/tolak7.png" id="9_k8dtt"]
 [ext_resource type="Texture2D" uid="uid://byip8g6ff4h71" path="res://soalanQuiz/soalanTolak/tolak8.png" id="10_v426l"]
 [ext_resource type="Texture2D" uid="uid://bibhfi1v0insy" path="res://soalanQuiz/soalanTolak/tolak9.png" id="11_a1wbr"]
-[ext_resource type="Script" uid="uid://dwr861eb2muie" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
+[ext_resource type="Script" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
 [ext_resource type="Texture2D" uid="uid://b8iy6dm3w4fot" path="res://soalanQuiz/soalanTolak/tolak10.png" id="12_aia24"]
-[ext_resource type="Script" uid="uid://miy26giuk4ac" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
-[ext_resource type="Script" uid="uid://camokug72ov7m" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
-[ext_resource type="Script" uid="uid://waoyi6og385" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
-[ext_resource type="Script" uid="uid://c30o14d0mwlj6" path="res://scene/entities/quiz tolak/quiz_tolak_8.gd" id="19_5ctxf"]
-[ext_resource type="Script" uid="uid://ck2sj3nh8f1gm" path="res://scene/entities/quiz tolak/quiz_tolak_9.gd" id="21_x27df"]
-[ext_resource type="Script" uid="uid://bqite25or5skb" path="res://scene/entities/quiz tolak/quiz_tolak_10.gd" id="23_4k2wf"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_8.gd" id="19_5ctxf"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_9.gd" id="21_x27df"]
+[ext_resource type="Script" path="res://scene/entities/quiz tolak/quiz_tolak_10.gd" id="23_4k2wf"]
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="27_nh4il"]
 [ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="28_bbly8"]
 [ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="29_y1wyl"]
@@ -362,7 +362,7 @@ sources/0 = SubResource("TileSetAtlasSource_4b85p")
 texture = ExtResource("3_6gk8j")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.7770338, -0.8992939, 0.17985916, 2.1583061, 3.7770329, -1.4388695, 9, 3.2374573, 9, 9, -9, 9, -9, 3.2374573)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.77703, -0.899294, 0.179859, 2.15831, 3.77703, -1.43887, 9, 3.23746, 9, 9, -9, 9, -9, 3.23746)
 
 [sub_resource type="TileSet" id="TileSet_115wi"]
 tile_size = Vector2i(18, 18)
