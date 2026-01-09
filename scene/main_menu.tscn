@@ -1,34 +1,21 @@
-[gd_scene load_steps=9 format=3 uid="uid://bujltxum4rkgp"]
+[gd_scene load_steps=18 format=3 uid="uid://bujltxum4rkgp"]
 
-[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_osntc"]
+[ext_resource type="Script" uid="uid://cv44gw8u8qrw5" path="res://scripts/main_menu.gd" id="1_osntc"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="2_hxu56"]
+[ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="3_2fwvj"]
+[ext_resource type="Texture2D" uid="uid://vh4afr43s3ux" path="res://How to Play Images/2.png" id="3_sepwh"]
+[ext_resource type="AudioStream" uid="uid://bovgytc6u5vsb" path="res://Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3" id="4_0iwki"]
+[ext_resource type="Texture2D" uid="uid://dutg8hymbkjbc" path="res://How to Play Images/3.png" id="4_ictww"]
+[ext_resource type="Texture2D" uid="uid://dfdce1yw0b3js" path="res://How to Play Images/5.png" id="5_1o50l"]
+[ext_resource type="Texture2D" uid="uid://bqsipv4e3lnew" path="res://How to Play Images/6.png" id="6_cht4j"]
+[ext_resource type="Texture2D" uid="uid://drsrs33qj7bjm" path="res://How to Play Images/9.png" id="7_os2d6"]
+[ext_resource type="Texture2D" uid="uid://cn0oka5ji220t" path="res://How to Play Images/10.png" id="8_v0h3m"]
+[ext_resource type="Texture2D" uid="uid://bentlcy8xudwk" path="res://How to Play Images/12.png" id="9_sra1m"]
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o8bhj"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5hnjr"]
 modulate_color = Color(0.381703, 0.381703, 0.381703, 1)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gqhtg"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahs82"]
-bg_color = Color(0.712129, 0.712129, 0.712129, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_right = 16
-corner_radius_bottom_left = 16
-shadow_color = Color(0, 0, 0, 0.203922)
-shadow_size = 1
-shadow_offset = Vector2(0, 3.41)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wmpnm"]
-bg_color = Color(0.31802, 0.31802, 0.31802, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_right = 16
-corner_radius_bottom_left = 16
-shadow_color = Color(0, 0, 0, 0.203922)
-shadow_size = 1
-shadow_offset = Vector2(0, 3.41)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5422f"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_775nd"]
 bg_color = Color(0.235294, 0.164706, 0.117647, 1)
 corner_radius_top_left = 16
 corner_radius_top_right = 16
@@ -38,7 +25,29 @@ shadow_color = Color(0, 0, 0, 0.203922)
 shadow_size = 1
 shadow_offset = Vector2(0, 3.41)
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r33bx"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e381h"]
+bg_color = Color(0.31802, 0.31802, 0.31802, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.203922)
+shadow_size = 1
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rpece"]
+bg_color = Color(0.712129, 0.712129, 0.712129, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.203922)
+shadow_size = 1
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bqh1n"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7q1qk"]
 modulate_color = Color(0.404511, 0.404511, 0.404511, 1)
 
 [node name="MainMenu" type="Control"]
@@ -57,7 +66,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxTexture_o8bhj")
+theme_override_styles/panel = SubResource("StyleBoxTexture_5hnjr")
 
 [node name="Label" type="Label" parent="Background"]
 layout_mode = 1
@@ -77,112 +86,351 @@ theme_override_colors/font_shadow_color = Color(1, 0.482353, 0, 0.423529)
 theme_override_constants/shadow_offset_x = 6
 theme_override_constants/shadow_offset_y = 3
 theme_override_fonts/font = ExtResource("2_hxu56")
-theme_override_font_sizes/font_size = 64
+theme_override_font_sizes/font_size = 78
 text = "COUNTOPIA"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Main Buttons" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = -1
 anchor_left = 0.5
-anchor_top = 0.5
+anchor_top = 0.589
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -82.5
-offset_top = -66.0
-offset_right = 82.5
-offset_bottom = 75.0
+anchor_bottom = 0.589
+offset_left = -99.4681
+offset_top = -85.04
+offset_right = 99.4681
+offset_bottom = 84.96
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 6
 
-[node name="Start Game" type="Button" parent="Main Buttons"]
+[node name="startGame" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_hxu56")
 theme_override_font_sizes/font_size = 20
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Start Game"
 
-[node name="How To Play" type="Button" parent="Main Buttons"]
+[node name="howToPlay" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_hxu56")
 theme_override_font_sizes/font_size = 20
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "How To Play"
 
 [node name="Quit" type="Button" parent="Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_hxu56")
 theme_override_font_sizes/font_size = 20
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Quit"
 
 [node name="How To Play Panel" type="Panel" parent="."]
 visible = false
-layout_mode = 0
-offset_left = 22.0
-offset_top = 78.0
-offset_right = 611.0
-offset_bottom = 344.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="How To Play Panel"]
+[node name="TextureRect" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 45.0
+offset_right = 159.0
+offset_bottom = 141.0
+texture = ExtResource("3_sepwh")
+expand_mode = 1
+
+[node name="Label2" type="Label" parent="How To Play Panel"]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 36.0
+offset_left = 11.0
+offset_top = 135.0
+offset_right = -483.0
+offset_bottom = 161.0
 grow_horizontal = 2
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_constants/shadow_offset_x = 3
 theme_override_constants/shadow_offset_y = 2
 theme_override_constants/shadow_outline_size = 9
-theme_override_font_sizes/font_size = 26
-text = "How To Play"
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 8
+text = "1. Player needs to collect diamonds."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 45.0
+offset_right = 315.2269
+offset_bottom = 141.0
+texture = ExtResource("4_ictww")
+expand_mode = 1
+
+[node name="Label3" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 168.0
+offset_top = 135.0
+offset_right = -325.0
+offset_bottom = 171.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 8
+text = "2. The collected diamonds will appear 
+on the top left of the screen."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 326.0
+offset_top = 46.0
+offset_right = 473.0
+offset_bottom = 142.0
+texture = ExtResource("5_1o50l")
+expand_mode = 1
+
+[node name="Label4" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 326.0
+offset_top = 138.0
+offset_right = -167.0
+offset_bottom = 170.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 8
+text = "3. Player also have a health bar 
+display on the top left."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect4" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 46.0
+offset_right = 629.0
+offset_bottom = 142.0
+texture = ExtResource("6_cht4j")
+expand_mode = 1
+
+[node name="Label5" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 480.0
+offset_top = 141.0
+offset_right = -11.0
+offset_bottom = 171.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 6
+text = "4. When player hit the spikes or fall of the map,
+   1 health will be depleted. A game over screen 
+will appear when reached 0."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect5" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 168.0
+offset_right = 160.0
+offset_bottom = 264.0
+texture = ExtResource("7_os2d6")
+expand_mode = 1
+
+[node name="Label6" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 12.0
+offset_top = 266.0
+offset_right = -478.0
+offset_bottom = 302.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 7
+text = "5. When needs to collect specific amount 
+of coloured diamonds required to unlock 
+the questions before answering."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect6" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 167.0
+offset_top = 168.0
+offset_right = 315.0
+offset_bottom = 264.0
+texture = ExtResource("8_v0h3m")
+expand_mode = 1
+
+[node name="Label7" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 167.0
+offset_top = 266.0
+offset_right = -327.0
+offset_bottom = 302.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 7
+text = "6. Player can choose the answer they 
+think is correct. If the answer is wrong, 
+they can retry it until it is right"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect7" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 325.0
+offset_top = 168.0
+offset_right = 473.0
+offset_bottom = 264.0
+texture = ExtResource("9_sra1m")
+expand_mode = 1
+
+[node name="Label8" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 324.0
+offset_top = 265.0
+offset_right = -166.0
+offset_bottom = 293.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 7
+text = "7. Every correct answer will be displayed 
+at the top left of the screen."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect8" type="TextureRect" parent="How To Play Panel"]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 169.0
+offset_right = 630.0
+offset_bottom = 265.0
+texture = ExtResource("3_sepwh")
+expand_mode = 1
+
+[node name="Label9" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 482.0
+offset_top = 265.0
+offset_right = -10.0
+offset_bottom = 301.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 7
+text = "8. Player needs a minimum of 7 correct 
+answers to unlock the gate then 
+complete the level."
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Back" type="Button" parent="How To Play Panel"]
 layout_mode = 0
-offset_top = 230.0
-offset_right = 101.0
-offset_bottom = 262.0
+offset_left = 17.0
+offset_top = 302.0
+offset_right = 118.0
+offset_bottom = 334.0
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Back"
+
+[node name="Label" type="Label" parent="How To Play Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 8.0
+offset_bottom = 44.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.498039)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 32
+text = "How To Play"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Level Selection Panel" type="Panel" parent="."]
 visible = false
@@ -192,19 +440,37 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxTexture_r33bx")
+theme_override_styles/panel = SubResource("StyleBoxTexture_7q1qk")
+
+[node name="TextureRect" type="TextureRect" parent="Level Selection Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -247.655
+offset_top = -177.25
+offset_right = 247.655
+offset_bottom = 177.25
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_2fwvj")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="Label" type="Label" parent="Level Selection Panel"]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_top = 18.0
-offset_bottom = 82.0
+offset_top = 30.0
+offset_bottom = 100.0
 grow_horizontal = 2
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.235294, 0.164706, 0.117647, 1)
 theme_override_constants/shadow_offset_x = 3
 theme_override_constants/shadow_offset_y = 2
 theme_override_constants/shadow_outline_size = 9
+theme_override_fonts/font = ExtResource("2_hxu56")
 theme_override_font_sizes/font_size = 51
 text = "Select Subject"
 horizontal_alignment = 1
@@ -212,15 +478,15 @@ vertical_alignment = 1
 
 [node name="Main Buttons" type="VBoxContainer" parent="Level Selection Panel"]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = -1
 anchor_left = 0.5
-anchor_top = 0.5
+anchor_top = 0.544
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -204.5
-offset_top = -70.5
-offset_right = 204.5
-offset_bottom = 70.5
+anchor_bottom = 0.544
+offset_left = -157.75
+offset_top = -90.09
+offset_right = 157.75
+offset_bottom = 80.41
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 6
@@ -228,90 +494,99 @@ theme_override_constants/separation = 6
 [node name="Addition" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Addition"
 
 [node name="Subtraction" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Subtraction"
 
 [node name="Multiplication" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Multiplication"
 
 [node name="Division" type="Button" parent="Level Selection Panel/Main Buttons"]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Division"
 
 [node name="Back" type="Button" parent="Level Selection Panel"]
 layout_mode = 1
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_top = -41.0
-offset_right = 101.0
-offset_bottom = -9.0
+anchors_preset = -1
+anchor_left = 0.095
+anchor_top = 0.928
+anchor_right = 0.095
+anchor_bottom = 0.928
+offset_left = 203.2
+offset_top = -49.08
+offset_right = 304.2
+offset_bottom = -17.08
 grow_vertical = 0
 size_flags_vertical = 3
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.933333, 0.905882, 0.866667, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 0
-theme_override_styles/focus = SubResource("StyleBoxEmpty_gqhtg")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ahs82")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_wmpnm")
-theme_override_styles/normal = SubResource("StyleBoxFlat_5422f")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_hxu56")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_775nd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e381h")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rpece")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_bqh1n")
 text = "Back"
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_0iwki")
 volume_db = -19.927
 autoplay = true
 
-[connection signal="pressed" from="Main Buttons/Start Game" to="." method="_on_starGame_pressed"]
-[connection signal="pressed" from="Main Buttons/How To Play" to="." method="_on_howToPlay_pressed"]
+[connection signal="pressed" from="Main Buttons/startGame" to="." method="_on_start_game_pressed"]
+[connection signal="pressed" from="Main Buttons/howToPlay" to="." method="_on_how_to_play_pressed"]
 [connection signal="pressed" from="Main Buttons/Quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="How To Play Panel/Back" to="." method="_on_back_how_to_play_pressed"]
-[connection signal="pressed" from="Level Selection Panel/Main Buttons/Addition" to="." method="_on_additionLevel_pressed"]
-[connection signal="pressed" from="Level Selection Panel/Main Buttons/Subtraction" to="." method="_on_subtractionLevel_pressed"]
-[connection signal="pressed" from="Level Selection Panel/Main Buttons/Multiplication" to="." method="_on_multiplicationLevel_pressed"]
-[connection signal="pressed" from="Level Selection Panel/Main Buttons/Division" to="." method="_on_divisionLevel_pressed"]
-[connection signal="pressed" from="Level Selection Panel/Back" to="." method="_on_backLevelSelect_pressed"]
+[connection signal="pressed" from="How To Play Panel/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Level Selection Panel/Main Buttons/Addition" to="." method="_on_addition_pressed"]
+[connection signal="pressed" from="Level Selection Panel/Main Buttons/Subtraction" to="." method="_on_subtraction_pressed"]
+[connection signal="pressed" from="Level Selection Panel/Main Buttons/Multiplication" to="." method="_on_multiplication_pressed"]
+[connection signal="pressed" from="Level Selection Panel/Main Buttons/Division" to="." method="_on_division_pressed"]
+[connection signal="pressed" from="Level Selection Panel/Back" to="." method="_on_back_pressed"]

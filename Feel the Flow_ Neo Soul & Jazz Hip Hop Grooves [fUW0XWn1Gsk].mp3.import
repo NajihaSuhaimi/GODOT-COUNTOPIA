@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bovgytc6u5vsb"
+path="res://.godot/imported/Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3-88a6e5d97272c20f3601a3dcb8d5e424.mp3str"
+
+[deps]
+
+source_file="res://Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3"
+dest_files=["res://.godot/imported/Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3-88a6e5d97272c20f3601a3dcb8d5e424.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,8 +1,8 @@
-[gd_scene load_steps=46 format=3 uid="uid://tqg5q5sc2qfi"]
+[gd_scene load_steps=47 format=3 uid="uid://tqg5q5sc2qfi"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_q3qlt"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_g0vyl"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_1.gd" id="3_clefv"]
+[ext_resource type="Script" uid="uid://dsgvyqukfpjtj" path="res://scene/entities/quiz darab/quiz_darab_1.gd" id="3_clefv"]
 [ext_resource type="Texture2D" uid="uid://cnl0k3lke521d" path="res://soalanQuiz/soalanDarab/darab1.png" id="3_fff5f"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_m1dh8"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="3_nlem5"]
@@ -10,23 +10,23 @@
 [ext_resource type="Texture2D" uid="uid://c6hwt6n44netf" path="res://soalanQuiz/soalanDarab/darab3.png" id="5_2i5pq"]
 [ext_resource type="Texture2D" uid="uid://bxnxrdwv1vtyo" path="res://soalanQuiz/soalanDarab/darab4.png" id="6_keroe"]
 [ext_resource type="Texture2D" uid="uid://d4k4hhr5mfpri" path="res://soalanQuiz/soalanDarab/darab5.png" id="7_lkhtn"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_2.gd" id="7_m1dh8"]
+[ext_resource type="Script" uid="uid://ca64m0ivto5os" path="res://scene/entities/quiz darab/quiz_darab_2.gd" id="7_m1dh8"]
 [ext_resource type="Texture2D" uid="uid://co1i1x0xajydd" path="res://soalanQuiz/soalanDarab/darab6.png" id="8_w4p26"]
 [ext_resource type="Texture2D" uid="uid://b3id1f236ynkh" path="res://soalanQuiz/soalanDarab/darab7.png" id="9_1iajx"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_3.gd" id="9_uldbg"]
+[ext_resource type="Script" uid="uid://ddfclgvq3r33n" path="res://scene/entities/quiz darab/quiz_darab_3.gd" id="9_uldbg"]
 [ext_resource type="Texture2D" uid="uid://btxb0lvfg5v0h" path="res://soalanQuiz/soalanDarab/darab8.png" id="10_jqpts"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_4.gd" id="11_mnnop"]
+[ext_resource type="Script" uid="uid://c3etg6l06u852" path="res://scene/entities/quiz darab/quiz_darab_4.gd" id="11_mnnop"]
 [ext_resource type="Texture2D" uid="uid://c5bjygda7yuq8" path="res://soalanQuiz/soalanDarab/darab9.png" id="11_os2ue"]
 [ext_resource type="Texture2D" uid="uid://dpiwe8i7c58w6" path="res://soalanQuiz/soalanDarab/darab10.png" id="12_d42jn"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_5.gd" id="13_68knr"]
+[ext_resource type="Script" uid="uid://38wku0og42pm" path="res://scene/entities/quiz darab/quiz_darab_5.gd" id="13_68knr"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="13_clefv"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="14_m1dh8"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_6.gd" id="15_vun3c"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_7.gd" id="17_rk4t6"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_8.gd" id="19_k4bxv"]
-[ext_resource type="Script" path="res://scene/entities/quiz darab/quiz_darab_9.gd" id="21_iul0e"]
-[ext_resource type="Script" path="res://scene/entities/quiz_darab_10.gd" id="23_kfqhc"]
-[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="26_0jekt"]
+[ext_resource type="Script" uid="uid://dl0ww2k7cxiap" path="res://scene/entities/quiz darab/quiz_darab_6.gd" id="15_vun3c"]
+[ext_resource type="Script" uid="uid://bq62atkx45yvi" path="res://scene/entities/quiz darab/quiz_darab_7.gd" id="17_rk4t6"]
+[ext_resource type="Script" uid="uid://oj621tqmf67k" path="res://scene/entities/quiz darab/quiz_darab_8.gd" id="19_k4bxv"]
+[ext_resource type="Script" uid="uid://cc4g07jj840vb" path="res://scene/entities/quiz darab/quiz_darab_9.gd" id="21_iul0e"]
+[ext_resource type="Script" uid="uid://duofwtssxydra" path="res://scene/entities/quiz_darab_10.gd" id="23_kfqhc"]
+[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="26_0jekt"]
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="27_nlem5"]
 [ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="28_s663w"]
 [ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="29_v8714"]
@@ -39,6 +39,7 @@
 [ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="36_ojrw6"]
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="37_8kopa"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="38_wfl28"]
+[ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="40_s663w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g0vyl"]
 texture = ExtResource("1_q3qlt")
@@ -337,6 +338,9 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_s663w")
 
 [node name="multiplication" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="." groups=["game_manager"]]
+script = ExtResource("26_0jekt")
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(0, 1)
@@ -2084,9 +2088,6 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="GameManager" type="Node" parent="." groups=["game_manager"]]
-script = ExtResource("26_0jekt")
-
 [node name="Diamonds" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="Diamonds"]
@@ -2334,6 +2335,8 @@ position = Vector2(10042, -265)
 
 [node name="greendiamond2" parent="Node" instance=ExtResource("38_wfl28")]
 position = Vector2(376, -335)
+
+[node name="PauseMenu" parent="." instance=ExtResource("40_s663w")]
 
 [connection signal="pressed" from="Questions/QuizDarab1/ButtonA" to="Questions/QuizDarab1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizDarab1/ButtonB" to="Questions/QuizDarab1" method="_on_button_b_pressed"]

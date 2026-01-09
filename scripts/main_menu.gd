@@ -6,6 +6,7 @@ extends Control
 
 # Main Menu
 func _ready() -> void:
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	pass # Replace with function body.
 	main_buttons.visible = true
 	how_to_play_panel.visible = false
@@ -18,9 +19,6 @@ func _on_starGame_pressed() -> void:
 	main_buttons.visible = false
 	level_selection_panel.visible = true
 
-func _on_howToPlay_pressed() -> void:
-	main_buttons.visible = false
-	how_to_play_panel.visible = true
 
 func _on_quit_pressed() -> void:
 	get_tree().quit()
@@ -29,18 +27,38 @@ func _on_quit_pressed() -> void:
 func _on_back_how_to_play_pressed() -> void:
 	_ready()
 
-# Select Level
-func _on_additionLevel_pressed() -> void:
-	get_tree().change_scene_to_file("res://scene/Addition baru.tscn")
+# Select Leve
+func _on_addition_pressed() -> void:
+	get_tree().change_scene_to_file("res://scene/Addition Level.tscn")
 
-func _on_subtractionLevel_pressed() -> void:
+func _on_subtraction_pressed() -> void:
+	pass # Replace with function body.
 	get_tree().change_scene_to_file("res://scene/substraction level.tscn")
 
-func _on_multiplicationLevel_pressed() -> void:
+func _on_multiplication_pressed() -> void:
+	pass # Replace with function body.
 	get_tree().change_scene_to_file("res://scene/multiplication level.tscn")
 
-func _on_divisionLevel_pressed() -> void:
+func _on_division_pressed() -> void:
 	get_tree().change_scene_to_file("res://scene/division level.tscn")
-
+	
 func _on_backLevelSelect_pressed() -> void:
 	_ready()
+
+
+func _on_how_to_play_pressed() -> void:
+	pass # Replace with function body.
+	main_buttons.visible = false
+	how_to_play_panel.visible = true
+
+func _on_start_game_pressed() -> void:
+	pass # Replace with function body.
+	main_buttons.visible = false
+	level_selection_panel.visible = true
+
+
+func _on_back_pressed() -> void:
+	pass # Replace with function body.
+	main_buttons.visible = true
+	level_selection_panel.visible = false
+	how_to_play_panel.visible = false

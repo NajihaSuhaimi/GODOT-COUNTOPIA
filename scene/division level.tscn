@@ -1,31 +1,31 @@
-[gd_scene load_steps=43 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=44 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_87j3k"]
 [ext_resource type="Texture2D" uid="uid://deou6xonq17p5" path="res://soalanQuiz/soalanBahagi/bahagi1.png" id="4_7iyk7"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
+[ext_resource type="Script" uid="uid://bh5u6lumgwjte" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
 [ext_resource type="Texture2D" uid="uid://dmvvnjmgavkep" path="res://soalanQuiz/soalanBahagi/bahagi2.png" id="5_pwsjk"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="6_e6tc1"]
 [ext_resource type="Texture2D" uid="uid://dy2qyc1udalcq" path="res://soalanQuiz/soalanBahagi/bahagi3.png" id="6_la7yh"]
 [ext_resource type="Texture2D" uid="uid://c0jvbm38p0p85" path="res://soalanQuiz/soalanBahagi/bahagi4.png" id="7_a78qq"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="7_jlxl0"]
 [ext_resource type="Texture2D" uid="uid://djfafj4q0sgkx" path="res://soalanQuiz/soalanBahagi/bahagi5.png" id="8_c86bv"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
+[ext_resource type="Script" uid="uid://pwuqekyybveo" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
 [ext_resource type="Texture2D" uid="uid://dmb47t6wl2op0" path="res://soalanQuiz/soalanBahagi/bahagi6.png" id="9_cjii5"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
+[ext_resource type="Script" uid="uid://vdnooeyf4rrm" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
 [ext_resource type="Texture2D" uid="uid://besf5yts6lmsy" path="res://soalanQuiz/soalanBahagi/bahagi7.png" id="10_t6ob6"]
 [ext_resource type="Texture2D" uid="uid://dng2opd7ug2oh" path="res://soalanQuiz/soalanBahagi/bahagi8.png" id="11_eae3p"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
+[ext_resource type="Script" uid="uid://ciwgp0c8tb7d1" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
 [ext_resource type="Texture2D" uid="uid://bq0c55gjfnhp0" path="res://soalanQuiz/soalanBahagi/bahagi9.png" id="12_jo6br"]
 [ext_resource type="Texture2D" uid="uid://le4hhrkj6mht" path="res://soalanQuiz/soalanBahagi/bahagi10.png" id="13_nx25q"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
-[ext_resource type="Script" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
-[ext_resource type="Script" path="res://scripts/gamemanager.gd" id="26_a8m2v"]
+[ext_resource type="Script" uid="uid://cbqxv1ktfpsn0" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
+[ext_resource type="Script" uid="uid://tg50eey6o8ft" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
+[ext_resource type="Script" uid="uid://bin1ltsogrjsh" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
+[ext_resource type="Script" uid="uid://cnoyvb5erlp47" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
+[ext_resource type="Script" uid="uid://bpfe5rqkco6xq" path="res://scene/entities/quiz bahagi/quiz_bahagi_9.gd" id="22_k5xee"]
+[ext_resource type="Script" uid="uid://tog0m65aris8" path="res://scene/entities/quiz bahagi/quiz_bahagi_10.gd" id="24_ahv5n"]
+[ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="26_a8m2v"]
 [ext_resource type="PackedScene" uid="uid://cmvjauq6hg131" path="res://scene/heart.tscn" id="27_2iatv"]
 [ext_resource type="PackedScene" uid="uid://ccqj5up0takib" path="res://scene/bluegem.tscn" id="28_i3q3d"]
 [ext_resource type="PackedScene" uid="uid://ddft5u77unr48" path="res://scene/greengem.tscn" id="29_f0udu"]
@@ -38,6 +38,7 @@
 [ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="36_w5lji"]
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="37_jb2pl"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="38_28mxr"]
+[ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="39_2iatv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -256,6 +257,9 @@ tile_size = Vector2i(24, 24)
 sources/0 = SubResource("TileSetAtlasSource_0ucor")
 
 [node name="Division" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="." groups=["game_manager"]]
+script = ExtResource("26_a8m2v")
 
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(2, 2)
@@ -1979,9 +1983,6 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
-[node name="GameManager" type="Node" parent="." groups=["game_manager"]]
-script = ExtResource("26_a8m2v")
-
 [node name="Diamonds" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="Diamonds"]
@@ -2286,6 +2287,8 @@ position = Vector2(9926, -197)
 
 [node name="greendiamond14" parent="Node" instance=ExtResource("38_28mxr")]
 position = Vector2(9201, -52)
+
+[node name="PauseMenu" parent="." instance=ExtResource("39_2iatv")]
 
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonA" to="Questions/QuizBahagi1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonB" to="Questions/QuizBahagi1" method="_on_button_b_pressed"]
