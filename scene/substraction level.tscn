@@ -39,7 +39,7 @@
 [ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="37_1xeq3"]
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="38_mx3de"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="39_p3s6w"]
-[ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="40_08fce"]
+[ext_resource type="PackedScene" path="res://scene/pause_menu.tscn" id="40_08fce"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1tmm"]
 texture = ExtResource("1_wbhxw")

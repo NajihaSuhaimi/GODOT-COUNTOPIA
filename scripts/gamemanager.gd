@@ -1,5 +1,8 @@
 extends Node
 
+# =========================
+# HUD REFERENCES
+# =========================
 var heart: Label
 var bluegem: Label
 var greengem: Label
@@ -8,13 +11,29 @@ var redgem: Label
 var purplegem: Label
 var quest_complete: Label
 
-var game_finished := false  # prevents multiple scene changes
+var game_finished := false
 
+
+# =========================
+# READY
+# =========================
 func _ready() -> void:
-	await get_tree().process_frame
-	link_hud()
+	# detect scene change AUTOMATICALLY
+	get_tree().scene_changed.connect(_on_scene_changed)
 
-func link_hud() -> void:
+
+# =========================
+# SCENE CHANGE HANDLER
+# =========================
+func _on_scene_changed():
+	game_finished = false
+	call_deferred("link_hud")
+
+
+# =========================
+# LINK HUD SAFELY
+# =========================
+func link_hud():
 	var root = get_tree().current_scene
 	if root == null:
 		return
@@ -29,6 +48,10 @@ func link_hud() -> void:
 
 	update_all_hud()
 
+
+# =========================
+# UPDATE HUD
+# =========================
 func update_all_hud():
 	if heart:
 		heart.text = str(GameState.player_health)
@@ -36,17 +59,18 @@ func update_all_hud():
 		bluegem.text = str(GameState.blue)
 	if greengem:
 		greengem.text = str(GameState.green)
-	if redgem:
-		redgem.text = str(GameState.red)
 	if yellowgem:
 		yellowgem.text = str(GameState.yellow)
+	if redgem:
+		redgem.text = str(GameState.red)
 	if purplegem:
 		purplegem.text = str(GameState.purple)
 	if quest_complete:
 		quest_complete.text = str(GameState.question_complete)
 
+
 # =========================
-# HEALTH → GAME OVER
+# HEALTH SYSTEM
 # =========================
 func update_player_health(amount: int):
 	GameState.player_health += amount
@@ -60,19 +84,22 @@ func update_player_health(amount: int):
 		game_finished = true
 		game_over()
 
+
 func game_over():
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")
 
+
 # =========================
-# WIN CONDITION (RED GEM)
+# WIN GAME
 # =========================
 func win_game():
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scene/win_screen.tscn")
 
+
 # =========================
-# SCORE FUNCTIONS
+# SCORE SYSTEM
 # =========================
 func add_score_blue():
 	GameState.blue += 1
@@ -85,10 +112,6 @@ func add_score_green():
 func add_score_red():
 	GameState.red += 1
 	update_all_hud()
-
-#	# 🏆 WIN IMMEDIATELY when red diamond is collected
-#	get_tree().paused = false
-#	get_tree().change_scene_to_file("res://scene/win_screen.tscn")
 
 func add_score_yellow():
 	GameState.yellow += 1
