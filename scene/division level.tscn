@@ -1,10 +1,11 @@
-[gd_scene load_steps=44 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=46 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="3_87j3k"]
 [ext_resource type="Texture2D" uid="uid://deou6xonq17p5" path="res://soalanQuiz/soalanBahagi/bahagi1.png" id="4_7iyk7"]
 [ext_resource type="Script" uid="uid://bh5u6lumgwjte" path="res://scene/entities/quiz bahagi/quiz_bahagi_1.gd" id="4_fny4f"]
+[ext_resource type="Script" uid="uid://c08on8kmqoq3e" path="res://scene/pintu_bahagi1.gd" id="5_i3q3d"]
 [ext_resource type="Texture2D" uid="uid://dmvvnjmgavkep" path="res://soalanQuiz/soalanBahagi/bahagi2.png" id="5_pwsjk"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="6_e6tc1"]
 [ext_resource type="Texture2D" uid="uid://dy2qyc1udalcq" path="res://soalanQuiz/soalanBahagi/bahagi3.png" id="6_la7yh"]
@@ -256,6 +257,10 @@ texture_region_size = Vector2i(24, 24)
 tile_size = Vector2i(24, 24)
 sources/0 = SubResource("TileSetAtlasSource_0ucor")
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f0udu"]
+radius = 19.0
+height = 44.0
+
 [node name="Division" type="Node2D"]
 
 [node name="GameManager" type="Node" parent="." groups=["game_manager"]]
@@ -283,10 +288,17 @@ layer_0/tile_data = PackedInt32Array(-131072, 327680, 1, -131071, 262144, 1, -13
 [node name="Player1" parent="." instance=ExtResource("3_87j3k")]
 position = Vector2(86, -55)
 
+[node name="PintuBahagi1" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("5_i3q3d")
+
+[node name="LanggarPintuBahagi1" type="CollisionShape2D" parent="PintuBahagi1"]
+position = Vector2(1072, -257)
+shape = SubResource("CapsuleShape2D_f0udu")
+
 [node name="Questions" type="CanvasLayer" parent="."]
 
 [node name="QuizBahagi1" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -403,7 +415,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi1"]
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -454,7 +465,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi2" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -573,7 +583,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi2"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -624,7 +633,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi3" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -743,7 +751,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi3"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -794,7 +801,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi4" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -913,7 +919,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi4"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -964,7 +969,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi5" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1083,7 +1087,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi5"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1134,7 +1137,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi6" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1253,7 +1255,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi6"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1304,7 +1305,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi7" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1423,7 +1423,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi7"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1474,7 +1473,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi8" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1593,7 +1591,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi8"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1644,7 +1641,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi9" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1763,7 +1759,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi9"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1814,7 +1809,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizBahagi10" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1933,7 +1927,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizBahagi10"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -2290,6 +2283,8 @@ position = Vector2(9201, -52)
 
 [node name="PauseMenu" parent="." instance=ExtResource("39_2iatv")]
 
+[connection signal="body_entered" from="PintuBahagi1" to="GameManager" method="_on_pintu_bahagi_1_body_entered"]
+[connection signal="body_entered" from="PintuBahagi1" to="PintuBahagi1" method="_on_body_entered"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonA" to="Questions/QuizBahagi1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonB" to="Questions/QuizBahagi1" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonC" to="Questions/QuizBahagi1" method="_on_button_c_pressed"]

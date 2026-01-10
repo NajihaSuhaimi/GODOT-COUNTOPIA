@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://b14q05dbr10ad"]
 
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="1_65tuv"]
-[ext_resource type="Script" path="res://scripts/mainmenuu.gd" id="1_775nd"]
+[ext_resource type="Script" uid="uid://ch150x6ja3pjt" path="res://scripts/mainmenuu.gd" id="1_775nd"]
 [ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="2_5hnjr"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5hnjr"]

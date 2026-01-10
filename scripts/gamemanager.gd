@@ -124,3 +124,7 @@ func add_score_purple():
 func add_question_complete():
 	GameState.question_complete += 1
 	update_all_hud()
+
+
+func _on_button_a_pressed() -> void:
+	pass # Replace with function body.

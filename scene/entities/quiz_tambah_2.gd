@@ -102,13 +102,13 @@ func _on_tutpbtn_pressed() -> void:
 # -----------------
 
 func disable_buttons() -> void:
-	button_a.disabled = true
-	button_b.disabled = true
-	button_c.disabled = true
-	button_d.disabled = true
+	if button_a: button_a.disabled = true
+	if button_b: button_b.disabled = true
+	if button_c: button_c.disabled = true
+	if button_d: button_d.disabled = true
 
 func enable_buttons() -> void:
-	button_a.disabled = false
-	button_b.disabled = false
-	button_c.disabled = false
-	button_d.disabled = false
+	if button_a: button_a.disabled = false
+	if button_b: button_b.disabled = false
+	if button_c: button_c.disabled = false
+	if button_d: button_d.disabled = false

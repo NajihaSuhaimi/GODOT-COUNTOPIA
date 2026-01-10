@@ -1,21 +1,27 @@
-[gd_scene load_steps=51 format=3 uid="uid://diprnc530wh3j"]
+[gd_scene load_steps=57 format=3 uid="uid://diprnc530wh3j"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="3_f40pi"]
 [ext_resource type="PackedScene" uid="uid://c236eccctafm8" path="res://scene/entities/player_1.tscn" id="4_fq4rq"]
 [ext_resource type="Texture2D" uid="uid://csydcsg2tm2ww" path="res://assets/kenney_pixel-platformer/Tiles/tile_0068.png" id="4_snvvm"]
-[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/testtrypintu.gd" id="6_6clik"]
-[ext_resource type="Texture2D" uid="uid://bnqdrualgs7ou" path="res://assets/vecteezy_nine-pixel-art-icons_10529643_769/door closed.jpg" id="7_kdffb"]
+[ext_resource type="Script" uid="uid://c03h04ttoufk8" path="res://scripts/pintu1.gd" id="6_6clik"]
 [ext_resource type="Script" uid="uid://b48n6vvcuqop6" path="res://scene/entities/quizz tambah/quiz_tambah_1.gd" id="7_poxer"]
 [ext_resource type="Texture2D" uid="uid://diam5cpyjra8p" path="res://soalanQuiz/soalanTambah/tambah1.png" id="8_5cwt3"]
-[ext_resource type="Texture2D" uid="uid://bqvrj7bufsf47" path="res://assets/vecteezy_nine-pixel-art-icons_10529643_769/door open.jpg" id="8_c0ln1"]
+[ext_resource type="Script" uid="uid://qeu7ocl5qk2m" path="res://scripts/pintu3.gd" id="8_kdffb"]
+[ext_resource type="Script" uid="uid://dwpmv6vs8ff88" path="res://scripts/pintu4.gd" id="9_c0ln1"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="9_e818r"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="10_aamoh"]
+[ext_resource type="Script" uid="uid://1rccv072vs8i" path="res://scripts/pintu5.gd" id="10_v0bk3"]
+[ext_resource type="Script" uid="uid://dflw7c1rbgdsk" path="res://scripts/pintu6.gd" id="11_4s1x5"]
 [ext_resource type="Script" uid="uid://dcq87mj6h0a57" path="res://scene/entities/quiz_tambah_2.gd" id="11_n826s"]
+[ext_resource type="Script" uid="uid://b2tmya0nrxbvb" path="res://scripts/pintu7.gd" id="12_737t0"]
 [ext_resource type="Texture2D" uid="uid://duf5byuoik06a" path="res://soalanQuiz/soalanTambah/tambah2.png" id="12_ngrxf"]
 [ext_resource type="Script" uid="uid://caikimmpldjtt" path="res://scene/entities/quizz tambah/quiz_tambah_3.gd" id="13_4rts3"]
+[ext_resource type="Script" uid="uid://fibq7jvdlnx7" path="res://scripts/pintu8.gd" id="13_ddtv6"]
 [ext_resource type="Texture2D" uid="uid://3ap2ac1ojudb" path="res://soalanQuiz/soalanTambah/tambah3.png" id="14_2tali"]
+[ext_resource type="Script" uid="uid://uxdbiqdiqhfd" path="res://scripts/pintu9.gd" id="14_15ism"]
+[ext_resource type="Script" uid="uid://r4ich4tb5v6x" path="res://scripts/pintu10.gd" id="15_7yces"]
 [ext_resource type="Script" uid="uid://bbdb3gshtl8qi" path="res://scene/entities/quizz tambah/quiz_tambah_4.gd" id="15_ib7y0"]
 [ext_resource type="Texture2D" uid="uid://fcjux61yo6o7" path="res://soalanQuiz/soalanTambah/tambah4.png" id="16_fq774"]
 [ext_resource type="Script" uid="uid://llj7tsbfvik2" path="res://scene/entities/quizz tambah/quiz_tambah_5.gd" id="17_sg5da"]
@@ -41,6 +47,7 @@
 [ext_resource type="PackedScene" uid="uid://chsj6ip72h7uf" path="res://scene/reddiamond.tscn" id="38_2cqgu"]
 [ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="39_ojiix"]
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="40_6us26"]
+[ext_resource type="Script" uid="uid://bnns8qh70e2bu" path="res://scripts/pintu2.gd" id="41_6us26"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="41_kdffb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
@@ -365,25 +372,6 @@ physics_layer_0/collision_layer = 1
 physics_layer_0/collision_mask = 2
 sources/0 = SubResource("TileSetAtlasSource_yym2a")
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_v0bk3"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("7_kdffb")
-}],
-"loop": true,
-"name": &"closed",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("8_c0ln1")
-}],
-"loop": true,
-"name": &"open",
-"speed": 5.0
-}]
-
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_aued2"]
 radius = 19.0
 height = 44.0
@@ -423,19 +411,84 @@ layer_0/tile_data = PackedInt32Array(-65515, 0, 805306368, -65449, 0, 805306368,
 [node name="Player1" parent="." instance=ExtResource("4_fq4rq")]
 position = Vector2(199, -64)
 
-[node name="Pintu" type="Area2D" parent="."]
+[node name="Pintu1" type="Area2D" parent="."]
 position = Vector2(170, 91)
 script = ExtResource("6_6clik")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Pintu"]
-position = Vector2(975, -333)
-scale = Vector2(0.13043478, 0.13043478)
-sprite_frames = SubResource("SpriteFrames_v0bk3")
-animation = &"closed"
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pintu"]
+[node name="LanggarPintu1" type="CollisionShape2D" parent="Pintu1"]
 position = Vector2(927, -328)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu2" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("41_6us26")
+
+[node name="LanggarPintu2" type="CollisionShape2D" parent="Pintu2"]
+position = Vector2(1864, -114)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu3" type="Area2D" parent="."]
+position = Vector2(1214, 420)
+script = ExtResource("8_kdffb")
+
+[node name="LanggarPintu3" type="CollisionShape2D" parent="Pintu3"]
+position = Vector2(1864, -118)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu4" type="Area2D" parent="."]
+position = Vector2(1358, -192)
+script = ExtResource("9_c0ln1")
+
+[node name="LanggarPintu4" type="CollisionShape2D" parent="Pintu4"]
+position = Vector2(1864, -118)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu5" type="Area2D" parent="."]
+position = Vector2(1899, 277)
+script = ExtResource("10_v0bk3")
+
+[node name="LanggarPintu5" type="CollisionShape2D" parent="Pintu5"]
+position = Vector2(1864, -118)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu6" type="Area2D" parent="."]
+position = Vector2(1899, 277)
+script = ExtResource("11_4s1x5")
+
+[node name="LanggarPintu6" type="CollisionShape2D" parent="Pintu6"]
+position = Vector2(1936, -408)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu7" type="Area2D" parent="."]
+position = Vector2(1899, 277)
+script = ExtResource("12_737t0")
+
+[node name="LanggarPintu7" type="CollisionShape2D" parent="Pintu7"]
+position = Vector2(2799, -300)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu8" type="Area2D" parent="."]
+position = Vector2(1899, 277)
+script = ExtResource("13_ddtv6")
+
+[node name="LanggarPintu8" type="CollisionShape2D" parent="Pintu8"]
+position = Vector2(4274, -300)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu9" type="Area2D" parent="."]
+position = Vector2(2907, 169)
+script = ExtResource("14_15ism")
+
+[node name="LanggarPintu9" type="CollisionShape2D" parent="Pintu9"]
+position = Vector2(4274, -300)
+shape = SubResource("CapsuleShape2D_aued2")
+
+[node name="Pintu10" type="Area2D" parent="."]
+position = Vector2(2907, 169)
+script = ExtResource("15_7yces")
+
+[node name="LanggarPintu10" type="CollisionShape2D" parent="Pintu10"]
+position = Vector2(5139, -445)
 shape = SubResource("CapsuleShape2D_aued2")
 
 [node name="Questions" type="CanvasLayer" parent="."]
@@ -560,7 +613,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah1"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -611,7 +663,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah2" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -645,10 +696,10 @@ anchor_left = 0.358
 anchor_top = 0.68
 anchor_right = 0.358
 anchor_bottom = 0.68
-offset_left = -54.404
-offset_top = -17.62
-offset_right = 54.596
-offset_bottom = 17.38
+offset_left = -54.404007
+offset_top = -17.619995
+offset_right = 54.595993
+offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah2"]
@@ -692,7 +743,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah2"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -731,7 +781,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah2"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -782,7 +831,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah3" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -863,7 +911,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah3"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -902,7 +949,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah3"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -953,7 +999,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah4" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1034,7 +1079,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah4"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1073,7 +1117,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah4"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1124,7 +1167,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah5" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1205,7 +1247,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah5"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1244,7 +1285,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah5"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1295,7 +1335,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah6" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1376,7 +1415,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah6"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1415,7 +1453,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah6"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1466,7 +1503,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah7" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1547,7 +1583,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah7"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1586,7 +1621,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah7"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1637,7 +1671,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah8" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1718,7 +1751,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah8"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1757,7 +1789,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah8"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1808,7 +1839,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah9" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -1889,7 +1919,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah9"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1928,7 +1957,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah9"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -1979,7 +2007,6 @@ offset_bottom = 20.52
 flat = true
 
 [node name="QuizTambah10" type="Control" parent="Questions"]
-visible = false
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -2060,7 +2087,6 @@ flat = true
 
 [node name="CorrectPopUp" type="Control" parent="Questions/QuizTambah10"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -2099,7 +2125,6 @@ flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah10"]
 process_mode = 3
-visible = false
 anchors_preset = 0
 offset_left = -1.0
 offset_top = -0.5
@@ -2487,7 +2512,29 @@ position = Vector2(3707, -268)
 [node name="greendiamond17" parent="Node" instance=ExtResource("41_kdffb")]
 position = Vector2(3652, -267)
 
-[connection signal="body_entered" from="Pintu" to="Pintu" method="_on_body_entered"]
+[node name="ButtonA" type="Button" parent="."]
+anchors_preset = -1
+anchor_left = 0.358
+anchor_top = 0.68
+anchor_right = 0.358
+anchor_bottom = 0.68
+offset_left = -54.404
+offset_top = -17.62
+offset_right = 54.596
+offset_bottom = 17.38
+flat = true
+
+[connection signal="body_entered" from="Pintu1" to="GameManager" method="_on_pintu1_body_entered"]
+[connection signal="body_entered" from="Pintu1" to="Pintu1" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu2" to="Pintu2" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu3" to="Pintu3" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu4" to="Pintu4" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu5" to="Pintu5" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu6" to="Pintu6" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu7" to="Pintu7" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu8" to="Pintu8" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu9" to="Pintu9" method="_on_body_entered"]
+[connection signal="body_entered" from="Pintu10" to="Pintu10" method="_on_body_entered"]
 [connection signal="pressed" from="Questions/QuizTambah1/ButtonA" to="Questions/QuizTambah1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/ButtonB" to="Questions/QuizTambah1" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/ButtonC" to="Questions/QuizTambah1" method="_on_button_c_pressed"]
@@ -2495,7 +2542,7 @@ position = Vector2(3652, -267)
 [connection signal="pressed" from="Questions/QuizTambah1/CorrectPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/retrybtn" to="Questions/QuizTambah1" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah2/ButtonA" to="Questions/QuizTambah2" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonA" to="GameManager" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonB" to="Questions/QuizTambah2" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonC" to="Questions/QuizTambah2" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonD" to="Questions/QuizTambah2" method="_on_button_d_pressed"]
