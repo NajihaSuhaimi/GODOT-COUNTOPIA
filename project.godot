@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="COUNTOPIA"
-run/main_scene="uid://b72nblajs7l6w"
+run/main_scene="uid://bujltxum4rkgp"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

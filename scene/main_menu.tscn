@@ -1,7 +1,8 @@
-[gd_scene load_steps=18 format=3 uid="uid://bujltxum4rkgp"]
+[gd_scene load_steps=19 format=3 uid="uid://bujltxum4rkgp"]
 
 [ext_resource type="Script" uid="uid://cv44gw8u8qrw5" path="res://scripts/main_menu.gd" id="1_osntc"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="2_hxu56"]
+[ext_resource type="Texture2D" uid="uid://ftsmjx0rh0pa" path="res://assets/Gambar/CSC 536 GROUP PROJECT (1).png" id="3_1o50l"]
 [ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="3_2fwvj"]
 [ext_resource type="Texture2D" uid="uid://vh4afr43s3ux" path="res://How to Play Images/2.png" id="3_sepwh"]
 [ext_resource type="AudioStream" uid="uid://bovgytc6u5vsb" path="res://Feel the Flow_ Neo Soul & Jazz Hip Hop Grooves [fUW0XWn1Gsk].mp3" id="4_0iwki"]
@@ -91,7 +92,24 @@ text = "COUNTOPIA"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="TextureRect" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -182.0
+offset_right = 320.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_1o50l")
+expand_mode = 1
+
 [node name="Main Buttons" type="VBoxContainer" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.5
@@ -433,7 +451,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Level Selection Panel" type="Panel" parent="."]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://c71hedkxcggnr"]
+[gd_scene load_steps=9 format=3 uid="uid://t4mp8mqkoy6m"]
 
-[ext_resource type="Script" uid="uid://gcbajk71ydrg" path="res://scene/game_over.gd" id="1_bc2bx"]
+[ext_resource type="Script" path="res://scene/game_over.gd" id="1_bc2bx"]
 [ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="2_6pabp"]
+[ext_resource type="Texture2D" uid="uid://ftsmjx0rh0pa" path="res://assets/Gambar/CSC 536 GROUP PROJECT (1).png" id="2_ooyig"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="3_ooyig"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uvgaa"]
@@ -46,6 +47,21 @@ grow_vertical = 2
 script = ExtResource("1_bc2bx")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -319.0
+offset_top = -182.0
+offset_right = 320.0
+offset_bottom = 178.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ooyig")
+expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
 anchors_preset = 8

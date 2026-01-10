@@ -84,7 +84,6 @@ func update_player_health(amount: int):
 		game_finished = true
 		game_over()
 
-
 func game_over():
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")
