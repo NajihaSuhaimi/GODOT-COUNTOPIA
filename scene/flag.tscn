@@ -1,21 +1,21 @@
 [gd_scene load_steps=4 format=3 uid="uid://b6kpaokbc6jfc"]
 
-[ext_resource type="Script" uid="uid://c8v4x0hwia40g" path="res://scene/flag_temporary.gd" id="1_encts"]
+[ext_resource type="Script" uid="uid://c8v4x0hwia40g" path="res://scene/flag.gd" id="1_encts"]
 [ext_resource type="Texture2D" uid="uid://dt1ufsus8ktuh" path="res://assets/kenney_gategem/Vector/Tiles/flag_red_a.svg" id="2_63i8y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h31ly"]
-size = Vector2(26, 25)
+size = Vector2(41, 41)
 
 [node name="RedFlag" type="Area2D"]
 script = ExtResource("1_encts")
 
 [node name="FlagSprite" type="Sprite2D" parent="."]
-position = Vector2(-1.9073486e-06, 1.9073486e-06)
-scale = Vector2(0.40625, 0.40625)
+position = Vector2(8.000001, 8.000005)
+scale = Vector2(0.65625006, 0.65625006)
 texture = ExtResource("2_63i8y")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 0.5)
+position = Vector2(7.5, 8.5)
 shape = SubResource("RectangleShape2D_h31ly")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://diprnc530wh3j"]
+[gd_scene load_steps=63 format=3 uid="uid://diprnc530wh3j"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
@@ -49,6 +49,12 @@
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="40_6us26"]
 [ext_resource type="Script" uid="uid://bnns8qh70e2bu" path="res://scripts/pintu2.gd" id="41_6us26"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="41_kdffb"]
+[ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="50_gpw68"]
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="51_44cvq"]
+[ext_resource type="Texture2D" uid="uid://b8xd45q6nge2d" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_blue.png" id="52_c4000"]
+[ext_resource type="Texture2D" uid="uid://ve227ro6hwp3" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_green.png" id="53_kccok"]
+[ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="54_ilsah"]
+[ext_resource type="Texture2D" uid="uid://216w7n4ww5k8" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="55_ma1ee"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("2_ullah")
@@ -512,6 +518,7 @@ size_flags_vertical = 4
 script = ExtResource("7_poxer")
 
 [node name="Soalan1" type="TextureRect" parent="Questions/QuizTambah1"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -582,6 +589,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah1/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -620,6 +628,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -677,9 +686,11 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+mouse_filter = 2
 script = ExtResource("11_n826s")
 
 [node name="Soalan2" type="TextureRect" parent="Questions/QuizTambah2"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -690,6 +701,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -703,6 +715,7 @@ offset_bottom = 17.380005
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -716,6 +729,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -729,6 +743,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -750,6 +765,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -767,6 +783,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -788,6 +805,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -805,6 +823,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -818,6 +837,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -848,6 +868,7 @@ size_flags_vertical = 4
 script = ExtResource("13_4rts3")
 
 [node name="Soalan3" type="TextureRect" parent="Questions/QuizTambah3"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -858,6 +879,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -871,6 +893,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -884,6 +907,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -897,6 +921,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -918,6 +943,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -935,6 +961,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -956,6 +983,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -973,6 +1001,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -986,6 +1015,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1026,6 +1056,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1039,6 +1070,7 @@ offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1052,6 +1084,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1065,6 +1098,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1086,6 +1120,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1103,6 +1138,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1124,6 +1160,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1141,6 +1178,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1154,6 +1192,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1184,6 +1223,7 @@ size_flags_vertical = 4
 script = ExtResource("17_sg5da")
 
 [node name="Soalan5" type="TextureRect" parent="Questions/QuizTambah5"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1194,6 +1234,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1207,6 +1248,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1220,6 +1262,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1230,9 +1273,11 @@ offset_left = -55.404
 offset_top = -20.316
 offset_right = 53.596
 offset_bottom = 18.684
+mouse_filter = 2
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1254,6 +1299,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1271,6 +1317,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1292,6 +1339,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1309,6 +1357,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1322,6 +1371,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1352,6 +1402,7 @@ size_flags_vertical = 4
 script = ExtResource("19_5vt1t")
 
 [node name="Soalan6" type="TextureRect" parent="Questions/QuizTambah6"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1362,6 +1413,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1375,6 +1427,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1388,6 +1441,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1401,6 +1455,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1422,6 +1477,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1439,6 +1495,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1460,6 +1517,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1477,6 +1535,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1490,6 +1549,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1520,6 +1580,7 @@ size_flags_vertical = 4
 script = ExtResource("21_0k33n")
 
 [node name="Soalan7" type="TextureRect" parent="Questions/QuizTambah7"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1530,6 +1591,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1543,6 +1605,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1556,6 +1619,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1569,6 +1633,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1590,6 +1655,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah7/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1607,6 +1673,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah7/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1628,6 +1695,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1645,6 +1713,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1658,6 +1727,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1688,6 +1758,7 @@ size_flags_vertical = 4
 script = ExtResource("23_ci5v4")
 
 [node name="Soalan8" type="TextureRect" parent="Questions/QuizTambah8"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1698,6 +1769,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1711,6 +1783,7 @@ offset_bottom = 17.508
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1724,6 +1797,7 @@ offset_bottom = 19.149
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1737,6 +1811,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1758,6 +1833,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1775,6 +1851,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1796,6 +1873,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1813,6 +1891,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1826,6 +1905,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1856,6 +1936,7 @@ size_flags_vertical = 4
 script = ExtResource("25_qywqy")
 
 [node name="Soalan9" type="TextureRect" parent="Questions/QuizTambah9"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1866,6 +1947,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1879,6 +1961,7 @@ offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1892,6 +1975,7 @@ offset_bottom = 18.918
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1905,6 +1989,7 @@ offset_bottom = 19.453
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1926,6 +2011,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1943,6 +2029,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1964,6 +2051,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1981,6 +2069,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1994,6 +2083,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -2024,6 +2114,7 @@ size_flags_vertical = 4
 script = ExtResource("27_3t2y8")
 
 [node name="Soalan10" type="TextureRect" parent="Questions/QuizTambah10"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -2034,6 +2125,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTambah10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -2047,6 +2139,7 @@ offset_bottom = 14.456
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTambah10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -2060,6 +2153,7 @@ offset_bottom = 19.046
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTambah10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -2073,6 +2167,7 @@ offset_bottom = 19.632
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -2094,6 +2189,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -2111,6 +2207,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -2132,6 +2229,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -2149,6 +2247,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -2162,6 +2261,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTambah10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -2524,6 +2624,218 @@ offset_right = 54.596
 offset_bottom = 17.38
 flat = true
 
+[node name="DiamondRequirement" type="Node" parent="."]
+
+[node name="Door1" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door1"]
+offset_left = 1070.0
+offset_top = -297.0
+offset_right = 1103.0
+offset_bottom = -264.0
+texture = ExtResource("50_gpw68")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door1"]
+offset_left = 1105.0
+offset_top = -288.0
+offset_right = 1120.0
+offset_bottom = -272.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "9"
+
+[node name="Door2" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door2"]
+offset_left = 2007.0
+offset_top = -86.0
+offset_right = 2040.0
+offset_bottom = -53.0
+texture = ExtResource("52_c4000")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door2"]
+offset_left = 2038.0
+offset_top = -78.0
+offset_right = 2053.0
+offset_bottom = -58.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "6
+"
+
+[node name="Door3" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door3"]
+offset_left = 3052.0
+offset_top = 247.0
+offset_right = 3085.0
+offset_bottom = 280.0
+texture = ExtResource("53_kccok")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door3"]
+offset_left = 3084.0
+offset_top = 254.0
+offset_right = 3099.0
+offset_bottom = 297.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "10
+
+"
+
+[node name="Door4" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door4"]
+offset_left = 3197.0
+offset_top = -364.0
+offset_right = 3230.0
+offset_bottom = -331.0
+texture = ExtResource("54_ilsah")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door4"]
+offset_left = 3228.0
+offset_top = -355.0
+offset_right = 3243.0
+offset_bottom = -312.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "8
+"
+
+[node name="Door5" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door5"]
+offset_left = 3733.0
+offset_top = 98.0
+offset_right = 3766.0
+offset_bottom = 131.0
+texture = ExtResource("55_ma1ee")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door5"]
+offset_left = 3765.0
+offset_top = 105.0
+offset_right = 3780.0
+offset_bottom = 148.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "8
+"
+
+[node name="Door6" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door6"]
+offset_left = 3816.0
+offset_top = -184.0
+offset_right = 3849.0
+offset_bottom = -151.0
+texture = ExtResource("50_gpw68")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door6"]
+offset_left = 3849.0
+offset_top = -176.0
+offset_right = 3864.0
+offset_bottom = -133.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "4
+"
+
+[node name="Door7" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door7"]
+offset_left = 4669.0
+offset_top = -79.0
+offset_right = 4702.0
+offset_bottom = -46.0
+texture = ExtResource("54_ilsah")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door7"]
+offset_left = 4701.0
+offset_top = -71.0
+offset_right = 4716.0
+offset_bottom = -28.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "2
+"
+
+[node name="Door8" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door8"]
+offset_left = 6153.0
+offset_top = -81.0
+offset_right = 6186.0
+offset_bottom = -48.0
+texture = ExtResource("52_c4000")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door8"]
+offset_left = 6186.0
+offset_top = -71.0
+offset_right = 6201.0
+offset_bottom = -28.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "2
+"
+
+[node name="Door9" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door9"]
+offset_left = 7158.0
+offset_top = -181.0
+offset_right = 7191.0
+offset_bottom = -148.0
+texture = ExtResource("55_ma1ee")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door9"]
+offset_left = 7189.0
+offset_top = -174.0
+offset_right = 7204.0
+offset_bottom = -131.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "3
+"
+
+[node name="Door10" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Door10"]
+offset_left = 8020.0
+offset_top = -331.0
+offset_right = 8053.0
+offset_bottom = -298.0
+texture = ExtResource("53_kccok")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Door10"]
+offset_left = 8052.0
+offset_top = -321.0
+offset_right = 8067.0
+offset_bottom = -278.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_44cvq")
+theme_override_font_sizes/font_size = 20
+text = "1
+"
+
 [connection signal="body_entered" from="Pintu1" to="GameManager" method="_on_pintu1_body_entered"]
 [connection signal="body_entered" from="Pintu1" to="Pintu1" method="_on_body_entered"]
 [connection signal="body_entered" from="Pintu2" to="Pintu2" method="_on_body_entered"]
@@ -2542,7 +2854,7 @@ flat = true
 [connection signal="pressed" from="Questions/QuizTambah1/CorrectPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/tutpbtn" to="Questions/QuizTambah1" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah1/WrongPopUp/retrybtn" to="Questions/QuizTambah1" method="_on_retrybtn_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah2/ButtonA" to="GameManager" method="_on_button_a_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah2/ButtonA" to="Questions/QuizTambah2" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonB" to="Questions/QuizTambah2" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonC" to="Questions/QuizTambah2" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah2/ButtonD" to="Questions/QuizTambah2" method="_on_button_d_pressed"]
@@ -2565,7 +2877,7 @@ flat = true
 [connection signal="pressed" from="Questions/QuizTambah4/WrongPopUp/retrybtn" to="Questions/QuizTambah4" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonA" to="Questions/QuizTambah5" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonB" to="Questions/QuizTambah5" method="_on_button_b_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah5/ButtonC" to="GameManager" method="_on_button_c_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonC" to="Questions/QuizTambah5" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonD" to="Questions/QuizTambah5" method="_on_button_d_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/CorrectPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/WrongPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]
@@ -2574,7 +2886,7 @@ flat = true
 [connection signal="pressed" from="Questions/QuizTambah6/ButtonB" to="Questions/QuizTambah6" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah6/ButtonC" to="Questions/QuizTambah6" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah6/ButtonD" to="Questions/QuizTambah6" method="_on_button_d_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah6/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah6/CorrectPopUp/tutpbtn" to="Questions/QuizTambah6" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah6/WrongPopUp/tutpbtn" to="Questions/QuizTambah6" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah6/WrongPopUp/retrybtn" to="Questions/QuizTambah6" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah7/ButtonA" to="Questions/QuizTambah7" method="_on_button_a_pressed"]
@@ -2597,7 +2909,7 @@ flat = true
 [connection signal="pressed" from="Questions/QuizTambah9/ButtonD" to="Questions/QuizTambah9" method="_on_button_d_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah9/CorrectPopUp/tutpbtn" to="Questions/QuizTambah9" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah9/WrongPopUp/tutpbtn" to="Questions/QuizTambah9" method="_on_tutpbtn_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah9/WrongPopUp/retrybtn" to="GameManager" method="_on_retrybtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah9/WrongPopUp/retrybtn" to="Questions/QuizTambah9" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah10/ButtonA" to="Questions/QuizTambah10" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah10/ButtonB" to="Questions/QuizTambah10" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah10/ButtonC" to="Questions/QuizTambah10" method="_on_button_c_pressed"]

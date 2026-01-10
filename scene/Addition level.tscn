@@ -43,7 +43,7 @@
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="42_1a550"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="43_oqflk"]
 [ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="44_sadnv"]
-[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag_temporary.tscn" id="44_vi7ej"]
+[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag.tscn" id="44_vi7ej"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("3_hyx3e")
@@ -2490,7 +2490,7 @@ position = Vector2(3707, -268)
 position = Vector2(3652, -267)
 
 [node name="RedFlag2" parent="Node" instance=ExtResource("44_vi7ej")]
-position = Vector2(496, -119)
+position = Vector2(8628, -245)
 
 [node name="PauseMenu" parent="." instance=ExtResource("44_sadnv")]
 

@@ -29,7 +29,7 @@ func _on_back_how_to_play_pressed() -> void:
 
 # Select Leve
 func _on_addition_pressed() -> void:
-	get_tree().change_scene_to_file("res://scene/Addition Level.tscn")
+	get_tree().change_scene_to_file("res://scene/Addition baru.tscn")
 
 func _on_subtraction_pressed() -> void:
 	pass # Replace with function body.
