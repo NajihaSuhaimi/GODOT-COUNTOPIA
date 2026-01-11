@@ -1,4 +1,8 @@
+
 [gd_scene load_steps=66 format=3 uid="uid://f2og2rajpid3"]
+
+[gd_scene load_steps=62 format=3 uid="uid://f2og2rajpid3"]
+
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
@@ -18,9 +22,12 @@
 [ext_resource type="Script" uid="uid://bad6epw4s4lrx" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
 [ext_resource type="Texture2D" uid="uid://coyfo6ta5j8vu" path="res://soalanQuiz/soalanTolak/tolak7.png" id="9_k8dtt"]
 [ext_resource type="Texture2D" uid="uid://byip8g6ff4h71" path="res://soalanQuiz/soalanTolak/tolak8.png" id="10_v426l"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="10_xghcq"]
+[ext_resource type="AudioStream" uid="uid://djb0monpg7lk7" path="res://sound/mixkit-video-game-treasure-2066.wav" id="11_4p5of"]
 [ext_resource type="Texture2D" uid="uid://bibhfi1v0insy" path="res://soalanQuiz/soalanTolak/tolak9.png" id="11_a1wbr"]
 [ext_resource type="Script" uid="uid://dwr861eb2muie" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
 [ext_resource type="Texture2D" uid="uid://b8iy6dm3w4fot" path="res://soalanQuiz/soalanTolak/tolak10.png" id="12_aia24"]
+[ext_resource type="AudioStream" uid="uid://bdcly1md3bf8e" path="res://sound/negative_beeps-6008.mp3" id="12_qdquj"]
 [ext_resource type="Script" uid="uid://miy26giuk4ac" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
 [ext_resource type="Script" uid="uid://camokug72ov7m" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
 [ext_resource type="Script" uid="uid://waoyi6og385" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
@@ -608,6 +615,18 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("10_xghcq")
+bus = &"SFX"
+
+[node name="button betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("11_4p5of")
+bus = &"SFX"
+
+[node name="button salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("12_qdquj")
+bus = &"SFX"
 
 [node name="QuizTolak2" type="Control" parent="Questions"]
 visible = false
