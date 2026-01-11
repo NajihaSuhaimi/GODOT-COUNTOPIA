@@ -96,7 +96,8 @@ func _on_tutpbtn_pressed() -> void:
 	wrong_popup.visible = false
 	visible = false
 	get_tree().paused = false
-	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
 # ----------------- 
 # UTILITIES 
 # -----------------

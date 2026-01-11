@@ -10,7 +10,6 @@ var total_questions := 10
 func can_activate_flag() -> bool:
 	return questions_completed >= required_questions
 
-
 # =========================
 # HUD REFERENCES
 # =========================

@@ -1281,7 +1281,6 @@ offset_left = -55.404
 offset_top = -20.316
 offset_right = 53.596
 offset_bottom = 18.684
-mouse_filter = 2
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah5"]
@@ -1814,7 +1813,6 @@ offset_left = -54.766
 offset_top = -19.624
 offset_right = 54.234
 offset_bottom = 19.376
-mouse_filter = 2
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah8"]
@@ -1869,7 +1867,6 @@ offset_left = -54.0
 offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
-mouse_filter = 2
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah8"]
@@ -2922,7 +2919,7 @@ position = Vector2(8618, -29)
 [connection signal="pressed" from="Questions/QuizTambah3/ButtonB" to="Questions/QuizTambah3" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah3/ButtonC" to="Questions/QuizTambah3" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah3/ButtonD" to="Questions/QuizTambah3" method="_on_button_d_pressed"]
-[connection signal="pressed" from="Questions/QuizTambah3/CorrectPopUp/tutpbtn" to="GameManager" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah3/CorrectPopUp/tutpbtn" to="Questions/QuizTambah3" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah3/WrongPopUp/tutpbtn" to="Questions/QuizTambah3" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah3/WrongPopUp/retrybtn" to="Questions/QuizTambah3" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah4/ButtonA" to="Questions/QuizTambah4" method="_on_button_a_pressed"]
