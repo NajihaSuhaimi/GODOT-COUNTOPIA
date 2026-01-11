@@ -4,7 +4,7 @@ extends Control
 # JAWAPAN 
 # 0 = A, 1 = B, 2 = C, 3 = D
 # -----------------
-@export var correct_answer := 3
+@export var correct_answer :=3
 
 @onready var button_a: Button = $ButtonA
 @onready var button_b: Button = $ButtonB
@@ -16,6 +16,7 @@ extends Control
 
 func _ready() -> void:
 	#SHOW QUIZ
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	visible = false
 	#CORRECT/WRONG INVISIBLE
 	correct_popup.visible = false

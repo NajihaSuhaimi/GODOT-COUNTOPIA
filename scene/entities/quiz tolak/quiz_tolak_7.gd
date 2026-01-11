@@ -16,6 +16,7 @@ extends Control
 
 func _ready() -> void:
 	#SHOW QUIZ
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	visible = false
 	#CORRECT/WRONG INVISIBLE
 	correct_popup.visible = false

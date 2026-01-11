@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://f2og2rajpid3"]
+[gd_scene load_steps=58 format=3 uid="uid://f2og2rajpid3"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
@@ -39,7 +39,17 @@
 [ext_resource type="PackedScene" uid="uid://bic1quswrsk0l" path="res://scene/purplediamond.tscn" id="37_1xeq3"]
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="38_mx3de"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="39_p3s6w"]
-[ext_resource type="PackedScene" path="res://scene/pause_menu.tscn" id="40_08fce"]
+[ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="40_08fce"]
+[ext_resource type="Script" uid="uid://vuw6wwhdc3vy" path="res://scene/pintu_tolak1.gd" id="41_mx3de"]
+[ext_resource type="Script" uid="uid://bqyycg7623c3s" path="res://scene/pintu_tolak2.gd" id="42_xm54l"]
+[ext_resource type="Script" uid="uid://by60vgfm0sq3j" path="res://scene/pintu_tolak3.gd" id="43_ij4sh"]
+[ext_resource type="Script" uid="uid://bapnqxqp4lt3h" path="res://scene/pintu_tolak4.gd" id="44_0l8ep"]
+[ext_resource type="Script" uid="uid://dqbnxopwa4s8v" path="res://scene/pintu_tolak5.gd" id="45_akqi4"]
+[ext_resource type="Script" uid="uid://uhq3mrdgonpn" path="res://scene/pintu_tolak6.gd" id="46_xghcq"]
+[ext_resource type="Script" uid="uid://dsimfvp6u55n4" path="res://scene/pintu_tolak7.gd" id="47_4p5of"]
+[ext_resource type="Script" uid="uid://csgh4nfu3hjug" path="res://scene/pintu_tolak8.gd" id="48_qdquj"]
+[ext_resource type="Script" uid="uid://bu2k3vndkrkel" path="res://scene/pintu_tola9.gd" id="49_h6yqe"]
+[ext_resource type="Script" uid="uid://cen4uku3eurs6" path="res://scene/pintu_tolak10.gd" id="50_4x2c3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1tmm"]
 texture = ExtResource("1_wbhxw")
@@ -370,6 +380,10 @@ tile_size = Vector2i(18, 18)
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_dibc4")
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r7yfj"]
+radius = 19.0
+height = 44.0
+
 [node name="Substraction" type="Node2D"]
 
 [node name="GameManager" type="Node" parent="." groups=["game_manager"]]
@@ -426,6 +440,7 @@ size_flags_vertical = 4
 script = ExtResource("3_mwo46")
 
 [node name="Soalan1" type="TextureRect" parent="Questions/QuizTolak1"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -436,6 +451,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -449,6 +465,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -462,6 +479,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -475,6 +493,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -496,6 +515,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak1/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -513,6 +533,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak1/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -535,6 +556,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -552,6 +574,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -565,6 +588,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -596,6 +620,7 @@ size_flags_vertical = 4
 script = ExtResource("7_k675r")
 
 [node name="Soalan2" type="TextureRect" parent="Questions/QuizTolak2"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -606,6 +631,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -619,6 +645,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -632,6 +659,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -645,6 +673,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -666,6 +695,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -683,6 +713,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -705,6 +736,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -722,6 +754,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -735,6 +768,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -766,6 +800,7 @@ size_flags_vertical = 4
 script = ExtResource("9_6gk8j")
 
 [node name="Soalan3" type="TextureRect" parent="Questions/QuizTolak3"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -776,6 +811,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -789,6 +825,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -802,6 +839,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -815,6 +853,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -836,6 +875,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -853,6 +893,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -875,6 +916,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -892,6 +934,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -905,6 +948,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -936,6 +980,7 @@ size_flags_vertical = 4
 script = ExtResource("11_p8scs")
 
 [node name="Soalan4" type="TextureRect" parent="Questions/QuizTolak4"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -946,6 +991,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -959,6 +1005,7 @@ offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -972,6 +1019,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -985,6 +1033,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1006,6 +1055,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1023,6 +1073,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1045,6 +1096,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1062,6 +1114,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1075,6 +1128,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1106,6 +1160,7 @@ size_flags_vertical = 4
 script = ExtResource("13_115wi")
 
 [node name="Soalan5" type="TextureRect" parent="Questions/QuizTolak5"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1116,6 +1171,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1129,6 +1185,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1142,6 +1199,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1155,6 +1213,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1176,6 +1235,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1193,6 +1253,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1215,6 +1276,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1232,6 +1294,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1245,6 +1308,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1276,6 +1340,7 @@ size_flags_vertical = 4
 script = ExtResource("15_w4p43")
 
 [node name="Soalan6" type="TextureRect" parent="Questions/QuizTolak6"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1286,6 +1351,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1299,6 +1365,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1312,6 +1379,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1325,6 +1393,7 @@ offset_bottom = 19.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1346,6 +1415,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1363,6 +1433,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1385,6 +1456,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1402,6 +1474,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1415,6 +1488,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1446,6 +1520,7 @@ size_flags_vertical = 4
 script = ExtResource("17_a4udj")
 
 [node name="Soalan7" type="TextureRect" parent="Questions/QuizTolak7"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1456,6 +1531,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1469,6 +1545,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1482,6 +1559,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1495,6 +1573,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1557,6 +1636,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1574,6 +1654,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1587,6 +1668,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1618,6 +1700,7 @@ size_flags_vertical = 4
 script = ExtResource("19_5ctxf")
 
 [node name="Soalan8" type="TextureRect" parent="Questions/QuizTolak8"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1628,6 +1711,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1641,6 +1725,7 @@ offset_bottom = 17.431
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1654,6 +1739,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1667,6 +1753,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1688,6 +1775,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1705,6 +1793,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1727,6 +1816,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1744,6 +1834,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1757,6 +1848,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1788,6 +1880,7 @@ size_flags_vertical = 4
 script = ExtResource("21_x27df")
 
 [node name="Soalan9" type="TextureRect" parent="Questions/QuizTolak9"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1798,6 +1891,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1811,6 +1905,7 @@ offset_bottom = 17.508
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1824,6 +1919,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1837,6 +1933,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1858,6 +1955,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1875,6 +1973,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1897,6 +1996,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1914,6 +2014,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1927,6 +2028,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1958,6 +2060,7 @@ size_flags_vertical = 4
 script = ExtResource("23_4k2wf")
 
 [node name="Soalan10" type="TextureRect" parent="Questions/QuizTolak10"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1968,6 +2071,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizTolak10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1981,6 +2085,7 @@ offset_bottom = 17.328
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizTolak10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1994,6 +2099,7 @@ offset_bottom = 19.046
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizTolak10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -2007,6 +2113,7 @@ offset_bottom = 19.35
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTolak10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -2029,6 +2136,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -2046,6 +2154,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -2068,6 +2177,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTolak10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -2085,6 +2195,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTolak10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -2098,6 +2209,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizTolak10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -2318,6 +2430,86 @@ position = Vector2(7003, -194)
 
 [node name="PauseMenu" parent="." instance=ExtResource("40_08fce")]
 
+[node name="PintuTolak1" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("41_mx3de")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak1"]
+position = Vector2(533, -185)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak2" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("42_xm54l")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak2"]
+position = Vector2(1792, -257)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak3" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("43_ij4sh")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak3"]
+position = Vector2(3160, -329)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak4" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("44_0l8ep")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak4"]
+position = Vector2(3880, 30)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak5" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("45_akqi4")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak5"]
+position = Vector2(4025, -330)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak6" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("46_xghcq")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak6"]
+position = Vector2(5031, -474)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak7" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("47_4p5of")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak7"]
+position = Vector2(6904, -150)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak8" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("48_qdquj")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak8"]
+position = Vector2(7840, -439)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak9" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("49_h6yqe")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak9"]
+position = Vector2(8342, 67)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="PintuTolak10" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("50_4x2c3")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuTolak10"]
+position = Vector2(9568, -186)
+shape = SubResource("CapsuleShape2D_r7yfj")
+
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonA" to="Questions/QuizTolak1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonB" to="Questions/QuizTolak1" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonC" to="Questions/QuizTolak1" method="_on_button_c_pressed"]
@@ -2388,3 +2580,13 @@ position = Vector2(7003, -194)
 [connection signal="pressed" from="Questions/QuizTolak10/CorrectPopUp/tutpbtn" to="Questions/QuizTolak10" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak10/WrongPopUp/tutpbtn" to="Questions/QuizTolak10" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak10/WrongPopUp/retrybtn" to="Questions/QuizTolak10" method="_on_retrybtn_pressed"]
+[connection signal="body_entered" from="PintuTolak1" to="PintuTolak1" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak2" to="PintuTolak2" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak3" to="PintuTolak3" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak4" to="PintuTolak4" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak5" to="PintuTolak5" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak6" to="PintuTolak6" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak7" to="PintuTolak7" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak8" to="PintuTolak8" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak9" to="PintuTolak9" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuTolak10" to="PintuTolak10" method="_on_body_entered"]

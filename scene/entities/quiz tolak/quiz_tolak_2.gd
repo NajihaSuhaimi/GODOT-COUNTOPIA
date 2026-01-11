@@ -18,6 +18,7 @@ func _ready() -> void:
 	print("Correct:", correct_popup)
 	print("Wrong:", wrong_popup)
 	#SHOW QUIZ
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	visible = false
 	#CORRECT/WRONG INVISIBLE
 	correct_popup.visible = false

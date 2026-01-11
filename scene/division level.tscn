@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=61 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
@@ -8,19 +8,28 @@
 [ext_resource type="Script" uid="uid://c08on8kmqoq3e" path="res://scene/pintu_bahagi1.gd" id="5_i3q3d"]
 [ext_resource type="Texture2D" uid="uid://dmvvnjmgavkep" path="res://soalanQuiz/soalanBahagi/bahagi2.png" id="5_pwsjk"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="6_e6tc1"]
+[ext_resource type="Script" uid="uid://da214lhgwke2d" path="res://scene/pintu_bahagi2.gd" id="6_jb2pl"]
 [ext_resource type="Texture2D" uid="uid://dy2qyc1udalcq" path="res://soalanQuiz/soalanBahagi/bahagi3.png" id="6_la7yh"]
+[ext_resource type="Script" uid="uid://w3ltvinba15j" path="res://scene/pintu_bahagi3.gd" id="7_28mxr"]
 [ext_resource type="Texture2D" uid="uid://c0jvbm38p0p85" path="res://soalanQuiz/soalanBahagi/bahagi4.png" id="7_a78qq"]
 [ext_resource type="Texture2D" uid="uid://b2hj1tk6yusc3" path="res://soalanQuiz/popupbetul salaH/salah1.png" id="7_jlxl0"]
 [ext_resource type="Texture2D" uid="uid://djfafj4q0sgkx" path="res://soalanQuiz/soalanBahagi/bahagi5.png" id="8_c86bv"]
 [ext_resource type="Script" uid="uid://pwuqekyybveo" path="res://scene/entities/quiz bahagi/quiz_bahagi_2.gd" id="8_e1026"]
+[ext_resource type="Script" uid="uid://cf5iett5lpe45" path="res://scene/pintu_bahagi4.gd" id="8_ya8m0"]
 [ext_resource type="Texture2D" uid="uid://dmb47t6wl2op0" path="res://soalanQuiz/soalanBahagi/bahagi6.png" id="9_cjii5"]
+[ext_resource type="Script" uid="uid://debf53785htuf" path="res://scene/pintu_bahagi5.gd" id="9_igh6w"]
 [ext_resource type="Script" uid="uid://vdnooeyf4rrm" path="res://scene/entities/quiz bahagi/quiz_bahagi_3.gd" id="10_n45l7"]
 [ext_resource type="Texture2D" uid="uid://besf5yts6lmsy" path="res://soalanQuiz/soalanBahagi/bahagi7.png" id="10_t6ob6"]
+[ext_resource type="Script" uid="uid://delhw07gs0sjb" path="res://scene/pintu_bahagi6.gd" id="10_utwgx"]
+[ext_resource type="Script" uid="uid://dvqm2c7y5h0x8" path="res://scene/pintu_bahagi7.gd" id="11_5r5pb"]
 [ext_resource type="Texture2D" uid="uid://dng2opd7ug2oh" path="res://soalanQuiz/soalanBahagi/bahagi8.png" id="11_eae3p"]
 [ext_resource type="Script" uid="uid://ciwgp0c8tb7d1" path="res://scene/entities/quiz bahagi/quiz_bahagi_4.gd" id="12_hjreh"]
 [ext_resource type="Texture2D" uid="uid://bq0c55gjfnhp0" path="res://soalanQuiz/soalanBahagi/bahagi9.png" id="12_jo6br"]
+[ext_resource type="Script" uid="uid://bw44csec7keqt" path="res://scene/pintu_bahagi8.gd" id="12_xj7r6"]
+[ext_resource type="Script" uid="uid://bvav3jearw6wn" path="res://scene/pintu_bahagi9.gd" id="13_k8fv4"]
 [ext_resource type="Texture2D" uid="uid://le4hhrkj6mht" path="res://soalanQuiz/soalanBahagi/bahagi10.png" id="13_nx25q"]
 [ext_resource type="Script" uid="uid://cbqxv1ktfpsn0" path="res://scene/entities/quiz bahagi/quiz_bahagi_5.gd" id="14_62j00"]
+[ext_resource type="Script" uid="uid://bxlmqlfll7pia" path="res://scene/pintu_bahagi10.gd" id="14_dd6fs"]
 [ext_resource type="Script" uid="uid://tg50eey6o8ft" path="res://scene/entities/quiz bahagi/quiz_bahagi_6.gd" id="16_ck3yk"]
 [ext_resource type="Script" uid="uid://bin1ltsogrjsh" path="res://scene/entities/quiz bahagi/quiz_bahagi_7.gd" id="18_a0k7j"]
 [ext_resource type="Script" uid="uid://cnoyvb5erlp47" path="res://scene/entities/quiz bahagi/quiz_bahagi_8.gd" id="20_273u2"]
@@ -40,6 +49,12 @@
 [ext_resource type="PackedScene" uid="uid://b0dp38by85pps" path="res://scene/yellowdiamond.tscn" id="37_jb2pl"]
 [ext_resource type="PackedScene" uid="uid://eu5kdi47601n" path="res://scene/greendiamond.tscn" id="38_28mxr"]
 [ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="39_2iatv"]
+[ext_resource type="Texture2D" uid="uid://216w7n4ww5k8" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="50_xj7r6"]
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="51_k8fv4"]
+[ext_resource type="Texture2D" uid="uid://x6mf5w6gaaq2" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_blue.png" id="52_dd6fs"]
+[ext_resource type="Texture2D" uid="uid://nlmrk2j54vpd" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_green.png" id="53_bmkx8"]
+[ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="54_s38x3"]
+[ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="55_smld2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -292,8 +307,80 @@ position = Vector2(86, -55)
 position = Vector2(170, 91)
 script = ExtResource("5_i3q3d")
 
-[node name="LanggarPintuBahagi1" type="CollisionShape2D" parent="PintuBahagi1"]
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi1"]
 position = Vector2(1072, -257)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi2" type="Area2D" parent="."]
+position = Vector2(340, 182)
+script = ExtResource("6_jb2pl")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi2"]
+position = Vector2(1946, -492)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi3" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("7_28mxr")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi3"]
+position = Vector2(3088, -114)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi4" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("8_ya8m0")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi4"]
+position = Vector2(3304, -364)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi5" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("9_igh6w")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi5"]
+position = Vector2(4348, 32)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi6" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("10_utwgx")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi6"]
+position = Vector2(4707, -4)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi7" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("11_5r5pb")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi7"]
+position = Vector2(6148, -112)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi8" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("12_xj7r6")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi8"]
+position = Vector2(7011, -256)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi9" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("13_k8fv4")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi9"]
+position = Vector2(8919, -221)
+shape = SubResource("CapsuleShape2D_f0udu")
+
+[node name="PintuBahagi10" type="Area2D" parent="."]
+position = Vector2(170, 91)
+script = ExtResource("14_dd6fs")
+
+[node name="Collision" type="CollisionShape2D" parent="PintuBahagi10"]
+position = Vector2(10073, -220)
 shape = SubResource("CapsuleShape2D_f0udu")
 
 [node name="Questions" type="CanvasLayer" parent="."]
@@ -316,6 +403,7 @@ size_flags_vertical = 4
 script = ExtResource("4_fny4f")
 
 [node name="Soalan1" type="TextureRect" parent="Questions/QuizBahagi1"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -326,6 +414,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -339,6 +428,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -352,6 +442,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -365,6 +456,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi1"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -385,6 +477,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi1/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -402,6 +495,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi1/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -422,6 +516,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -439,6 +534,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -452,6 +548,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi1/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -482,6 +579,7 @@ size_flags_vertical = 4
 script = ExtResource("8_e1026")
 
 [node name="Soalan2" type="TextureRect" parent="Questions/QuizBahagi2"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -492,6 +590,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -505,6 +604,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -518,6 +618,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -531,6 +632,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi2"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -552,6 +654,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -569,6 +672,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi2/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -590,6 +694,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -607,6 +712,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -620,6 +726,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi2/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -647,9 +754,11 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+mouse_filter = 2
 script = ExtResource("10_n45l7")
 
 [node name="Soalan3" type="TextureRect" parent="Questions/QuizBahagi3"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -660,6 +769,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -673,6 +783,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -686,6 +797,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -699,6 +811,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi3"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -720,6 +833,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -737,6 +851,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi3/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -758,6 +873,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -775,6 +891,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -788,6 +905,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi3/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -818,6 +936,7 @@ size_flags_vertical = 4
 script = ExtResource("12_hjreh")
 
 [node name="Soalan4" type="TextureRect" parent="Questions/QuizBahagi4"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -828,6 +947,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -841,6 +961,7 @@ offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -854,6 +975,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -867,6 +989,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi4"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -888,6 +1011,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -905,6 +1029,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi4/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -926,6 +1051,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -943,6 +1069,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -956,6 +1083,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi4/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -986,6 +1114,7 @@ size_flags_vertical = 4
 script = ExtResource("14_62j00")
 
 [node name="Soalan5" type="TextureRect" parent="Questions/QuizBahagi5"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -996,6 +1125,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1009,6 +1139,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1022,6 +1153,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1035,6 +1167,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi5"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1056,6 +1189,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1073,6 +1207,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi5/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1094,6 +1229,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1111,6 +1247,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1124,6 +1261,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi5/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1154,6 +1292,7 @@ size_flags_vertical = 4
 script = ExtResource("16_ck3yk")
 
 [node name="Soalan6" type="TextureRect" parent="Questions/QuizBahagi6"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1164,6 +1303,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1177,6 +1317,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1190,6 +1331,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1203,6 +1345,7 @@ offset_bottom = 19.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi6"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1224,6 +1367,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1241,6 +1385,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi6/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1262,6 +1407,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1279,6 +1425,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1292,6 +1439,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi6/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1322,6 +1470,7 @@ size_flags_vertical = 4
 script = ExtResource("18_a0k7j")
 
 [node name="Soalan7" type="TextureRect" parent="Questions/QuizBahagi7"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1332,6 +1481,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1345,6 +1495,7 @@ offset_bottom = 17.38
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.657
@@ -1358,6 +1509,7 @@ offset_bottom = 20.098
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1371,6 +1523,7 @@ offset_bottom = 18.684
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi7"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1392,6 +1545,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi7/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1409,6 +1563,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi7/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1430,6 +1585,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1447,6 +1603,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1460,6 +1617,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi7/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1490,6 +1648,7 @@ size_flags_vertical = 4
 script = ExtResource("20_273u2")
 
 [node name="Soalan8" type="TextureRect" parent="Questions/QuizBahagi8"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1500,6 +1659,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1513,6 +1673,7 @@ offset_bottom = 17.431
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1526,6 +1687,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1539,6 +1701,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi8"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1560,6 +1723,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1577,6 +1741,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi8/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1598,6 +1763,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1615,6 +1781,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1628,6 +1795,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi8/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1658,6 +1826,7 @@ size_flags_vertical = 4
 script = ExtResource("22_k5xee")
 
 [node name="Soalan9" type="TextureRect" parent="Questions/QuizBahagi9"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1668,6 +1837,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1681,6 +1851,7 @@ offset_bottom = 17.508
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1694,6 +1865,7 @@ offset_bottom = 19.072
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1707,6 +1879,7 @@ offset_bottom = 19.376
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi9"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1728,6 +1901,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1745,6 +1919,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi9/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1766,6 +1941,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1783,6 +1959,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1796,6 +1973,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi9/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -1826,6 +2004,7 @@ size_flags_vertical = 4
 script = ExtResource("24_ahv5n")
 
 [node name="Soalan10" type="TextureRect" parent="Questions/QuizBahagi10"]
+process_mode = 3
 layout_mode = 0
 offset_left = 13.0
 offset_top = 4.0
@@ -1836,6 +2015,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="ButtonA" type="Button" parent="Questions/QuizBahagi10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.358
@@ -1849,6 +2029,7 @@ offset_bottom = 17.354
 flat = true
 
 [node name="ButtonB" type="Button" parent="Questions/QuizBahagi10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.658
@@ -1862,6 +2043,7 @@ offset_bottom = 18.995
 flat = true
 
 [node name="ButtonC" type="Button" parent="Questions/QuizBahagi10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.357
@@ -1875,6 +2057,7 @@ offset_bottom = 19.658
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizBahagi10"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.659
@@ -1896,6 +2079,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1913,6 +2097,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi10/CorrectPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1934,6 +2119,7 @@ offset_right = 39.0
 offset_bottom = 39.5
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizBahagi10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.987
@@ -1951,6 +2137,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizBahagi10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 5.675
@@ -1964,6 +2151,7 @@ offset_bottom = 20.52
 flat = true
 
 [node name="retrybtn" type="Button" parent="Questions/QuizBahagi10/WrongPopUp"]
+process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 10.3
@@ -2283,8 +2471,218 @@ position = Vector2(9201, -52)
 
 [node name="PauseMenu" parent="." instance=ExtResource("39_2iatv")]
 
-[connection signal="body_entered" from="PintuBahagi1" to="GameManager" method="_on_pintu_bahagi_1_body_entered"]
+[node name="DiamondRequirement" type="Node" parent="."]
+
+[node name="Door1" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door1"]
+offset_left = 1220.0
+offset_top = -221.0
+offset_right = 1253.0
+offset_bottom = -187.0
+texture = ExtResource("50_xj7r6")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door1"]
+offset_left = 1250.0
+offset_top = -213.0
+offset_right = 1265.0
+offset_bottom = -193.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door2" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door2"]
+offset_left = 2264.0
+offset_top = -364.0
+offset_right = 2297.0
+offset_bottom = -330.0
+texture = ExtResource("52_dd6fs")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door2"]
+offset_left = 2294.0
+offset_top = -356.0
+offset_right = 2309.0
+offset_bottom = -336.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "8"
+
+[node name="Door3" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door3"]
+offset_left = 3231.0
+offset_top = -77.0
+offset_right = 3264.0
+offset_bottom = -43.0
+texture = ExtResource("53_bmkx8")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door3"]
+offset_left = 3262.0
+offset_top = -69.0
+offset_right = 3277.0
+offset_bottom = -49.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door4" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door4"]
+offset_left = 3451.0
+offset_top = -328.0
+offset_right = 3484.0
+offset_bottom = -294.0
+texture = ExtResource("54_s38x3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door4"]
+offset_left = 3480.0
+offset_top = -318.0
+offset_right = 3495.0
+offset_bottom = -298.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door5" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door5"]
+offset_left = 4491.0
+offset_top = 64.0
+offset_right = 4524.0
+offset_bottom = 98.0
+texture = ExtResource("50_xj7r6")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door5"]
+offset_left = 4526.0
+offset_top = 73.0
+offset_right = 4541.0
+offset_bottom = 93.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "5"
+
+[node name="Door6" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door6"]
+offset_left = 4853.0
+offset_top = 29.0
+offset_right = 4886.0
+offset_bottom = 63.0
+texture = ExtResource("54_s38x3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door6"]
+offset_left = 4883.0
+offset_top = 38.0
+offset_right = 4898.0
+offset_bottom = 58.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door7" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door7"]
+offset_left = 6294.0
+offset_top = -78.0
+offset_right = 6327.0
+offset_bottom = -44.0
+texture = ExtResource("55_smld2")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door7"]
+offset_left = 6326.0
+offset_top = -70.0
+offset_right = 6341.0
+offset_bottom = -50.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "2"
+
+[node name="Door8" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door8"]
+offset_left = 7159.0
+offset_top = -218.0
+offset_right = 7192.0
+offset_bottom = -184.0
+texture = ExtResource("52_dd6fs")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door8"]
+offset_left = 7191.0
+offset_top = -210.0
+offset_right = 7202.0
+offset_bottom = -190.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door9" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door9"]
+offset_left = 9065.0
+offset_top = -183.0
+offset_right = 9098.0
+offset_bottom = -149.0
+texture = ExtResource("50_xj7r6")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door9"]
+offset_left = 9095.0
+offset_top = -175.0
+offset_right = 9110.0
+offset_bottom = -155.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door10" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door10"]
+offset_left = 10217.0
+offset_top = -186.0
+offset_right = 10250.0
+offset_bottom = -152.0
+texture = ExtResource("53_bmkx8")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door10"]
+offset_left = 10248.0
+offset_top = -178.0
+offset_right = 10263.0
+offset_bottom = -158.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("51_k8fv4")
+theme_override_font_sizes/font_size = 20
+text = "1"
+
 [connection signal="body_entered" from="PintuBahagi1" to="PintuBahagi1" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi2" to="PintuBahagi2" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi3" to="PintuBahagi3" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi4" to="PintuBahagi4" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi5" to="PintuBahagi5" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi6" to="PintuBahagi6" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi7" to="PintuBahagi7" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi8" to="PintuBahagi8" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi9" to="PintuBahagi9" method="_on_body_entered"]
+[connection signal="body_entered" from="PintuBahagi10" to="PintuBahagi10" method="_on_body_entered"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonA" to="Questions/QuizBahagi1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonB" to="Questions/QuizBahagi1" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi1/ButtonC" to="Questions/QuizBahagi1" method="_on_button_c_pressed"]
@@ -2345,7 +2743,7 @@ position = Vector2(9201, -52)
 [connection signal="pressed" from="Questions/QuizBahagi9/ButtonB" to="Questions/QuizBahagi9" method="_on_button_b_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi9/ButtonC" to="Questions/QuizBahagi9" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi9/ButtonD" to="Questions/QuizBahagi9" method="_on_button_d_pressed"]
-[connection signal="pressed" from="Questions/QuizBahagi9/CorrectPopUp/tutpbtn" to="Player1" method="_on_tutpbtn_pressed"]
+[connection signal="pressed" from="Questions/QuizBahagi9/CorrectPopUp/tutpbtn" to="Questions/QuizBahagi9" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi9/WrongPopUp/tutpbtn" to="Questions/QuizBahagi9" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi9/WrongPopUp/retrybtn" to="Questions/QuizBahagi9" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizBahagi10/ButtonA" to="Questions/QuizBahagi10" method="_on_button_a_pressed"]
