@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=3 uid="uid://tqg5q5sc2qfi"]
+[gd_scene load_steps=66 format=3 uid="uid://tqg5q5sc2qfi"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_q3qlt"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_g0vyl"]
@@ -57,6 +57,7 @@
 [ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="55_fsln5"]
 [ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="56_3hy8r"]
 [ext_resource type="AudioStream" uid="uid://hnj6wtpcrrwa" path="res://sound/game-gaming-video-game-music-459876.mp3" id="57_62f66"]
+[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag.tscn" id="58_x07jd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g0vyl"]
 texture = ExtResource("1_q3qlt")
@@ -3162,6 +3163,9 @@ text = "1"
 stream = ExtResource("57_62f66")
 volume_db = -19.927
 autoplay = true
+
+[node name="RedFlag2" parent="." instance=ExtResource("58_x07jd")]
+position = Vector2(10156, -280)
 
 [connection signal="pressed" from="Questions/QuizDarab1/ButtonA" to="Questions/QuizDarab1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizDarab1/ButtonB" to="Questions/QuizDarab1" method="_on_button_b_pressed"]

@@ -1,6 +1,17 @@
 extends Node
 
 # =========================
+# FLAG ACTIVATE
+# =========================
+var questions_completed := 0
+var required_questions := 7
+var total_questions := 10
+
+func can_activate_flag() -> bool:
+	return questions_completed >= required_questions
+
+
+# =========================
 # HUD REFERENCES
 # =========================
 var heart: Label
@@ -84,6 +95,7 @@ func update_player_health(amount: int):
 		game_finished = true
 		game_over()
 
+
 func game_over():
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://scene/game_over.tscn")
@@ -120,7 +132,12 @@ func add_score_purple():
 	GameState.purple += 1
 	update_all_hud()
 
+
+# =========================
+# QUESTION COMPLETE
+# =========================
 func add_question_complete():
+	questions_completed += 1
 	GameState.question_complete += 1
 	update_all_hud()
 

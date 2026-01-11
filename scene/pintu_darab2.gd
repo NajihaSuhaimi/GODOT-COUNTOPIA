@@ -3,7 +3,7 @@ extends Area2D
 @onready var quiz = $"../Questions/QuizDarab2"
 
 @export var required_color: String = "blue"
-@export var required_amount: int = 7
+@export var required_amount: int = 8
 
 func _on_body_entered(body):
 	print("MASUK AREA:", body)

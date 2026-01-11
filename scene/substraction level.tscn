@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=3 uid="uid://f2og2rajpid3"]
+[gd_scene load_steps=66 format=3 uid="uid://f2og2rajpid3"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
@@ -51,6 +51,13 @@
 [ext_resource type="Script" uid="uid://bu2k3vndkrkel" path="res://scene/pintu_tola9.gd" id="49_h6yqe"]
 [ext_resource type="Script" uid="uid://cen4uku3eurs6" path="res://scene/pintu_tolak10.gd" id="50_4x2c3"]
 [ext_resource type="AudioStream" uid="uid://cpbthx7am08j5" path="res://sound/game-gaming-minecraft-background-music-377647.mp3" id="51_ij4sh"]
+[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag.tscn" id="52_0l8ep"]
+[ext_resource type="Texture2D" uid="uid://216w7n4ww5k8" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="53_4x2c3"]
+[ext_resource type="FontFile" uid="uid://cnygiu67pnlod" path="res://font/Minecraft.ttf" id="54_618y3"]
+[ext_resource type="Texture2D" uid="uid://x6mf5w6gaaq2" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_blue.png" id="55_k45nl"]
+[ext_resource type="Texture2D" uid="uid://nlmrk2j54vpd" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_green.png" id="56_l6tep"]
+[ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="57_ca5f0"]
+[ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="58_n7gmc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1tmm"]
 texture = ExtResource("1_wbhxw")
@@ -2515,6 +2522,211 @@ shape = SubResource("CapsuleShape2D_r7yfj")
 stream = ExtResource("51_ij4sh")
 volume_db = -19.927
 autoplay = true
+
+[node name="RedFlag2" parent="." instance=ExtResource("52_0l8ep")]
+position = Vector2(10219, 8)
+
+[node name="DiamondRequirement" type="Node" parent="."]
+
+[node name="Door1" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door1"]
+offset_left = 678.0
+offset_top = -149.0
+offset_right = 711.0
+offset_bottom = -115.0
+texture = ExtResource("53_4x2c3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door1"]
+offset_left = 709.0
+offset_top = -139.0
+offset_right = 724.0
+offset_bottom = -119.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door2" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door2"]
+offset_left = 1938.0
+offset_top = -223.0
+offset_right = 1971.0
+offset_bottom = -189.0
+texture = ExtResource("55_k45nl")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door2"]
+offset_left = 1969.0
+offset_top = -215.0
+offset_right = 1984.0
+offset_bottom = -195.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "8"
+
+[node name="Door3" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door3"]
+offset_left = 3305.0
+offset_top = -292.0
+offset_right = 3338.0
+offset_bottom = -258.0
+texture = ExtResource("56_l6tep")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door3"]
+offset_left = 3338.0
+offset_top = -284.0
+offset_right = 3353.0
+offset_bottom = -264.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door4" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door4"]
+offset_left = 4027.0
+offset_top = 60.0
+offset_right = 4060.0
+offset_bottom = 94.0
+texture = ExtResource("57_ca5f0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door4"]
+offset_left = 4061.0
+offset_top = 70.0
+offset_right = 4076.0
+offset_bottom = 90.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "7"
+
+[node name="Door5" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door5"]
+offset_left = 4170.0
+offset_top = -292.0
+offset_right = 4203.0
+offset_bottom = -258.0
+texture = ExtResource("53_4x2c3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door5"]
+offset_left = 4201.0
+offset_top = -284.0
+offset_right = 4216.0
+offset_bottom = -264.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "5"
+
+[node name="Door6" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door6"]
+offset_left = 5177.0
+offset_top = -437.0
+offset_right = 5210.0
+offset_bottom = -403.0
+texture = ExtResource("57_ca5f0")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door6"]
+offset_left = 5210.0
+offset_top = -429.0
+offset_right = 5225.0
+offset_bottom = -409.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door7" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door7"]
+offset_left = 7049.0
+offset_top = -117.0
+offset_right = 7082.0
+offset_bottom = -83.0
+texture = ExtResource("58_n7gmc")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door7"]
+offset_left = 7082.0
+offset_top = -106.0
+offset_right = 7097.0
+offset_bottom = -86.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "2"
+
+[node name="Door8" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door8"]
+offset_left = 7987.0
+offset_top = -399.0
+offset_right = 8020.0
+offset_bottom = -365.0
+texture = ExtResource("55_k45nl")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door8"]
+offset_left = 8019.0
+offset_top = -389.0
+offset_right = 8030.0
+offset_bottom = -369.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door9" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door9"]
+offset_left = 8493.0
+offset_top = 106.0
+offset_right = 8526.0
+offset_bottom = 140.0
+texture = ExtResource("53_4x2c3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door9"]
+offset_left = 8522.0
+offset_top = 114.0
+offset_right = 8537.0
+offset_bottom = 134.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "3"
+
+[node name="Door10" type="Node" parent="DiamondRequirement"]
+
+[node name="TextureRect" type="TextureRect" parent="DiamondRequirement/Door10"]
+offset_left = 9713.0
+offset_top = -146.0
+offset_right = 9746.0
+offset_bottom = -112.0
+texture = ExtResource("56_l6tep")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="DiamondRequirement/Door10"]
+offset_left = 9746.0
+offset_top = -139.0
+offset_right = 9761.0
+offset_bottom = -119.0
+theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
+theme_override_fonts/font = ExtResource("54_618y3")
+theme_override_font_sizes/font_size = 20
+text = "1"
 
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonA" to="Questions/QuizTolak1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonB" to="Questions/QuizTolak1" method="_on_button_b_pressed"]

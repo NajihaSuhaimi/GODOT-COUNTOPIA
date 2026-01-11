@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=3 uid="uid://diprnc530wh3j"]
+[gd_scene load_steps=66 format=3 uid="uid://diprnc530wh3j"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
@@ -57,6 +57,7 @@
 [ext_resource type="Texture2D" uid="uid://216w7n4ww5k8" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="55_ma1ee"]
 [ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="56_kccok"]
 [ext_resource type="AudioStream" uid="uid://vqqockcunfnc" path="res://sound/pixel-drift-pecan-pie-main-version-41106-02-09.mp3" id="57_ilsah"]
+[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag.tscn" id="58_ma1ee"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("2_ullah")
@@ -867,6 +868,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+mouse_filter = 2
 script = ExtResource("13_4rts3")
 
 [node name="Soalan3" type="TextureRect" parent="Questions/QuizTambah3"]
@@ -876,6 +878,7 @@ offset_left = 13.0
 offset_top = 4.0
 offset_right = 635.0
 offset_bottom = 354.0
+mouse_filter = 2
 texture = ExtResource("14_2tali")
 expand_mode = 1
 stretch_mode = 5
@@ -943,6 +946,7 @@ offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
+mouse_filter = 2
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/CorrectPopUp"]
 process_mode = 3
@@ -958,12 +962,12 @@ offset_right = 272.52
 offset_bottom = 136.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 texture = ExtResource("9_e818r")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah3/CorrectPopUp"]
-process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -983,6 +987,7 @@ offset_left = -1.0
 offset_top = -0.5
 offset_right = 39.0
 offset_bottom = 39.5
+mouse_filter = 2
 
 [node name="TextureRect" type="TextureRect" parent="Questions/QuizTambah3/WrongPopUp"]
 process_mode = 3
@@ -998,6 +1003,7 @@ offset_right = 272.52
 offset_bottom = 136.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 texture = ExtResource("10_aamoh")
 expand_mode = 1
 stretch_mode = 5
@@ -1319,7 +1325,6 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah5/CorrectPopUp"]
-process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1497,7 +1502,6 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="tutpbtn" type="Button" parent="Questions/QuizTambah6/CorrectPopUp"]
-process_mode = 3
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 7.975
@@ -1810,6 +1814,7 @@ offset_left = -54.766
 offset_top = -19.624
 offset_right = 54.234
 offset_bottom = 19.376
+mouse_filter = 2
 flat = true
 
 [node name="ButtonD" type="Button" parent="Questions/QuizTambah8"]
@@ -1864,6 +1869,7 @@ offset_left = -54.0
 offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
+mouse_filter = 2
 flat = true
 
 [node name="WrongPopUp" type="Control" parent="Questions/QuizTambah8"]
@@ -2884,6 +2890,9 @@ stream = ExtResource("57_ilsah")
 volume_db = -19.927
 autoplay = true
 
+[node name="RedFlag2" parent="." instance=ExtResource("58_ma1ee")]
+position = Vector2(8618, -29)
+
 [connection signal="body_entered" from="Pintu1" to="GameManager" method="_on_pintu1_body_entered"]
 [connection signal="body_entered" from="Pintu1" to="Pintu1" method="_on_body_entered"]
 [connection signal="body_entered" from="Pintu2" to="Pintu2" method="_on_body_entered"]
@@ -2925,6 +2934,7 @@ autoplay = true
 [connection signal="pressed" from="Questions/QuizTambah4/WrongPopUp/retrybtn" to="Questions/QuizTambah4" method="_on_retrybtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonA" to="Questions/QuizTambah5" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonB" to="Questions/QuizTambah5" method="_on_button_b_pressed"]
+[connection signal="pressed" from="Questions/QuizTambah5/ButtonC" to="Questions/QuizTambah5" method="_on_button_c_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/ButtonD" to="Questions/QuizTambah5" method="_on_button_d_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/CorrectPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]
 [connection signal="pressed" from="Questions/QuizTambah5/WrongPopUp/tutpbtn" to="Questions/QuizTambah5" method="_on_tutpbtn_pressed"]

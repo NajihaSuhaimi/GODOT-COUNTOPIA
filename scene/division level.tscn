@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=63 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
@@ -56,6 +56,7 @@
 [ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="54_s38x3"]
 [ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="55_smld2"]
 [ext_resource type="AudioStream" uid="uid://b172qx75bt184" path="res://sound/gaming-game-minecraft-background-music-387000.mp3" id="56_k8fv4"]
+[ext_resource type="PackedScene" uid="uid://b6kpaokbc6jfc" path="res://scene/flag.tscn" id="57_dd6fs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -2678,6 +2679,9 @@ text = "1"
 stream = ExtResource("56_k8fv4")
 volume_db = -15.0
 autoplay = true
+
+[node name="RedFlag2" parent="." instance=ExtResource("57_dd6fs")]
+position = Vector2(10268, 79)
 
 [connection signal="body_entered" from="PintuBahagi1" to="PintuBahagi1" method="_on_body_entered"]
 [connection signal="body_entered" from="PintuBahagi2" to="PintuBahagi2" method="_on_body_entered"]

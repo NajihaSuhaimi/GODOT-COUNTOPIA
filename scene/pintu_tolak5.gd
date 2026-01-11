@@ -2,7 +2,7 @@ extends Area2D
 
 @onready var quiz = $"../Questions/QuizTolak5"
 
-@export var required_color: String = "green"
+@export var required_color: String = "purple"
 @export var required_amount: int = 5
 
 func _on_body_entered(body):
