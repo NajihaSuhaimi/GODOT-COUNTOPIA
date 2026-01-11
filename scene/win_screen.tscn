@@ -1,11 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://dclewtriowclo"]
+[gd_scene load_steps=10 format=3 uid="uid://dclewtriowclo"]
 
 [ext_resource type="Script" uid="uid://ccf7ekienukvs" path="res://scene/win_screen.gd" id="1_dycrn"]
 [ext_resource type="Texture2D" uid="uid://ftsmjx0rh0pa" path="res://assets/Gambar/CSC 536 GROUP PROJECT (1).png" id="2_c00g8"]
 [ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="2_osyyv"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="3_c00g8"]
-[ext_resource type="AudioStream" uid="uid://ddr8a6v4ls3g" path="res://sound/mixkit-game-level-completed-2059.wav" id="5_gnx6t"]
-[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="6_op4st"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jpn5y"]
 bg_color = Color(0.23529412, 0.16470589, 0.11764706, 1)
@@ -154,13 +152,6 @@ scale = Vector2(0.335, 0.335)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)
-
-[node name="bunyiwin" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("5_gnx6t")
-
-[node name="button biasa" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("6_op4st")
-bus = &"SFX"
 
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/Main Menu" to="." method="_on_main_menu_pressed"]
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

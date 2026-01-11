@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://bujltxum4rkgp"]
+[gd_scene load_steps=19 format=3 uid="uid://bujltxum4rkgp"]
 
 [ext_resource type="Script" uid="uid://cv44gw8u8qrw5" path="res://scripts/main_menu.gd" id="1_osntc"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="2_hxu56"]
@@ -12,7 +12,6 @@
 [ext_resource type="Texture2D" uid="uid://drsrs33qj7bjm" path="res://How to Play Images/9.png" id="7_os2d6"]
 [ext_resource type="Texture2D" uid="uid://cn0oka5ji220t" path="res://How to Play Images/10.png" id="8_v0h3m"]
 [ext_resource type="Texture2D" uid="uid://bentlcy8xudwk" path="res://How to Play Images/12.png" id="9_sra1m"]
-[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="13_cht4j"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5hnjr"]
 modulate_color = Color(0.381703, 0.381703, 0.381703, 1)
@@ -598,9 +597,6 @@ text = "Back"
 stream = ExtResource("4_0iwki")
 volume_db = -19.927
 autoplay = true
-
-[node name="button_biasa" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("13_cht4j")
 
 [connection signal="pressed" from="Main Buttons/startGame" to="." method="_on_start_game_pressed"]
 [connection signal="pressed" from="Main Buttons/howToPlay" to="." method="_on_how_to_play_pressed"]
