@@ -2335,8 +2335,17 @@ position = Vector2(593, -51)
 [node name="bluediamond3" parent="Node" instance=ExtResource("37_j28a2")]
 position = Vector2(625, -51)
 
+[node name="bluediamond22" parent="Node" instance=ExtResource("37_j28a2")]
+position = Vector2(1243, -51)
+
+[node name="bluediamond23" parent="Node" instance=ExtResource("37_j28a2")]
+position = Vector2(1532, -88)
+
+[node name="bluediamond24" parent="Node" instance=ExtResource("37_j28a2")]
+position = Vector2(1334, -194)
+
 [node name="bluediamond4" parent="Node" instance=ExtResource("37_j28a2")]
-position = Vector2(1306, -196)
+position = Vector2(1306, -193)
 
 [node name="bluediamond5" parent="Node" instance=ExtResource("37_j28a2")]
 position = Vector2(1279, -194)
@@ -2347,8 +2356,32 @@ position = Vector2(1603, -86)
 [node name="reddiamond" parent="Node" instance=ExtResource("38_2cqgu")]
 position = Vector2(348, -123)
 
+[node name="reddiamond22" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(467, -251)
+
 [node name="reddiamond2" parent="Node" instance=ExtResource("38_2cqgu")]
 position = Vector2(376, -123)
+
+[node name="reddiamond23" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(454, -228)
+
+[node name="reddiamond24" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(665, -158)
+
+[node name="reddiamond25" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(482, -228)
+
+[node name="reddiamond26" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(222, -198)
+
+[node name="reddiamond27" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(250, -198)
+
+[node name="reddiamond20" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(1416, 18)
+
+[node name="reddiamond21" parent="Node" instance=ExtResource("38_2cqgu")]
+position = Vector2(1444, 18)
 
 [node name="reddiamond3" parent="Node" instance=ExtResource("38_2cqgu")]
 position = Vector2(1387, 17)
@@ -2385,6 +2418,12 @@ position = Vector2(701, -85)
 
 [node name="yellowdiamond2" parent="Node" instance=ExtResource("40_6us26")]
 position = Vector2(728, -85)
+
+[node name="yellowdiamond20" parent="Node" instance=ExtResource("40_6us26")]
+position = Vector2(991, -122)
+
+[node name="yellowdiamond21" parent="Node" instance=ExtResource("40_6us26")]
+position = Vector2(1708, -51)
 
 [node name="yellowdiamond3" parent="Node" instance=ExtResource("40_6us26")]
 position = Vector2(1674, 20)
