@@ -1,4 +1,4 @@
-[gd_scene load_steps=61 format=3 uid="uid://c1mlomn36j8o8"]
+[gd_scene load_steps=62 format=3 uid="uid://c1mlomn36j8o8"]
 
 [ext_resource type="Texture2D" uid="uid://xlrj6wi422kf" path="res://assets/kenney_pixel-platformer-industrial-expansion/Tilemap/tilemap.png" id="1_jwcxg"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_0w2fp"]
@@ -55,6 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://nlmrk2j54vpd" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_green.png" id="53_bmkx8"]
 [ext_resource type="Texture2D" uid="uid://b73fr1ptgbenp" path="res://assets/kenney_gategem/Sprites/Tiles/Default/gem_red.png" id="54_s38x3"]
 [ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="55_smld2"]
+[ext_resource type="AudioStream" uid="uid://b172qx75bt184" path="res://sound/gaming-game-minecraft-background-music-387000.mp3" id="56_k8fv4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0w2fp"]
 texture = ExtResource("1_jwcxg")
@@ -2672,6 +2673,11 @@ theme_override_colors/font_color = Color(0.0253638, 0.0253638, 0.025363795, 1)
 theme_override_fonts/font = ExtResource("51_k8fv4")
 theme_override_font_sizes/font_size = 20
 text = "1"
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("56_k8fv4")
+volume_db = -15.0
+autoplay = true
 
 [connection signal="body_entered" from="PintuBahagi1" to="PintuBahagi1" method="_on_body_entered"]
 [connection signal="body_entered" from="PintuBahagi2" to="PintuBahagi2" method="_on_body_entered"]

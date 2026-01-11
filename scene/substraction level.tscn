@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://f2og2rajpid3"]
+[gd_scene load_steps=59 format=3 uid="uid://f2og2rajpid3"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
@@ -50,6 +50,7 @@
 [ext_resource type="Script" uid="uid://csgh4nfu3hjug" path="res://scene/pintu_tolak8.gd" id="48_qdquj"]
 [ext_resource type="Script" uid="uid://bu2k3vndkrkel" path="res://scene/pintu_tola9.gd" id="49_h6yqe"]
 [ext_resource type="Script" uid="uid://cen4uku3eurs6" path="res://scene/pintu_tolak10.gd" id="50_4x2c3"]
+[ext_resource type="AudioStream" uid="uid://cpbthx7am08j5" path="res://sound/game-gaming-minecraft-background-music-377647.mp3" id="51_ij4sh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1tmm"]
 texture = ExtResource("1_wbhxw")
@@ -2509,6 +2510,11 @@ script = ExtResource("50_4x2c3")
 [node name="Collision" type="CollisionShape2D" parent="PintuTolak10"]
 position = Vector2(9568, -186)
 shape = SubResource("CapsuleShape2D_r7yfj")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("51_ij4sh")
+volume_db = -19.927
+autoplay = true
 
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonA" to="Questions/QuizTolak1" method="_on_button_a_pressed"]
 [connection signal="pressed" from="Questions/QuizTolak1/ButtonB" to="Questions/QuizTolak1" method="_on_button_b_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=64 format=3 uid="uid://diprnc530wh3j"]
+[gd_scene load_steps=65 format=3 uid="uid://diprnc530wh3j"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
@@ -56,6 +56,7 @@
 [ext_resource type="Texture2D" uid="uid://614f5sd8bluo" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_yellow.png" id="54_ilsah"]
 [ext_resource type="Texture2D" uid="uid://216w7n4ww5k8" path="res://assets/kenney_gategem/Sprites/Tiles/Double/gem_purple.png" id="55_ma1ee"]
 [ext_resource type="PackedScene" uid="uid://cy4g25r134j8u" path="res://scene/pause_menu.tscn" id="56_kccok"]
+[ext_resource type="AudioStream" uid="uid://vqqockcunfnc" path="res://sound/pixel-drift-pecan-pie-main-version-41106-02-09.mp3" id="57_ilsah"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vroq1"]
 texture = ExtResource("2_ullah")
@@ -2838,6 +2839,11 @@ text = "1
 "
 
 [node name="PauseMenu" parent="." instance=ExtResource("56_kccok")]
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("57_ilsah")
+volume_db = -19.927
+autoplay = true
 
 [connection signal="body_entered" from="Pintu1" to="GameManager" method="_on_pintu1_body_entered"]
 [connection signal="body_entered" from="Pintu1" to="Pintu1" method="_on_body_entered"]
