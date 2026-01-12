@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://f2og2rajpid3"]
+[gd_scene load_steps=69 format=3 uid="uid://f2og2rajpid3"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_bbly8"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_wbhxw"]
@@ -17,10 +17,13 @@
 [ext_resource type="Texture2D" uid="uid://6phyea15taou" path="res://soalanQuiz/soalanTolak/tolak6.png" id="8_t571o"]
 [ext_resource type="Script" uid="uid://bad6epw4s4lrx" path="res://scene/entities/quiz tolak/quiz_tolak_3.gd" id="9_6gk8j"]
 [ext_resource type="Texture2D" uid="uid://coyfo6ta5j8vu" path="res://soalanQuiz/soalanTolak/tolak7.png" id="9_k8dtt"]
+[ext_resource type="AudioStream" uid="uid://kjnd1ugwltc2" path="res://sound/brass-fail-11-a-207140.mp3" id="10_l6tep"]
 [ext_resource type="Texture2D" uid="uid://byip8g6ff4h71" path="res://soalanQuiz/soalanTolak/tolak8.png" id="10_v426l"]
 [ext_resource type="Texture2D" uid="uid://bibhfi1v0insy" path="res://soalanQuiz/soalanTolak/tolak9.png" id="11_a1wbr"]
+[ext_resource type="AudioStream" uid="uid://djb0monpg7lk7" path="res://sound/mixkit-video-game-treasure-2066.wav" id="11_ca5f0"]
 [ext_resource type="Script" uid="uid://dwr861eb2muie" path="res://scene/quiz_tolak_4.gd" id="11_p8scs"]
 [ext_resource type="Texture2D" uid="uid://b8iy6dm3w4fot" path="res://soalanQuiz/soalanTolak/tolak10.png" id="12_aia24"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="12_n7gmc"]
 [ext_resource type="Script" uid="uid://miy26giuk4ac" path="res://scene/entities/quiz tolak/quiz_tolak_5.gd" id="13_115wi"]
 [ext_resource type="Script" uid="uid://camokug72ov7m" path="res://scene/entities/quiz tolak/quiz_tolak_6.gd" id="15_w4p43"]
 [ext_resource type="Script" uid="uid://waoyi6og385" path="res://scene/entities/quiz tolak/quiz_tolak_7.gd" id="17_a4udj"]
@@ -609,6 +612,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak1"]
+stream = ExtResource("12_n7gmc")
+
 [node name="QuizTolak2" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -788,6 +800,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak2"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak2"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak2"]
+stream = ExtResource("12_n7gmc")
 
 [node name="QuizTolak3" type="Control" parent="Questions"]
 visible = false
@@ -969,6 +990,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak3"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak3"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak3"]
+stream = ExtResource("12_n7gmc")
+
 [node name="QuizTolak4" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1148,6 +1178,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak4"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak4"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak4"]
+stream = ExtResource("12_n7gmc")
 
 [node name="QuizTolak5" type="Control" parent="Questions"]
 visible = false
@@ -1329,6 +1368,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak5"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak5"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak5"]
+stream = ExtResource("12_n7gmc")
+
 [node name="QuizTolak6" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1508,6 +1556,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak6"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak6"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak6"]
+stream = ExtResource("12_n7gmc")
 
 [node name="QuizTolak7" type="Control" parent="Questions"]
 visible = false
@@ -1689,6 +1746,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak7"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak7"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak7"]
+stream = ExtResource("12_n7gmc")
+
 [node name="QuizTolak8" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1869,6 +1935,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak8"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak8"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak8"]
+stream = ExtResource("12_n7gmc")
+
 [node name="QuizTolak9" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -2048,6 +2123,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak9"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak9"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak9"]
+stream = ExtResource("12_n7gmc")
 
 [node name="QuizTolak10" type="Control" parent="Questions"]
 visible = false
@@ -2230,6 +2314,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTolak10"]
+stream = ExtResource("10_l6tep")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTolak10"]
+stream = ExtResource("11_ca5f0")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTolak10"]
+stream = ExtResource("12_n7gmc")
+
 [node name="Diamonds" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="Diamonds"]
@@ -2286,6 +2379,12 @@ position = Vector2(2365, -343)
 [node name="bluediamond2" parent="Node" instance=ExtResource("35_dibc4")]
 position = Vector2(2397, -344)
 
+[node name="bluediamond11" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(808, -156)
+
+[node name="bluediamond12" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(807, -125)
+
 [node name="bluediamond3" parent="Node" instance=ExtResource("35_dibc4")]
 position = Vector2(2429, -344)
 
@@ -2325,6 +2424,12 @@ position = Vector2(2858, -232)
 [node name="reddiamond4" parent="Node" instance=ExtResource("36_08fce")]
 position = Vector2(2798, -125)
 
+[node name="reddiamond12" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(1588, -271)
+
+[node name="reddiamond13" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(1561, -272)
+
 [node name="reddiamond6" parent="Node" instance=ExtResource("36_08fce")]
 position = Vector2(3397, -410)
 
@@ -2348,6 +2453,12 @@ position = Vector2(1147, -304)
 
 [node name="purplediamond2" parent="Node" instance=ExtResource("37_1xeq3")]
 position = Vector2(1119, -305)
+
+[node name="purplediamond11" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(488, -52)
+
+[node name="purplediamond12" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(415, -160)
 
 [node name="purplediamond3" parent="Node" instance=ExtResource("37_1xeq3")]
 position = Vector2(1852, -47)
@@ -2378,6 +2489,12 @@ position = Vector2(1448, 56)
 
 [node name="yellowdiamond2" parent="Node" instance=ExtResource("38_mx3de")]
 position = Vector2(1475, 56)
+
+[node name="yellowdiamond12" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(984, -232)
+
+[node name="yellowdiamond13" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(1027, -312)
 
 [node name="yellowdiamond3" parent="Node" instance=ExtResource("38_mx3de")]
 position = Vector2(2002, 61)
@@ -2411,6 +2528,192 @@ position = Vector2(702, 57)
 
 [node name="greendiamond2" parent="Node" instance=ExtResource("39_p3s6w")]
 position = Vector2(674, 56)
+
+[node name="greendiamond11" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(1063, -234)
+
+[node name="greendiamond12" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(1349, -229)
+
+[node name="bluediamond13" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(2122, -272)
+
+[node name="bluediamond14" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(2154, -273)
+
+[node name="reddiamond14" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(2119, -87)
+
+[node name="reddiamond15" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(2092, -88)
+
+[node name="purplediamond13" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(876, 49)
+
+[node name="purplediamond14" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(1237, -232)
+
+[node name="yellowdiamond14" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(1934, -261)
+
+[node name="yellowdiamond15" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(1961, -261)
+
+[node name="greendiamond13" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(2557, 89)
+
+[node name="greendiamond14" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(2529, 88)
+
+[node name="bluediamond15" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(3712, -252)
+
+[node name="bluediamond16" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(3744, -253)
+
+[node name="reddiamond16" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(3766, -281)
+
+[node name="reddiamond17" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(3739, -282)
+
+[node name="purplediamond15" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(3741, -227)
+
+[node name="purplediamond16" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(3713, -228)
+
+[node name="yellowdiamond16" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(3770, -225)
+
+[node name="yellowdiamond17" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(3797, -225)
+
+[node name="greendiamond15" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(3797, -251)
+
+[node name="greendiamond16" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(3769, -252)
+
+[node name="bluediamond17" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(5486, -281)
+
+[node name="bluediamond18" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(5518, -282)
+
+[node name="reddiamond18" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(5540, -310)
+
+[node name="reddiamond19" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(5513, -311)
+
+[node name="purplediamond17" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(5515, -256)
+
+[node name="purplediamond18" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(5487, -257)
+
+[node name="yellowdiamond18" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(5544, -254)
+
+[node name="yellowdiamond19" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(5571, -254)
+
+[node name="greendiamond17" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(5571, -280)
+
+[node name="greendiamond18" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(5543, -281)
+
+[node name="bluediamond19" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(7141, -172)
+
+[node name="bluediamond20" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(7173, -173)
+
+[node name="reddiamond20" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(7195, -201)
+
+[node name="reddiamond21" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(7168, -202)
+
+[node name="purplediamond19" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(7170, -147)
+
+[node name="purplediamond20" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(7142, -148)
+
+[node name="yellowdiamond20" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(7199, -145)
+
+[node name="yellowdiamond21" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(7226, -145)
+
+[node name="greendiamond19" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(7226, -171)
+
+[node name="greendiamond20" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(7198, -172)
+
+[node name="bluediamond21" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(8158, -226)
+
+[node name="bluediamond22" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(8190, -227)
+
+[node name="reddiamond22" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(8212, -255)
+
+[node name="reddiamond23" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(8185, -256)
+
+[node name="purplediamond21" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(8187, -201)
+
+[node name="purplediamond22" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(8159, -202)
+
+[node name="yellowdiamond22" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(8216, -199)
+
+[node name="yellowdiamond23" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(8243, -199)
+
+[node name="greendiamond21" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(8243, -225)
+
+[node name="greendiamond22" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(8215, -226)
+
+[node name="bluediamond23" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(9525, -109)
+
+[node name="bluediamond24" parent="Node" instance=ExtResource("35_dibc4")]
+position = Vector2(9557, -110)
+
+[node name="reddiamond24" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(9579, -138)
+
+[node name="reddiamond25" parent="Node" instance=ExtResource("36_08fce")]
+position = Vector2(9552, -139)
+
+[node name="purplediamond23" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(9554, -84)
+
+[node name="purplediamond24" parent="Node" instance=ExtResource("37_1xeq3")]
+position = Vector2(9526, -85)
+
+[node name="yellowdiamond24" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(9583, -82)
+
+[node name="yellowdiamond25" parent="Node" instance=ExtResource("38_mx3de")]
+position = Vector2(9610, -82)
+
+[node name="greendiamond23" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(9610, -108)
+
+[node name="greendiamond24" parent="Node" instance=ExtResource("39_p3s6w")]
+position = Vector2(9582, -109)
 
 [node name="greendiamond3" parent="Node" instance=ExtResource("39_p3s6w")]
 position = Vector2(1573, -44)

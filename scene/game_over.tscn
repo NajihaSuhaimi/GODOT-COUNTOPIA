@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://t4mp8mqkoy6m"]
+[gd_scene load_steps=10 format=3 uid="uid://t4mp8mqkoy6m"]
 
-[ext_resource type="Script" path="res://scene/game_over.gd" id="1_bc2bx"]
+[ext_resource type="Script" uid="uid://gcbajk71ydrg" path="res://scene/game_over.gd" id="1_bc2bx"]
 [ext_resource type="Texture2D" uid="uid://dpfwq7rnx4rff" path="res://UI/board2.png" id="2_6pabp"]
 [ext_resource type="Texture2D" uid="uid://ftsmjx0rh0pa" path="res://assets/Gambar/CSC 536 GROUP PROJECT (1).png" id="2_ooyig"]
 [ext_resource type="FontFile" uid="uid://cxbmqwrnhmp6c" path="res://font/Planet-Joy.ttf" id="3_ooyig"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="5_ooyig"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uvgaa"]
 bg_color = Color(0.23529412, 0.16470589, 0.11764706, 1)
@@ -143,6 +144,9 @@ scale = Vector2(0.335, 0.335)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_ooyig")
 
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/Main Menu" to="." method="_on_main_menu_pressed"]
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

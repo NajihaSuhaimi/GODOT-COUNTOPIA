@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cy4g25r134j8u"]
+[gd_scene load_steps=20 format=3 uid="uid://cy4g25r134j8u"]
 
 [ext_resource type="Script" uid="uid://beepmtimb5jwb" path="res://scene/pause_menu.gd" id="1_grdc7"]
 [ext_resource type="Texture2D" uid="uid://vh4afr43s3ux" path="res://How to Play Images/2.png" id="2_71u2q"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://drsrs33qj7bjm" path="res://How to Play Images/9.png" id="7_f4yx1"]
 [ext_resource type="Texture2D" uid="uid://cn0oka5ji220t" path="res://How to Play Images/10.png" id="8_emx8u"]
 [ext_resource type="Texture2D" uid="uid://bentlcy8xudwk" path="res://How to Play Images/12.png" id="9_h5blq"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="11_03dpp"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f4yx1"]
 bg_color = Color(0.23529412, 0.16470589, 0.11764706, 1)
@@ -454,6 +455,9 @@ theme_override_font_sizes/font_size = 32
 text = "How To Play"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_03dpp")
 
 [connection signal="pressed" from="PauseMenu/Resume" to="." method="_on_resume_pressed"]
 [connection signal="pressed" from="PauseMenu/HowToPlay" to="." method="_on_how_to_play_pressed"]

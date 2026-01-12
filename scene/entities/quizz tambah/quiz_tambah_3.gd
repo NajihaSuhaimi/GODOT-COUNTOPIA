@@ -13,6 +13,9 @@ extends Control
 
 @onready var correct_popup: Control = $CorrectPopUp
 @onready var wrong_popup: Control = $WrongPopUp
+@onready var button_salah: AudioStreamPlayer2D = $button_salah
+@onready var button_betul: AudioStreamPlayer2D = $button_betul
+@onready var button_biasa: AudioStreamPlayer2D = $button_biasa
 
 
 # -----------------
@@ -52,15 +55,19 @@ func open_quiz() -> void:
 # SIGNAL BUTTON
 # -----------------
 func _on_button_a_pressed() -> void:
+	button_salah.play()
 	answer_selected(0)
 
 func _on_button_b_pressed() -> void:
+	button_salah.play()
 	answer_selected(1)
 
 func _on_button_c_pressed() -> void:
+	button_betul.play()
 	answer_selected(2)
 
 func _on_button_d_pressed() -> void:
+	button_salah.play()
 	answer_selected(3)
 
 
@@ -109,12 +116,16 @@ func show_wrong() -> void:
 # -----------------
 func _on_retrybtn_pressed() -> void:
 	wrong_popup.visible = false
+	button_biasa.play()
+	await button_biasa.finished
 	enable_buttons()
 
 
 func _on_tutpbtn_pressed() -> void:
 	correct_popup.visible = false
 	wrong_popup.visible = false
+	button_biasa.play()
+	await button_biasa.finished
 	visible = false
 
 	get_tree().paused = false

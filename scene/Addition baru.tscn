@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://diprnc530wh3j"]
+[gd_scene load_steps=69 format=3 uid="uid://diprnc530wh3j"]
 
 [ext_resource type="Script" uid="uid://illehx6aoy7j" path="res://scripts/gamemanager.gd" id="1_5py0r"]
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="2_ullah"]
@@ -28,7 +28,10 @@
 [ext_resource type="Texture2D" uid="uid://51nfyvb0shiy" path="res://soalanQuiz/soalanTambah/tambah5.png" id="18_gib3t"]
 [ext_resource type="Script" uid="uid://ca2qjhhq0rtdp" path="res://scene/entities/quizz tambah/quiz_tambah_6.gd" id="19_5vt1t"]
 [ext_resource type="Texture2D" uid="uid://dn8p6iinswyap" path="res://soalanQuiz/soalanTambah/tambah6.png" id="20_gmkw2"]
+[ext_resource type="AudioStream" uid="uid://kjnd1ugwltc2" path="res://sound/brass-fail-11-a-207140.mp3" id="20_yahax"]
 [ext_resource type="Script" uid="uid://djt380sur87tk" path="res://scene/entities/quizz tambah/quiz_tambah_7.gd" id="21_0k33n"]
+[ext_resource type="AudioStream" uid="uid://djb0monpg7lk7" path="res://sound/mixkit-video-game-treasure-2066.wav" id="21_bps2r"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="22_dfsaw"]
 [ext_resource type="Texture2D" uid="uid://biix2hchaimjd" path="res://soalanQuiz/soalanTambah/tambah7.png" id="22_qx87t"]
 [ext_resource type="Script" uid="uid://blwqh5io6evjd" path="res://scene/entities/quizz tambah/quiz_tambah_8.gd" id="23_ci5v4"]
 [ext_resource type="Texture2D" uid="uid://s7cuulp4mct4" path="res://soalanQuiz/soalanTambah/tambah8.png" id="24_s8g6p"]
@@ -674,6 +677,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah1"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah1"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah1"]
+stream = ExtResource("22_dfsaw")
+
 [node name="QuizTambah2" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
@@ -852,6 +864,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah2"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah2"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah2"]
+stream = ExtResource("22_dfsaw")
 
 [node name="QuizTambah3" type="Control" parent="Questions"]
 layout_mode = 3
@@ -1036,6 +1057,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah3"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah3"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah3"]
+stream = ExtResource("22_dfsaw")
+
 [node name="QuizTambah4" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
@@ -1212,6 +1242,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah4"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah4"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah4"]
+stream = ExtResource("22_dfsaw")
 
 [node name="QuizTambah5" type="Control" parent="Questions"]
 layout_mode = 3
@@ -1390,6 +1429,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah5"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah5"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah5"]
+stream = ExtResource("22_dfsaw")
+
 [node name="QuizTambah6" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
@@ -1566,6 +1614,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah6"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah6"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah6"]
+stream = ExtResource("22_dfsaw")
 
 [node name="QuizTambah7" type="Control" parent="Questions"]
 layout_mode = 3
@@ -1745,6 +1802,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah7"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah7"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah7"]
+stream = ExtResource("22_dfsaw")
+
 [node name="QuizTambah8" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
@@ -1922,6 +1988,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah8"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah8"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah8"]
+stream = ExtResource("22_dfsaw")
 
 [node name="QuizTambah9" type="Control" parent="Questions"]
 layout_mode = 3
@@ -2101,6 +2176,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah9"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah9"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah9"]
+stream = ExtResource("22_dfsaw")
+
 [node name="QuizTambah10" type="Control" parent="Questions"]
 layout_mode = 3
 anchors_preset = 8
@@ -2278,6 +2362,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizTambah10"]
+stream = ExtResource("20_yahax")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizTambah10"]
+stream = ExtResource("21_bps2r")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizTambah10"]
+stream = ExtResource("22_dfsaw")
 
 [node name="Diamonds" type="CanvasLayer" parent="."]
 

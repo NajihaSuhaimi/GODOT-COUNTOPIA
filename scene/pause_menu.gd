@@ -2,6 +2,7 @@ extends CanvasLayer
 
 @onready var pause_menu: VBoxContainer = $PauseMenu
 @onready var how_to_play_panel: Panel = $"How To Play Panel"
+@onready var button_biasa: AudioStreamPlayer2D = $button_biasa
 
 
 # Reference to HowToPlay panel (Control node inside pause menu)
@@ -40,6 +41,8 @@ func toggle_pause() -> void:
 # Resume button
 func _on_resume_pressed() -> void:
 	get_tree().paused = false
+	button_biasa.play()
+	await button_biasa.finished
 	visible = false
 
 	# Unpause the game
@@ -48,13 +51,16 @@ func _on_resume_pressed() -> void:
 
 # How To Play button
 func _on_how_to_play_pressed() -> void:
-	
+	button_biasa.play()
+	await button_biasa.finished
 	pause_menu.visible = false
 	how_to_play_panel.visible = true
 
 # Main Menu button
 func _on_main_menu_pressed() -> void:
 	# Hide How To Play panel if open
+	button_biasa.play()
+	await button_biasa.finished
 	if how_to_play_panel:
 		how_to_play_panel.visible = false
 
@@ -65,10 +71,14 @@ func _on_main_menu_pressed() -> void:
 
 # Quit button
 func _on_quit_pressed() -> void:
+	button_biasa.play()
+	await button_biasa.finished
 	get_tree().quit()
 
 
 func _on_back_pressed() -> void:
 	pass # Replace with function body.
+	button_biasa.play()
+	await button_biasa.finished
 	pause_menu.visible = true
 	how_to_play_panel.visible = false

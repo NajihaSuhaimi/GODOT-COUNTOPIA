@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://tqg5q5sc2qfi"]
+[gd_scene load_steps=69 format=3 uid="uid://tqg5q5sc2qfi"]
 
 [ext_resource type="Texture2D" uid="uid://ckb3l1lhqf0v6" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap.png" id="1_q3qlt"]
 [ext_resource type="Texture2D" uid="uid://geu16eg8qt8t" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap-backgrounds.png" id="2_g0vyl"]
@@ -14,9 +14,12 @@
 [ext_resource type="Texture2D" uid="uid://co1i1x0xajydd" path="res://soalanQuiz/soalanDarab/darab6.png" id="8_w4p26"]
 [ext_resource type="Texture2D" uid="uid://b3id1f236ynkh" path="res://soalanQuiz/soalanDarab/darab7.png" id="9_1iajx"]
 [ext_resource type="Script" uid="uid://ddfclgvq3r33n" path="res://scene/entities/quiz darab/quiz_darab_3.gd" id="9_uldbg"]
+[ext_resource type="AudioStream" uid="uid://kjnd1ugwltc2" path="res://sound/brass-fail-11-a-207140.mp3" id="10_3hy8r"]
 [ext_resource type="Texture2D" uid="uid://btxb0lvfg5v0h" path="res://soalanQuiz/soalanDarab/darab8.png" id="10_jqpts"]
 [ext_resource type="Script" uid="uid://c3etg6l06u852" path="res://scene/entities/quiz darab/quiz_darab_4.gd" id="11_mnnop"]
+[ext_resource type="AudioStream" uid="uid://djb0monpg7lk7" path="res://sound/mixkit-video-game-treasure-2066.wav" id="11_myro8"]
 [ext_resource type="Texture2D" uid="uid://c5bjygda7yuq8" path="res://soalanQuiz/soalanDarab/darab9.png" id="11_os2ue"]
+[ext_resource type="AudioStream" uid="uid://c47bcg7qt4ibr" path="res://sound/button-394464.mp3" id="12_174k6"]
 [ext_resource type="Texture2D" uid="uid://dpiwe8i7c58w6" path="res://soalanQuiz/soalanDarab/darab10.png" id="12_d42jn"]
 [ext_resource type="Script" uid="uid://38wku0og42pm" path="res://scene/entities/quiz darab/quiz_darab_5.gd" id="13_68knr"]
 [ext_resource type="Texture2D" uid="uid://j0cddfbe64pv" path="res://soalanQuiz/popupbetul salaH/betul1.png" id="13_clefv"]
@@ -590,6 +593,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab1"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab1"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab1"]
+stream = ExtResource("12_174k6")
+
 [node name="QuizDarab2" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -769,6 +781,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab2"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab2"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab2"]
+stream = ExtResource("12_174k6")
 
 [node name="QuizDarab3" type="Control" parent="Questions"]
 visible = false
@@ -950,6 +971,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab3"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab3"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab3"]
+stream = ExtResource("12_174k6")
+
 [node name="QuizDarab4" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1129,6 +1159,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab4"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab4"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab4"]
+stream = ExtResource("12_174k6")
 
 [node name="QuizDarab5" type="Control" parent="Questions"]
 visible = false
@@ -1310,6 +1349,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab5"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab5"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab5"]
+stream = ExtResource("12_174k6")
+
 [node name="QuizDarab6" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1489,6 +1537,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab6"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab6"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab6"]
+stream = ExtResource("12_174k6")
 
 [node name="QuizDarab7" type="Control" parent="Questions"]
 visible = false
@@ -1670,6 +1727,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab7"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab7"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab7"]
+stream = ExtResource("12_174k6")
+
 [node name="QuizDarab8" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -1849,6 +1915,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab8"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab8"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab8"]
+stream = ExtResource("12_174k6")
 
 [node name="QuizDarab9" type="Control" parent="Questions"]
 visible = false
@@ -2030,6 +2105,15 @@ offset_right = 54.0
 offset_bottom = 20.52
 flat = true
 
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab9"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab9"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab9"]
+stream = ExtResource("12_174k6")
+
 [node name="QuizDarab10" type="Control" parent="Questions"]
 visible = false
 layout_mode = 3
@@ -2209,6 +2293,15 @@ offset_top = -20.48
 offset_right = 54.0
 offset_bottom = 20.52
 flat = true
+
+[node name="button_salah" type="AudioStreamPlayer2D" parent="Questions/QuizDarab10"]
+stream = ExtResource("10_3hy8r")
+
+[node name="button_betul" type="AudioStreamPlayer2D" parent="Questions/QuizDarab10"]
+stream = ExtResource("11_myro8")
+
+[node name="button_biasa" type="AudioStreamPlayer2D" parent="Questions/QuizDarab10"]
+stream = ExtResource("12_174k6")
 
 [node name="Diamonds" type="CanvasLayer" parent="."]
 
